@@ -6,7 +6,7 @@ Adds syntax highlighting to Gherkin files in Atom.
 
 Support all officials Cucumber/Gherkin language through [i18n.json](https://github.com/cucumber/gherkin/blob/master/lib/gherkin/i18n.json)
 
-Actually support for autocompletion is through [autocomplete-gherkin-i18n](https://github.com/mackoj/autocomplete-gherkin-i18n) which is an autocomplete-plus Gherkin provider.
+~~Actually support for autocompletion is through [autocomplete-gherkin-i18n](https://github.com/mackoj/autocomplete-gherkin-i18n) which is an autocomplete-plus Gherkin provider.~~ (soon)
 
 Contributions are greatly appreciated. Please fork this repository and open a
 pull request to add snippets, make grammar tweaks, etc.
