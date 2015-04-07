@@ -1,0 +1,138 @@
+'scopeName': 'source.feature'
+'name': 'Gherkin-i18n'
+'firstLineMatch' : '^(.*)\\s*es$'
+'fileTypes': [ 'feature' ]
+'patterns': [
+    {
+        'match': '#(.*)$'
+        'name': 'comment.line.gherkin'
+    }
+    {
+        'match': '^\\.\\.\\.(.*)$'
+        'name': 'comment.line.gherkin'
+    }
+    {
+        'match': '(^\\*\\*\\*.*?\\*\\*\\*)|((?<=^\\|)\\s+\\*\\*\\*.*?\\*\\*\\*)'
+        'name': 'support.class.gherkin'
+    }
+    {
+        'match': '(\\$\\{.*?\\})|(@\\{.*?\\})'
+        'name': 'string.single.qoute.gherkin'
+    }
+    {
+        'name': 'keyword.gherkin'
+        'patterns': [
+          {
+            'include': '#keyword.gherkin.feature'
+          }
+          {
+            'include': '#keyword.gherkin.background'
+          }
+          {
+            'include': '#keyword.gherkin.scenario'
+          }
+          {
+            'include': '#keyword.gherkin.scenario_outline'
+          }
+          {
+            'include': '#keyword.gherkin.examples'
+          }
+    }
+    {
+        'match': '\\s*(Característica\\:)'
+        'name': 'keyword.gherkin.feature'
+    }
+    {
+        'match': '\\s*(Antecedentes\\:)'
+        'name': 'keyword.gherkin.background'
+    }
+    {
+        'match': '\\s*(Escenario\\:)'
+        'name': 'keyword.gherkin.scenario'
+    }
+    {
+        'match': '\\s*(EscenarioOUTLINE__\\:)'
+        'name': 'keyword.gherkin.scenario_outline'
+    }
+    {
+        'match': '\\s*(Ejemplos\\:)'
+        'name': 'keyword.gherkin.examples'
+    }
+    {
+        "begin": '(^[^ \\t\\*\\n\\|]+)|((?<=^\\|)\\s+[^ \\t\\*\\n\\|]+)'
+        "end": '\\s{2}|\\t|$|\\s+(?=\\|)'
+        'name': 'keyword.gherkin'
+    }
+    {
+        'name': 'support.class.gherkin'
+        'patterns': [
+          {
+            'include': '#support.class.gherkin.given'
+          }
+          {
+            'include': '#support.class.gherkin.when'
+          }
+          {
+            'include': '#support.class.gherkin.then'
+          }
+          {
+            'include': '#support.class.gherkin.but'
+          }
+          {
+            'include': '#support.class.gherkin.and'
+          }
+        ]
+    }
+    {
+        'match': '\\s*(Dado|Dada|Dados|Dadas)'
+        'name': 'support.class.gherkin.given'
+    }
+    {
+        'match': '\\s*(Cuando)'
+        'name': 'support.class.gherkin.when'
+    }
+    {
+        'match': '\\s*(Entonces)'
+        'name': 'support.class.gherkin.then'
+    }
+    {
+        'match': '\\s*(Pero)'
+        'name': 'support.class.gherkin.but'
+    }
+    {
+        'match': '\\s*(Y)'
+        'name': 'support.class.gherkin.and'
+    }
+    {
+        'match': '(?<=\\s|^)(@[A-Za-z0-9_\\-]+)'
+        'name': 'entity.name.function.decorator.gherkin'
+    }
+    {
+        'match': '\\s(\\d*)\\s'
+        'name': 'entity.name.function.decorator.gherkin'
+    }
+    {
+        'match': '(\\<\\w+\\>)'
+        'name': 'constant.character.escape.feature'
+    }
+    {
+        'match': "(\\'.*?[^\\']\\')"
+        'name': 'string.single.qoute.gherkin'
+    }
+    {
+        'match': '(\\".*?[^\\"]\\")'
+        'name': 'string.double.qoute.gherkin'
+    }
+    {
+        'match': "\\[(\\'.*?[^\\']\\')\\]"
+        'name': 'constant.character.escape.feature'
+    }
+    {
+        'match': '(\\[[^]]*\\])'
+        'name': 'constant.numeric.gherkin'
+    }
+    {
+        'match': '\\|\\s(.*)\\s\\|'
+        'name': 'constant.numeric.gherkin'
+    }
+]
