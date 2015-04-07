@@ -1,0 +1,26 @@
+'.text.gherkin.feature.zh-CN':
+  'editor':
+    'completions': [
+      '功能:'
+      '背景:'
+      '场景:'
+      '剧本:'
+      '场景大纲:'
+      '剧本大纲:'
+      '例子:'
+      '假如'
+      '假设'
+      '假定'
+      '当'
+      '那么'
+      '但是'
+      '而且'
+      '并且'
+      '同时'
+    ]
+    'increaseIndentPattern': [
+      '场景: .*'
+      '剧本: .*'
+
+    ]
+    'commentStart': '# '

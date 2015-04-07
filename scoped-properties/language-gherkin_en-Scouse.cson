@@ -1,0 +1,21 @@
+'.text.gherkin.feature.en-Scouse':
+  'editor':
+    'completions': [
+      'Feature:'
+      'Dis is what went down:'
+      'The thing of it is:'
+      'Wharrimean is:'
+      'Examples:'
+      'Givun'
+      'Youse know when youse got'
+      'Wun'
+      'Youse know like when'
+      'Dun'
+      'Den youse gotta'
+      'Buh'
+      'An'
+    ]
+    'increaseIndentPattern': [
+      'The thing of it is: .*'
+    ]
+    'commentStart': '# '

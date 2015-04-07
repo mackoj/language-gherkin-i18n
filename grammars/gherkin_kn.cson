@@ -1,0 +1,139 @@
+'scopeName': 'text.gherkin.feature.kn'
+'name': 'Gherkin-kn'
+'firstLineMatch' : '^(.*)\s*kn$'
+'fileTypes': [ 'feature' ]
+'patterns': [
+    {
+        'match': '#(.*)$'
+        'name': 'comment.line.gherkin'
+    }
+    {
+        'match': '^\\.\\.\\.(.*)$'
+        'name': 'comment.line.gherkin'
+    }
+    {
+        'match': '(^\\*\\*\\*.*?\\*\\*\\*)|((?<=^\\|)\\s+\\*\\*\\*.*?\\*\\*\\*)'
+        'name': 'support.class.gherkin'
+    }
+    {
+        'match': '(\\$\\{.*?\\})|(@\\{.*?\\})'
+        'name': 'string.single.qoute.gherkin'
+    }
+    {
+        'name': 'keyword.gherkin'
+        'patterns': [
+          {
+            'include': '#keyword.gherkin.feature'
+          }
+          {
+            'include': '#keyword.gherkin.background'
+          }
+          {
+            'include': '#keyword.gherkin.scenario'
+          }
+          {
+            'include': '#keyword.gherkin.scenario_outline'
+          }
+          {
+            'include': '#keyword.gherkin.examples'
+          }
+        ]
+    }
+    {
+        'match': '\\s*(ಹೆಚ್ಚಳ\\:)'
+        'name': 'keyword.gherkin.feature'
+    }
+    {
+        'match': '\\s*(ಹಿನ್ನೆಲೆ\\:)'
+        'name': 'keyword.gherkin.background'
+    }
+    {
+        'match': '\\s*(ಕಥಾಸಾರಾಂಶ\\:)'
+        'name': 'keyword.gherkin.scenario'
+    }
+    {
+        'match': '\\s*(ವಿವರಣೆ\\:)'
+        'name': 'keyword.gherkin.scenario_outline'
+    }
+    {
+        'match': '\\s*(ಉದಾಹರಣೆಗಳು\\:)'
+        'name': 'keyword.gherkin.examples'
+    }
+    {
+        "begin": '(^[^ \\t\\*\\n\\|]+)|((?<=^\\|)\\s+[^ \\t\\*\\n\\|]+)'
+        "end": '\\s{2}|\\t|$|\\s+(?=\\|)'
+        'name': 'keyword.gherkin'
+    }
+    {
+        'name': 'support.class.gherkin'
+        'patterns': [
+          {
+            'include': '#support.class.gherkin.given'
+          }
+          {
+            'include': '#support.class.gherkin.when'
+          }
+          {
+            'include': '#support.class.gherkin.then'
+          }
+          {
+            'include': '#support.class.gherkin.but'
+          }
+          {
+            'include': '#support.class.gherkin.and'
+          }
+        ]
+    }
+    {
+        'match': '\\s*(ನೀಡಿದ)'
+        'name': 'support.class.gherkin.given'
+    }
+    {
+        'match': '\\s*(ಸ್ಥಿತಿಯನ್ನು)'
+        'name': 'support.class.gherkin.when'
+    }
+    {
+        'match': '\\s*(ನಂತರ)'
+        'name': 'support.class.gherkin.then'
+    }
+    {
+        'match': '\\s*(ಆದರೆ)'
+        'name': 'support.class.gherkin.but'
+    }
+    {
+        'match': '\\s*(ಮತ್ತು)'
+        'name': 'support.class.gherkin.and'
+    }
+    {
+        'match': '(?<=\\s|^)(@[A-Za-z0-9_\\-]+)'
+        'name': 'entity.name.function.decorator.gherkin'
+    }
+    {
+        'match': '\\s(\\d*)\\s'
+        'name': 'entity.name.function.decorator.gherkin'
+    }
+    {
+        'match': '(\\<\\w+\\>)'
+        'name': 'constant.character.escape.feature'
+    }
+    {
+        'match': "(\\'.*?[^\\']\\')"
+        'name': 'string.single.qoute.gherkin'
+    }
+    {
+        'match': '(\\".*?[^\\"]\\")'
+        'name': 'string.double.qoute.gherkin'
+    }
+    {
+        'match': "\\[(\\'.*?[^\\']\\')\\]"
+        'name': 'constant.character.escape.feature'
+    }
+    {
+        'match': '(\\[[^]]*\\])'
+        'name': 'constant.numeric.gherkin'
+    }
+    {
+        'match': '\\|\\s(.*)\\s\\|'
+        'name': 'constant.numeric.gherkin'
+    }
+]

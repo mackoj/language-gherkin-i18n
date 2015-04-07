@@ -1,0 +1,24 @@
+'.text.gherkin.feature.jv':
+  'editor':
+    'completions': [
+      'Fitur:'
+      'Dasar:'
+      'Skenario:'
+      'Konsep skenario:'
+      'Conto:'
+      'Contone:'
+      'Nalika'
+      'Nalikaning'
+      'Manawa'
+      'Menawa'
+      'Njuk'
+      'Banjur'
+      'Tapi'
+      'Nanging'
+      'Ananging'
+      'Lan'
+    ]
+    'increaseIndentPattern': [
+      'Skenario: .*'
+    ]
+    'commentStart': '# '

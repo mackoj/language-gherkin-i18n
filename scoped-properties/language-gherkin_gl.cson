@@ -1,0 +1,23 @@
+'.text.gherkin.feature.gl':
+  'editor':
+    'completions': [
+      'Característica:'
+      'Contexto:'
+      'Escenario:'
+      'Esbozo do escenario:'
+      'Exemplos:'
+      'Dado'
+      'Dada'
+      'Dados'
+      'Dadas'
+      'Cando'
+      'Entón'
+      'Logo'
+      'Mais'
+      'Pero'
+      'E'
+    ]
+    'increaseIndentPattern': [
+      'Escenario: .*'
+    ]
+    'commentStart': '# '

@@ -1,0 +1,23 @@
+'.text.gherkin.feature.vi':
+  'editor':
+    'completions': [
+      'Tính năng:'
+      'Bối cảnh:'
+      'Tình huống:'
+      'Kịch bản:'
+      'Khung tình huống:'
+      'Khung kịch bản:'
+      'Dữ liệu:'
+      'Biết'
+      'Cho'
+      'Khi'
+      'Thì'
+      'Nhưng'
+      'Và'
+    ]
+    'increaseIndentPattern': [
+      'Tình huống: .*'
+      'Kịch bản: .*'
+
+    ]
+    'commentStart': '# '

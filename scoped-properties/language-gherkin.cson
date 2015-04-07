@@ -1,0 +1,22 @@
+'.text.gherkin.feature':
+  'editor':
+    'completions': [
+      'Feature:'
+      'Business Need:'
+      'Ability:'
+      'Background:'
+      'Scenario:'
+      'Scenario Outline:'
+      'Scenario Template:'
+      'Examples:'
+      'Scenarios:'
+      'Given'
+      'When'
+      'Then'
+      'But'
+      'And'
+    ]
+    'increaseIndentPattern': [
+      'Scenario: .*'
+    ]
+    'commentStart': '# '

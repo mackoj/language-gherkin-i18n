@@ -1,0 +1,21 @@
+'.text.gherkin.feature.lv':
+  'editor':
+    'completions': [
+      'Funkcionalitāte:'
+      'Fīča:'
+      'Konteksts:'
+      'Situācija:'
+      'Scenārijs:'
+      'Scenārijs pēc parauga:'
+      'Piemēri:'
+      'Paraugs:'
+      'Kad'
+      'Ja'
+      'Tad'
+      'Bet'
+      'Un'
+    ]
+    'increaseIndentPattern': [
+      'Scenārijs: .*'
+    ]
+    'commentStart': '# '

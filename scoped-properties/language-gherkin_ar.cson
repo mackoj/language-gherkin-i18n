@@ -1,0 +1,20 @@
+'.text.gherkin.feature.ar':
+  'editor':
+    'completions': [
+      'خاصية:'
+      'الخلفية:'
+      'سيناريو:'
+      'سيناريو مخطط:'
+      'امثلة:'
+      'بفرض'
+      'متى'
+      'عندما'
+      'اذاً'
+      'ثم'
+      'لكن'
+      'و'
+    ]
+    'increaseIndentPattern': [
+      'سيناريو: .*'
+    ]
+    'commentStart': '# '

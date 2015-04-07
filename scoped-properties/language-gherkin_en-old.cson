@@ -1,0 +1,33 @@
+'.text.gherkin.feature.en-old':
+  'editor':
+    'completions': [
+      'Hwaet:'
+      'Hwæt:'
+      'Aer:'
+      'Ær:'
+      'Swa:'
+      'Swa hwaer swa:'
+      'Swa hwær swa:'
+      'Se the:'
+      'Se þe:'
+      'Se ðe:'
+      'Thurh'
+      'Þurh'
+      'Ðurh'
+      'Tha'
+      'Þa'
+      'Ða'
+      'Tha'
+      'Þa'
+      'Ða'
+      'Tha the'
+      'Þa þe'
+      'Ða ðe'
+      'Ac'
+      'Ond'
+      '7'
+    ]
+    'increaseIndentPattern': [
+      'Swa: .*'
+    ]
+    'commentStart': '# '

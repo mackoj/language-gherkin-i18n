@@ -1,0 +1,18 @@
+'.text.gherkin.feature.fi':
+  'editor':
+    'completions': [
+      'Ominaisuus:'
+      'Tausta:'
+      'Tapaus:'
+      'Tapausaihio:'
+      'Tapaukset:'
+      'Oletetaan'
+      'Kun'
+      'Niin'
+      'Mutta'
+      'Ja'
+    ]
+    'increaseIndentPattern': [
+      'Tapaus: .*'
+    ]
+    'commentStart': '# '

@@ -1,0 +1,32 @@
+'.text.gherkin.feature.ht':
+  'editor':
+    'completions': [
+      'Karakteristik:'
+      'Mak:'
+      'Fonksyonalite:'
+      'Kontèks:'
+      'Istorik:'
+      'Senaryo:'
+      'Plan senaryo:'
+      'Plan Senaryo:'
+      'Senaryo deskripsyon:'
+      'Senaryo Deskripsyon:'
+      'Dyagram senaryo:'
+      'Dyagram Senaryo:'
+      'Egzanp:'
+      'Sipoze'
+      'Sipoze ke'
+      'Sipoze Ke'
+      'Lè'
+      'Le'
+      'Lè sa a'
+      'Le sa a'
+      'Men'
+      'Ak'
+      'Epi'
+      'E'
+    ]
+    'increaseIndentPattern': [
+      'Senaryo: .*'
+    ]
+    'commentStart': '# '

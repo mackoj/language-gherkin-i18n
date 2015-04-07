@@ -1,0 +1,25 @@
+'.text.gherkin.feature.hr':
+  'editor':
+    'completions': [
+      'Osobina:'
+      'Mogućnost:'
+      'Mogucnost:'
+      'Pozadina:'
+      'Scenarij:'
+      'Skica:'
+      'Koncept:'
+      'Primjeri:'
+      'Scenariji:'
+      'Zadan'
+      'Zadani'
+      'Zadano'
+      'Kada'
+      'Kad'
+      'Onda'
+      'Ali'
+      'I'
+    ]
+    'increaseIndentPattern': [
+      'Scenarij: .*'
+    ]
+    'commentStart': '# '

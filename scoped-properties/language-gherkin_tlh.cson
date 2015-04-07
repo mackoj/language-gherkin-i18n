@@ -1,0 +1,26 @@
+'.text.gherkin.feature.tlh':
+  'editor':
+    'completions': [
+      'Qap:'
+      'Qu\'meH \'ut:'
+      'perbogh:'
+      'poQbogh malja\':'
+      'laH:'
+      'mo\':'
+      'lut:'
+      'lut chovnatlh:'
+      'ghantoH:'
+      'lutmey:'
+      'ghu\' noblu\''
+      'DaH ghu\' bejlu\''
+      'qaSDI\''
+      'vaj'
+      '\'ach'
+      '\'a'
+      '\'ej'
+      'latlh'
+    ]
+    'increaseIndentPattern': [
+      'lut: .*'
+    ]
+    'commentStart': '# '

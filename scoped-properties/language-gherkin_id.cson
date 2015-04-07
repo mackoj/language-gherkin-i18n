@@ -1,0 +1,18 @@
+'.text.gherkin.feature.id':
+  'editor':
+    'completions': [
+      'Fitur:'
+      'Dasar:'
+      'Skenario:'
+      'Skenario konsep:'
+      'Contoh:'
+      'Dengan'
+      'Ketika'
+      'Maka'
+      'Tapi'
+      'Dan'
+    ]
+    'increaseIndentPattern': [
+      'Skenario: .*'
+    ]
+    'commentStart': '# '

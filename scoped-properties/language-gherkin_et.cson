@@ -1,0 +1,18 @@
+'.text.gherkin.feature.et':
+  'editor':
+    'completions': [
+      'Omadus:'
+      'Taust:'
+      'Stsenaarium:'
+      'Raamstsenaarium:'
+      'Juhtumid:'
+      'Eeldades'
+      'Kui'
+      'Siis'
+      'Kuid'
+      'Ja'
+    ]
+    'increaseIndentPattern': [
+      'Stsenaarium: .*'
+    ]
+    'commentStart': '# '

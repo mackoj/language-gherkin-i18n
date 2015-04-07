@@ -1,0 +1,21 @@
+'.text.gherkin.feature.it':
+  'editor':
+    'completions': [
+      'Funzionalità:'
+      'Contesto:'
+      'Scenario:'
+      'Schema dello scenario:'
+      'Esempi:'
+      'Dato'
+      'Data'
+      'Dati'
+      'Date'
+      'Quando'
+      'Allora'
+      'Ma'
+      'E'
+    ]
+    'increaseIndentPattern': [
+      'Scenario: .*'
+    ]
+    'commentStart': '# '

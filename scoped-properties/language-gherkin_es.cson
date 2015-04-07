@@ -1,0 +1,22 @@
+'.text.gherkin.feature.es':
+  'editor':
+    'completions': [
+      'Característica:'
+      'Antecedentes:'
+      'Escenario:'
+      'Esquema del escenario:'
+      'Ejemplos:'
+      'Dado'
+      'Dada'
+      'Dados'
+      'Dadas'
+      'Cuando'
+      'Entonces'
+      'Pero'
+      'Y'
+      'E'
+    ]
+    'increaseIndentPattern': [
+      'Escenario: .*'
+    ]
+    'commentStart': '# '

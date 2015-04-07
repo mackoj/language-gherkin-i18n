@@ -1,0 +1,18 @@
+'.text.gherkin.feature.en-pirate':
+  'editor':
+    'completions': [
+      'Ahoy matey!:'
+      'Yo-ho-ho:'
+      'Heave to:'
+      'Shiver me timbers:'
+      'Dead men tell no tales:'
+      'Gangway!'
+      'Blimey!'
+      'Let go and haul'
+      'Avast!'
+      'Aye'
+    ]
+    'increaseIndentPattern': [
+      'Heave to: .*'
+    ]
+    'commentStart': '# '

@@ -1,0 +1,20 @@
+'.text.gherkin.feature.lu':
+  'editor':
+    'completions': [
+      'Funktionalitéit:'
+      'Hannergrond:'
+      'Szenario:'
+      'Plang vum Szenario:'
+      'Beispiller:'
+      'ugeholl'
+      'wann'
+      'dann'
+      'awer'
+      'mä'
+      'an'
+      'a'
+    ]
+    'increaseIndentPattern': [
+      'Szenario: .*'
+    ]
+    'commentStart': '# '

@@ -1,0 +1,18 @@
+'.text.gherkin.feature.en-lol':
+  'editor':
+    'completions': [
+      'OH HAI:'
+      'B4:'
+      'MISHUN:'
+      'MISHUN SRSLY:'
+      'EXAMPLZ:'
+      'I CAN HAZ'
+      'WEN'
+      'DEN'
+      'BUT'
+      'AN'
+    ]
+    'increaseIndentPattern': [
+      'MISHUN: .*'
+    ]
+    'commentStart': '# '

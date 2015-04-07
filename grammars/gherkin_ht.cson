@@ -1,0 +1,139 @@
+'scopeName': 'text.gherkin.feature.ht'
+'name': 'Gherkin-ht'
+'firstLineMatch' : '^(.*)\s*ht$'
+'fileTypes': [ 'feature' ]
+'patterns': [
+    {
+        'match': '#(.*)$'
+        'name': 'comment.line.gherkin'
+    }
+    {
+        'match': '^\\.\\.\\.(.*)$'
+        'name': 'comment.line.gherkin'
+    }
+    {
+        'match': '(^\\*\\*\\*.*?\\*\\*\\*)|((?<=^\\|)\\s+\\*\\*\\*.*?\\*\\*\\*)'
+        'name': 'support.class.gherkin'
+    }
+    {
+        'match': '(\\$\\{.*?\\})|(@\\{.*?\\})'
+        'name': 'string.single.qoute.gherkin'
+    }
+    {
+        'name': 'keyword.gherkin'
+        'patterns': [
+          {
+            'include': '#keyword.gherkin.feature'
+          }
+          {
+            'include': '#keyword.gherkin.background'
+          }
+          {
+            'include': '#keyword.gherkin.scenario'
+          }
+          {
+            'include': '#keyword.gherkin.scenario_outline'
+          }
+          {
+            'include': '#keyword.gherkin.examples'
+          }
+        ]
+    }
+    {
+        'match': '\\s*(Karakteristik\\:|Mak\\:|Fonksyonalite\\:)'
+        'name': 'keyword.gherkin.feature'
+    }
+    {
+        'match': '\\s*(Kontèks\\:|Istorik\\:)'
+        'name': 'keyword.gherkin.background'
+    }
+    {
+        'match': '\\s*(Senaryo\\:)'
+        'name': 'keyword.gherkin.scenario'
+    }
+    {
+        'match': '\\s*(Plan senaryo\\:|Plan Senaryo\\:|Senaryo deskripsyon\\:|Senaryo Deskripsyon\\:|Dyagram senaryo\\:|Dyagram Senaryo\\:)'
+        'name': 'keyword.gherkin.scenario_outline'
+    }
+    {
+        'match': '\\s*(Egzanp\\:)'
+        'name': 'keyword.gherkin.examples'
+    }
+    {
+        "begin": '(^[^ \\t\\*\\n\\|]+)|((?<=^\\|)\\s+[^ \\t\\*\\n\\|]+)'
+        "end": '\\s{2}|\\t|$|\\s+(?=\\|)'
+        'name': 'keyword.gherkin'
+    }
+    {
+        'name': 'support.class.gherkin'
+        'patterns': [
+          {
+            'include': '#support.class.gherkin.given'
+          }
+          {
+            'include': '#support.class.gherkin.when'
+          }
+          {
+            'include': '#support.class.gherkin.then'
+          }
+          {
+            'include': '#support.class.gherkin.but'
+          }
+          {
+            'include': '#support.class.gherkin.and'
+          }
+        ]
+    }
+    {
+        'match': '\\s*(Sipoze|Sipoze ke|Sipoze Ke)'
+        'name': 'support.class.gherkin.given'
+    }
+    {
+        'match': '\\s*(Lè|Le)'
+        'name': 'support.class.gherkin.when'
+    }
+    {
+        'match': '\\s*(Lè sa a|Le sa a)'
+        'name': 'support.class.gherkin.then'
+    }
+    {
+        'match': '\\s*(Men)'
+        'name': 'support.class.gherkin.but'
+    }
+    {
+        'match': '\\s*(Ak|Epi|E)'
+        'name': 'support.class.gherkin.and'
+    }
+    {
+        'match': '(?<=\\s|^)(@[A-Za-z0-9_\\-]+)'
+        'name': 'entity.name.function.decorator.gherkin'
+    }
+    {
+        'match': '\\s(\\d*)\\s'
+        'name': 'entity.name.function.decorator.gherkin'
+    }
+    {
+        'match': '(\\<\\w+\\>)'
+        'name': 'constant.character.escape.feature'
+    }
+    {
+        'match': "(\\'.*?[^\\']\\')"
+        'name': 'string.single.qoute.gherkin'
+    }
+    {
+        'match': '(\\".*?[^\\"]\\")'
+        'name': 'string.double.qoute.gherkin'
+    }
+    {
+        'match': "\\[(\\'.*?[^\\']\\')\\]"
+        'name': 'constant.character.escape.feature'
+    }
+    {
+        'match': '(\\[[^]]*\\])'
+        'name': 'constant.numeric.gherkin'
+    }
+    {
+        'match': '\\|\\s(.*)\\s\\|'
+        'name': 'constant.numeric.gherkin'
+    }
+]

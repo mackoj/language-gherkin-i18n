@@ -1,0 +1,32 @@
+'.text.gherkin.feature.sr-Latn':
+  'editor':
+    'completions': [
+      'Funkcionalnost:'
+      'Mogućnost:'
+      'Mogucnost:'
+      'Osobina:'
+      'Kontekst:'
+      'Osnova:'
+      'Pozadina:'
+      'Scenario:'
+      'Primer:'
+      'Struktura scenarija:'
+      'Skica:'
+      'Koncept:'
+      'Primeri:'
+      'Scenariji:'
+      'Za dato'
+      'Za date'
+      'Za dati'
+      'Kada'
+      'Kad'
+      'Onda'
+      'Ali'
+      'I'
+    ]
+    'increaseIndentPattern': [
+      'Scenario: .*'
+      'Primer: .*'
+
+    ]
+    'commentStart': '# '

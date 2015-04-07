@@ -1,0 +1,19 @@
+'.text.gherkin.feature.he':
+  'editor':
+    'completions': [
+      'תכונה:'
+      'רקע:'
+      'תרחיש:'
+      'תבנית תרחיש:'
+      'דוגמאות:'
+      'בהינתן'
+      'כאשר'
+      'אז'
+      'אזי'
+      'אבל'
+      'וגם'
+    ]
+    'increaseIndentPattern': [
+      'תרחיש: .*'
+    ]
+    'commentStart': '# '

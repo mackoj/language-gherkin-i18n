@@ -1,0 +1,18 @@
+'.text.gherkin.feature__SMALLLANG_DOT__':
+  'editor':
+    'completions': [
+__FEATURE__
+__BACKGROUND__
+__SCENARIO__
+__SCENARIOOUTLINE__
+__EXAMPLES__
+__GIVEN__
+__WHEN__
+__THEN__
+__BUT__
+__AND__
+    ]
+    'increaseIndentPattern': [
+__INCREASEINDENTPATTERNKEY__
+    ]
+    'commentStart': '# '
