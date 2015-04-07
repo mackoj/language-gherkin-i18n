@@ -1,6 +1,8 @@
 <?php
 
 $langKey = "__LANG__";
+$defaultFile = "__HACKED__";
+$firstLineMatchLine = "'firstLineMatch' : '^(.*)\\s*__LANG__$'\n";
 $templateKeys = [ 
 	"__FEATURE__" => [ "name" => "feature", "separator" => "\\\\:|" ],
 	"__BACKGROUND__" => [ "name" => "background", "separator" => "\\\\:|" ],
@@ -13,7 +15,7 @@ $templateKeys = [
 	"__BUT__" => [ "name" => "but", "separator" => "|" ],
 	"__AND__" => [ "name" => "and", "separator" => "|" ],
 ];
-$gherkinTemplate = dirname(__FILE__) . "/grammars/gherkin_template.cson";
+$gherkinTemplate = dirname(__FILE__) . "/gherkin_template.cson";
 
 $i18nRemoteFilePath = "https://raw.githubusercontent.com/cucumber/gherkin/master/lib/gherkin/i18n.json";
 // $cleaner = "^\*(.*)<?$";
@@ -29,14 +31,23 @@ $gherkinGeneratedExtension = "cson";
 
 $fileContent  = file_get_contents($i18nRemoteFilePath);
 $jsoni18nAssocArray = json_decode($fileContent, TRUE);
+$jsoni18nAssocArray[$defaultFile] = $jsoni18nAssocArray["en"]
 $base_template = file_get_contents($gherkinTemplate);
 $futureTemplate = array();
-$gherkinPathInfo = pathinfo($gherkinTemplate);
 
 foreach ($jsoni18nAssocArray as $jsonKey => $jsonValue) 
 {
 	$tmp_template = $base_template;
-	$tmp_template = str_replace($langKey, $jsonKey, $tmp_template);
+	$tmp_firstLineMatchLine = "";
+	if (strcmp($jsonKey, $defaultFile) !== 0) 
+	{
+		$tmp_firstLineMatchLine = str_replace($langKey, $jsonKey, $firstLineMatchLine);
+	}
+	else
+	{
+		$tmp_firstLineMatchLine = str_replace($langKey, "", $firstLineMatchLine);
+	}
+	$tmp_template = str_replace($langKey, $tmp_firstLineMatchLine, $tmp_template);
 		
 	foreach ($templateKeys as $tKey => $tValue) 
 	{
@@ -50,10 +61,12 @@ foreach ($jsoni18nAssocArray as $jsonKey => $jsonValue)
 	$futureTemplate[$jsonKey] = $tmp_template;
 }
 
+
+$gherkinPathInfo = pathinfo($gherkinTemplate);
 foreach ($futureTemplate as $keyLang => $langTemplateContent) 
 {
 	$dirname = $gherkinPathInfo['dirname'];
-	$tmpFilename = $dirname . "/" . $gherkinGeneratedFilename . $keyLang . "." . $gherkinGeneratedExtension;
+	$tmpFilename = $dirname . "/grammars/" . $gherkinGeneratedFilename . $keyLang . "." . $gherkinGeneratedExtension;
 	file_put_contents($tmpFilename, $langTemplateContent);
 }
 
