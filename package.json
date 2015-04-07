@@ -1,0 +1,11 @@
+{
+  "name": "language-gherkin-i18n",
+  "main": "./lib/language-gherkin-i18n",
+  "version": "0.1.0",
+  "description": "Support for i18n Gherkin syntax",
+  "repository": "https://github.com/mackoj/language-gherkin-i18n",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  }
+}
