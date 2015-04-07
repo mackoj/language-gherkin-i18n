@@ -1,5 +1,4 @@
 # Gherkin language support in Atom
- <!-- [![Build Status](https://travis-ci.org/atom/language-css.svg?branch=master)](https://travis-ci.org/mackoj/language-gherkin-i18n) -->
 
 Adds syntax highlighting to Gherkin files in Atom.
 
