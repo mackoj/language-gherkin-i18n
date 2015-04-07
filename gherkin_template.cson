@@ -37,6 +37,7 @@ __LANG__
           {
             'include': '#keyword.gherkin.examples'
           }
+        ]
     }
     {
         'match': '\\s*(__FEATURE__\\:)'

@@ -1,7 +1,6 @@
 'scopeName': 'source.feature'
 'name': 'Gherkin-i18n'
 'firstLineMatch' : '^(.*)\s*cy-GB$'
-
 'fileTypes': [ 'feature' ]
 'patterns': [
     {
@@ -38,6 +37,7 @@
           {
             'include': '#keyword.gherkin.examples'
           }
+        ]
     }
     {
         'match': '\\s*(Arwedd\\:)'

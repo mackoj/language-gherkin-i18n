@@ -1,7 +1,6 @@
 'scopeName': 'source.feature'
 'name': 'Gherkin-i18n'
 'firstLineMatch' : '^(.*)\s*fr$'
-
 'fileTypes': [ 'feature' ]
 'patterns': [
     {
@@ -38,6 +37,7 @@
           {
             'include': '#keyword.gherkin.examples'
           }
+        ]
     }
     {
         'match': '\\s*(Fonctionnalité\\:)'
@@ -89,7 +89,7 @@
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(Quand|Lorsque|Lorsqu')'
+        'match': '\\s*(Quand|Lorsque|Lorsqu\')'
         'name': 'support.class.gherkin.when'
     }
     {

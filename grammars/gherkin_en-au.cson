@@ -1,7 +1,6 @@
 'scopeName': 'source.feature'
 'name': 'Gherkin-i18n'
 'firstLineMatch' : '^(.*)\s*en-au$'
-
 'fileTypes': [ 'feature' ]
 'patterns': [
     {
@@ -38,6 +37,7 @@
           {
             'include': '#keyword.gherkin.examples'
           }
+        ]
     }
     {
         'match': '\\s*(Pretty much\\:)'
@@ -56,7 +56,7 @@
         'name': 'keyword.gherkin.scenario_outline'
     }
     {
-        'match': '\\s*(You'll wanna\\:)'
+        'match': '\\s*(You\'ll wanna\\:)'
         'name': 'keyword.gherkin.examples'
     }
     {
@@ -85,11 +85,11 @@
         ]
     }
     {
-        'match': '\\s*(Y'know)'
+        'match': '\\s*(Y\'know)'
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(It's just unbelievable)'
+        'match': '\\s*(It\'s just unbelievable)'
         'name': 'support.class.gherkin.when'
     }
     {

@@ -2,7 +2,7 @@
 
 $langKey = "__LANG__";
 $defaultFile = "__HACKED__";
-$firstLineMatchLine = "'firstLineMatch' : '^(.*)\\s*__LANG__$'\n";
+$firstLineMatchLine = "'firstLineMatch' : '^(.*)\\s*__LANG__$'";
 $templateKeys = [ 
 	"__FEATURE__" => [ "name" => "feature", "separator" => "\\\\:|" ],
 	"__BACKGROUND__" => [ "name" => "background", "separator" => "\\\\:|" ],
@@ -42,18 +42,19 @@ foreach ($jsoni18nAssocArray as $jsonKey => $jsonValue)
 	if (strcmp($jsonKey, $defaultFile) !== 0) 
 	{
 		$tmp_firstLineMatchLine = str_replace($langKey, $jsonKey, $firstLineMatchLine);
+		$tmp_template = str_replace($langKey, $tmp_firstLineMatchLine, $tmp_template);
 	}
 	else
 	{
-		$tmp_firstLineMatchLine = str_replace($langKey, "", $firstLineMatchLine);
+		$tmp_template = str_replace($langKey.PHP_EOL, $tmp_firstLineMatchLine, $tmp_template);
 	}
-	$tmp_template = str_replace($langKey, $tmp_firstLineMatchLine, $tmp_template);
 		
 	foreach ($templateKeys as $tKey => $tValue) 
 	{
 		$futureRegex = $jsonValue[$tValue["name"]];
 		$futureRegex = str_replace($search1, "", $futureRegex);
 		$futureRegex = str_replace($search2, "", $futureRegex);
+		$futureRegex = str_replace("'", "\'", $futureRegex); //inhibithion
 		$explodedArray = explode($delimiter, $futureRegex);
 		$tmp_str = implode($tValue["separator"], $explodedArray);
 		$tmp_template = str_replace($tKey, $tmp_str, $tmp_template);

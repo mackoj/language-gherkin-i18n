@@ -1,7 +1,6 @@
 'scopeName': 'source.feature'
 'name': 'Gherkin-i18n'
 'firstLineMatch' : '^(.*)\s*pa$'
-
 'fileTypes': [ 'feature' ]
 'patterns': [
     {
@@ -38,6 +37,7 @@
           {
             'include': '#keyword.gherkin.examples'
           }
+        ]
     }
     {
         'match': '\\s*(ਖਾਸੀਅਤ\\:|ਮੁਹਾਂਦਰਾ\\:|ਨਕਸ਼ ਨੁਹਾਰ\\:)'

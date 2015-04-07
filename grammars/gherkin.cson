@@ -1,7 +1,5 @@
 'scopeName': 'source.feature'
 'name': 'Gherkin-i18n'
-'firstLineMatch' : '^(.*)\s*$'
-
 'fileTypes': [ 'feature' ]
 'patterns': [
     {
@@ -38,6 +36,7 @@
           {
             'include': '#keyword.gherkin.examples'
           }
+        ]
     }
     {
         'match': '\\s*(Feature\\:|Business Need\\:|Ability\\:)'
