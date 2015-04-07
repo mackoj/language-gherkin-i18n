@@ -1,6 +1,7 @@
 'scopeName': 'source.feature'
 'name': 'Gherkin-i18n'
-'firstLineMatch' : '^(.*)\\s*en-lol$'
+'firstLineMatch' : '^(.*)\s*en-lol$'
+
 'fileTypes': [ 'feature' ]
 'patterns': [
     {

@@ -23,7 +23,7 @@ $delimiter = "|";
 $search1 = "*|";
 $search2 = "<";
 
-$gherkinGeneratedFilename = "gherkin_";
+$gherkinGeneratedFilename = "gherkin";
 $gherkinGeneratedExtension = "cson";
 
 /// FUGLY ASS SCRIPT
@@ -31,7 +31,7 @@ $gherkinGeneratedExtension = "cson";
 
 $fileContent  = file_get_contents($i18nRemoteFilePath);
 $jsoni18nAssocArray = json_decode($fileContent, TRUE);
-$jsoni18nAssocArray[$defaultFile] = $jsoni18nAssocArray["en"]
+$jsoni18nAssocArray[$defaultFile] = $jsoni18nAssocArray["en"];
 $base_template = file_get_contents($gherkinTemplate);
 $futureTemplate = array();
 
@@ -66,7 +66,15 @@ $gherkinPathInfo = pathinfo($gherkinTemplate);
 foreach ($futureTemplate as $keyLang => $langTemplateContent) 
 {
 	$dirname = $gherkinPathInfo['dirname'];
-	$tmpFilename = $dirname . "/grammars/" . $gherkinGeneratedFilename . $keyLang . "." . $gherkinGeneratedExtension;
+	$tmpFilename = "";
+	if (strcmp($keyLang, $defaultFile) !== 0) 
+	{
+		$tmpFilename = $dirname . "/grammars/" . $gherkinGeneratedFilename . "_" . $keyLang . "." . $gherkinGeneratedExtension;
+	}
+	else
+	{
+		$tmpFilename = $dirname . "/grammars/" . $gherkinGeneratedFilename . "." . $gherkinGeneratedExtension;
+	}
 	file_put_contents($tmpFilename, $langTemplateContent);
 }
 
