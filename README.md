@@ -101,5 +101,4 @@ Add support for:
 * Language Cucumber need to be done [Cucumber Atom](https://github.com/edda/cucumber-atom)
 * Snippets
 * 100% Test Coverage
-* Based on [Cucumber Textmate Bundle](https://github.com/cucumber/cucumber-tmbundle)
-* Based on [Gherkin BNF](https://github.com/cucumber/gherkin/wiki/BNF)
+* Bench other parser like [Cucumber Textmate Bundle](https://github.com/cucumber/cucumber-tmbundle) or the official [Gherkin BNF](https://github.com/cucumber/gherkin/wiki/BNF) and maybe used them
