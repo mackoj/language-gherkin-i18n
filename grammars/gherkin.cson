@@ -1,6 +1,5 @@
-'scopeName': 'text.gherkin.feature__SMALLLANG_DOT__'
-'name': 'Gherkin__SMALLLANG_TIRET_'
-__LANG__
+'scopeName': 'text.gherkin.feature'
+'name': 'Gherkin'
 'fileTypes': [ 'feature' ]
 'patterns': [
     {
@@ -40,23 +39,23 @@ __LANG__
         ]
     }
     {
-        'match': '\\s*(__FEATURE__\\:)'
+        'match': '\\s*(Feature\\:|Business Need\\:|Ability\\:)'
         'name': 'keyword.gherkin.feature'
     }
     {
-        'match': '\\s*(__BACKGROUND__\\:)'
+        'match': '\\s*(Background\\:)'
         'name': 'keyword.gherkin.background'
     }
     {
-        'match': '\\s*(__SCENARIO__\\:)'
+        'match': '\\s*(Scenario\\:)'
         'name': 'keyword.gherkin.scenario'
     }
     {
-        'match': '\\s*(__SCENARIOOUTLINE__\\:)'
+        'match': '\\s*(Scenario Outline\\:|Scenario Template\\:)'
         'name': 'keyword.gherkin.scenario_outline'
     }
     {
-        'match': '\\s*(__EXAMPLES__\\:)'
+        'match': '\\s*(Examples\\:|Scenarios\\:)'
         'name': 'keyword.gherkin.examples'
     }
     {
@@ -85,23 +84,23 @@ __LANG__
         ]
     }
     {
-        'match': '\\s*(__GIVEN__)'
+        'match': '\\s*(Given)'
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(__WHEN__)'
+        'match': '\\s*(When)'
         'name': 'support.class.gherkin.when'
     }
     {
-        'match': '\\s*(__THEN__)'
+        'match': '\\s*(Then)'
         'name': 'support.class.gherkin.then'
     }
     {
-        'match': '\\s*(__BUT__)'
+        'match': '\\s*(But)'
         'name': 'support.class.gherkin.but'
     }
     {
-        'match': '\\s*(__AND__)'
+        'match': '\\s*(And)'
         'name': 'support.class.gherkin.and'
     }
     {

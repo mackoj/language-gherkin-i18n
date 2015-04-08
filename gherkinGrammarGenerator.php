@@ -6,7 +6,7 @@
 $langKey = "__LANG__";
 
 $isDefaultLangEnable = TRUE;
-$smallLangKey = "__SMALLLANG__";
+$smallLangKey = "__SMALLLANG_TIRET_";
 $smallLangWithADot = "__SMALLLANG_DOT__";
 $defaultLangKey = "__DEFAULT_LANG__";
 $defaultLang = "en";
@@ -80,7 +80,7 @@ foreach ($jsoni18nAssocArray as $jsonKey => $jsonValue)
 		$tmp_template = str_replace($langKey.PHP_EOL, $tmp_firstLineMatchLine, $tmp_template);
 	}
 
-	$tmp_template = str_replace($smallLangKey, (strcmp($jsonKey, $defaultLangKey) === 0 ? $defaultLang : $jsonKey), $tmp_template);
+	$tmp_template = str_replace($smallLangKey, (strcmp($jsonKey, $defaultLangKey) === 0 ? "" : "-".$jsonKey), $tmp_template);
 	$tmp_template = str_replace($smallLangWithADot, (strcmp($jsonKey, $defaultLangKey) === 0 ? "" : ".".$jsonKey), $tmp_template);
 
 	foreach ($templateKeys as $tKey => $tValue)
