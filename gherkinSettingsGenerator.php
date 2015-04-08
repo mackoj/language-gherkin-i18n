@@ -1,8 +1,14 @@
 <?php
 
+$isDefaultLangEnable = TRUE;
+$smallLangKey = "__SMALLLANG__";
 $smallLangWithADot = "__SMALLLANG_DOT__";
-$increaseIndentPattern = "'increaseIndentPattern': '__SCENARIO__: .*'";
-$increaseIndentPatternKey = "__INCREASE_INDENT_PATTERN__";
+$defaultLangKey = "__DEFAULT_LANG__";
+$defaultLang = "en";
+
+$increaseIndentPatternKey = "__INCREASEINDENTPATTERNKEY__";
+$increaseIndentPattern =  "'__SCENARIO__: .*'";
+
 $templateKeys = [
 	"__FEATURE__" => [ "name" => "feature", "separator" => ":" ],
 	"__BACKGROUND__" => [ "name" => "background", "separator" => ":" ],
@@ -25,10 +31,44 @@ $delimiter = "|";
 $search1 = "*|";
 $search2 = "<";
 
-$gherkinGeneratedBasename = dirname(__FILE__) ."/settings/language-gherkin.cson";
+$gherkinGeneratedFilename = "language-gherkin";
+$gherkinGeneratedExtension = "cson";
 
-/// FUGLY ASS SCRIPT
-////////////////////
+/// function
+////////////
+
+function addQuote($word)
+{
+    return("      '".$word."'");
+}
+
+function addQuote2($word)
+{
+    return("      '".$word.":'");
+}
+
+function cleanLine($futureRegex)
+{
+	global $search1, $search2, $delimiter;
+
+	$futureRegex = str_replace($search1, "", $futureRegex);
+	$futureRegex = str_replace($search2, "", $futureRegex);
+	$futureRegex = str_replace("'", "\'", $futureRegex); //inhibithion
+	$explodedArray = explode($delimiter, $futureRegex);
+	return $explodedArray;
+}
+
+function str_replace_first($search, $replace, $subject)
+{
+    $pos = strpos($subject, $search);
+    if ($pos !== false) {
+        $subject = substr_replace($subject, $replace, $pos, strlen($search));
+    }
+    return $subject;
+}
+
+/// main
+////////
 
 if ($useLocalI18n)
 {
@@ -41,6 +81,10 @@ else
 
 $fileContent  = file_get_contents($i18nFilePath);
 $jsoni18nAssocArray = json_decode($fileContent, TRUE);
+if ($isDefaultLangEnable)
+{
+	$jsoni18nAssocArray[$defaultLangKey] = $jsoni18nAssocArray[$defaultLang];
+}
 
 $base_template = file_get_contents($gherkinTemplate);
 $futureTemplate = array();
@@ -49,26 +93,44 @@ foreach ($jsoni18nAssocArray as $jsonKey => $jsonValue)
 {
 	$tmp_template = $base_template;
 	$tmp_firstLineMatchLine = "";
-	
+	$tmp_template = str_replace($smallLangWithADot, (strcmp($jsonKey, $defaultLangKey) === 0 ? "" : ".".$jsonKey), $tmp_template);
+
 	foreach ($templateKeys as $tKey => $tValue)
 	{
-		$futureRegex = $jsonValue[$tValue["name"]];
-		$futureRegex = str_replace($search1, "", $futureRegex);
-		$futureRegex = str_replace($search2, "", $futureRegex);
-		$futureRegex = str_replace("'", "\'", $futureRegex); //inhibithion
-		$explodedArray = explode($delimiter, $futureRegex);
-		$tmp_str = implode($tValue["separator"].PHP_EOL, array_map("addQuote", $explodedArray));
+		$explodedArray = cleanLine($jsonValue[$tValue["name"]]);
+		$funcName = (strlen($tValue["separator"]) > 0 ? "addQuote2" : "addQuote");
+		$explodedArray = array_map($funcName, $explodedArray);
+		$tmp_str = implode(PHP_EOL, $explodedArray);
 		$tmp_template = str_replace($tKey, $tmp_str, $tmp_template);
 	}
-	$futureTemplate[] = $tmp_template;
+
+	$scenarios = cleanLine($jsonValue["scenario"]);
+	$multipleIncreaseIndentPatternKey = str_repeat("      ".$increaseIndentPatternKey.( count($scenarios) > 1 ? PHP_EOL : ""), count($scenarios));
+	$tmp_template = str_replace($increaseIndentPatternKey, $multipleIncreaseIndentPatternKey, $tmp_template);
+	$tmp_template = str_replace($increaseIndentPatternKey, $increaseIndentPattern, $tmp_template);
+
+	foreach ($scenarios as $unScenario)
+	{
+		$tmp_template = str_replace_first("__SCENARIO__", $unScenario, $tmp_template);
+	}
+
+	$futureTemplate[$jsonKey] = $tmp_template;
 }
 
-file_put_contents($gherkinGeneratedBasename, $futureTemplate);
-
-function addQuote($word)
+$gherkinPathInfo = pathinfo($gherkinTemplate);
+foreach ($futureTemplate as $keyLang => $langTemplateContent)
 {
-    return("'".$word."'");
+	$dirname = $gherkinPathInfo['dirname'];
+	$tmpFilename = "";
+	if (strcmp($keyLang, $defaultLangKey) !== 0)
+	{
+		$tmpFilename = $dirname . "/settings/" . $gherkinGeneratedFilename . "_" . $keyLang . "." . $gherkinGeneratedExtension;
+	}
+	else
+	{
+		$tmpFilename = $dirname . "/settings/" . $gherkinGeneratedFilename . "." . $gherkinGeneratedExtension;
+	}
+	file_put_contents($tmpFilename, $langTemplateContent);
 }
-
 
 ?>

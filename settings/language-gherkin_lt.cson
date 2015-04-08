@@ -1,0 +1,20 @@
+'.text.gherkin.feature.lt':
+  'editor':
+    'completions': [
+      'Savybė:'
+      'Kontekstas:'
+      'Scenarijus:'
+      'Scenarijaus šablonas:'
+      'Pavyzdžiai:'
+      'Scenarijai:'
+      'Variantai:'
+      'Duota'
+      'Kai'
+      'Tada'
+      'Bet'
+      'Ir'
+    ]
+    'increaseIndentPattern': [
+      'Scenarijus: .*'
+    ]
+    'commentStart': '# '

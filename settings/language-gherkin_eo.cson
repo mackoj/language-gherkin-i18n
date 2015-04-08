@@ -1,0 +1,18 @@
+'.text.gherkin.feature.eo':
+  'editor':
+    'completions': [
+      'Trajto:'
+      'Fono:'
+      'Scenaro:'
+      'Konturo de la scenaro:'
+      'Ekzemploj:'
+      'Donitaĵo'
+      'Se'
+      'Do'
+      'Sed'
+      'Kaj'
+    ]
+    'increaseIndentPattern': [
+      'Scenaro: .*'
+    ]
+    'commentStart': '# '

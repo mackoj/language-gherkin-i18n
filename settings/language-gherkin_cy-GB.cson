@@ -1,0 +1,18 @@
+'.text.gherkin.feature.cy-GB':
+  'editor':
+    'completions': [
+      'Arwedd:'
+      'Cefndir:'
+      'Scenario:'
+      'Scenario Amlinellol:'
+      'Enghreifftiau:'
+      'Anrhegedig a'
+      'Pryd'
+      'Yna'
+      'Ond'
+      'A'
+    ]
+    'increaseIndentPattern': [
+      'Scenario: .*'
+    ]
+    'commentStart': '# '

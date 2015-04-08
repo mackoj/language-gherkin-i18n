@@ -1,0 +1,18 @@
+'.text.gherkin.feature.en-au':
+  'editor':
+    'completions': [
+      'Pretty much:'
+      'First off:'
+      'Awww, look mate:'
+      'Reckon it\'s like:'
+      'You\'ll wanna:'
+      'Y\'know'
+      'It\'s just unbelievable'
+      'But at the end of the day I reckon'
+      'Yeah nah'
+      'Too right'
+    ]
+    'increaseIndentPattern': [
+      'Awww, look mate: .*'
+    ]
+    'commentStart': '# '

@@ -1,0 +1,19 @@
+'.text.gherkin.feature.nl':
+  'editor':
+    'completions': [
+      'Functionaliteit:'
+      'Achtergrond:'
+      'Scenario:'
+      'Abstract Scenario:'
+      'Voorbeelden:'
+      'Gegeven'
+      'Stel'
+      'Als'
+      'Dan'
+      'Maar'
+      'En'
+    ]
+    'increaseIndentPattern': [
+      'Scenario: .*'
+    ]
+    'commentStart': '# '

@@ -1,8 +1,9 @@
 # Gherkin language support in Atom
 
 Adds Gherkin language support in Atom:
-* Syntax Coloring
+* Syntax Coloring based on [Atom Language Gherkin](https://github.com/gigapixel/atom-language-gherkin)
 * Support for Internationalization(i18n)
+* Simple Completion (without autocomplete-plus)
 
 Support 60 languages from the the officials Cucumber/Gherkin [i18n.json](https://github.com/cucumber/gherkin/blob/master/lib/gherkin/i18n.json) file
 
@@ -96,11 +97,9 @@ pull request to add snippets, make grammar tweaks, etc.
 # ToDo
 
 Add support for:
-* Simple Completion (without autocomplete-plus)
 * Advanced Completion (with autocomplete-plus through it [Provider Api](https://github.com/atom-community/autocomplete-plus/wiki/Provider-API))
 * Language Cucumber need to be done [Cucumber Atom](https://github.com/edda/cucumber-atom)
 * Snippets
 * 100% Test Coverage
 * Based on [Cucumber Textmate Bundle](https://github.com/cucumber/cucumber-tmbundle)
 * Based on [Gherkin BNF](https://github.com/cucumber/gherkin/wiki/BNF)
-* Based on [Atom Language Gherkin](https://github.com/gigapixel/atom-language-gherkin)

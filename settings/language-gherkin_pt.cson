@@ -1,0 +1,35 @@
+'.text.gherkin.feature.pt':
+  'editor':
+    'completions': [
+      'Funcionalidade:'
+      'Característica:'
+      'Caracteristica:'
+      'Contexto:'
+      'Cenário de Fundo:'
+      'Cenario de Fundo:'
+      'Fundo:'
+      'Cenário:'
+      'Cenario:'
+      'Esquema do Cenário:'
+      'Esquema do Cenario:'
+      'Delineação do Cenário:'
+      'Delineacao do Cenario:'
+      'Exemplos:'
+      'Cenários:'
+      'Cenarios:'
+      'Dado'
+      'Dada'
+      'Dados'
+      'Dadas'
+      'Quando'
+      'Então'
+      'Entao'
+      'Mas'
+      'E'
+    ]
+    'increaseIndentPattern': [
+      'Cenário: .*'
+      'Cenario: .*'
+
+    ]
+    'commentStart': '# '

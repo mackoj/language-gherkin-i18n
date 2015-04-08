@@ -1,0 +1,20 @@
+'.text.gherkin.feature.de':
+  'editor':
+    'completions': [
+      'Funktionalität:'
+      'Grundlage:'
+      'Szenario:'
+      'Szenariogrundriss:'
+      'Beispiele:'
+      'Angenommen'
+      'Gegeben sei'
+      'Gegeben seien'
+      'Wenn'
+      'Dann'
+      'Aber'
+      'Und'
+    ]
+    'increaseIndentPattern': [
+      'Szenario: .*'
+    ]
+    'commentStart': '# '

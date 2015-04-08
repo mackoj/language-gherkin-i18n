@@ -1,0 +1,19 @@
+'.text.gherkin.feature.tr':
+  'editor':
+    'completions': [
+      'Özellik:'
+      'Geçmiş:'
+      'Senaryo:'
+      'Senaryo taslağı:'
+      'Örnekler:'
+      'Diyelim ki'
+      'Eğer ki'
+      'O zaman'
+      'Fakat'
+      'Ama'
+      'Ve'
+    ]
+    'increaseIndentPattern': [
+      'Senaryo: .*'
+    ]
+    'commentStart': '# '

@@ -1,0 +1,26 @@
+'.text.gherkin.feature.pl':
+  'editor':
+    'completions': [
+      'Właściwość:'
+      'Funkcja:'
+      'Aspekt:'
+      'Potrzeba biznesowa:'
+      'Założenia:'
+      'Scenariusz:'
+      'Szablon scenariusza:'
+      'Przykłady:'
+      'Zakładając'
+      'Mając'
+      'Jeżeli'
+      'Jeśli'
+      'Gdy'
+      'Kiedy'
+      'Wtedy'
+      'Ale'
+      'Oraz'
+      'I'
+    ]
+    'increaseIndentPattern': [
+      'Scenariusz: .*'
+    ]
+    'commentStart': '# '

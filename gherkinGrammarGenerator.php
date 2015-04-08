@@ -1,8 +1,11 @@
 <?php
 
+/// conf variables
+//////////////////
+
 $langKey = "__LANG__";
 
-$isDefaultLangEnable = FALSE;
+$isDefaultLangEnable = TRUE;
 $smallLangKey = "__SMALLLANG__";
 $smallLangWithADot = "__SMALLLANG_DOT__";
 $defaultLangKey = "__DEFAULT_LANG__";
@@ -37,8 +40,8 @@ $gherkinGeneratedExtension = "cson";
 $langTableFileMarkdown = dirname(__FILE__) . "/langTable.md";
 $langTableFileMarkdownColumns = [ "name", "native" ];
 
-/// FUGLY ASS SCRIPT
-////////////////////
+/// main
+////////
 
 if ($useLocalI18n)
 {
@@ -112,7 +115,6 @@ foreach ($futureTemplate as $keyLang => $langTemplateContent)
 }
 
 file_put_contents($langTableFileMarkdown, $markdownTableLang);
-
 
 
 ?>

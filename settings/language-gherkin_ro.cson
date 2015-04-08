@@ -1,0 +1,28 @@
+'.text.gherkin.feature.ro':
+  'editor':
+    'completions': [
+      'Functionalitate:'
+      'Funcționalitate:'
+      'Funcţionalitate:'
+      'Context:'
+      'Scenariu:'
+      'Structura scenariu:'
+      'Structură scenariu:'
+      'Exemple:'
+      'Date fiind'
+      'Dat fiind'
+      'Dati fiind'
+      'Dați fiind'
+      'Daţi fiind'
+      'Cand'
+      'Când'
+      'Atunci'
+      'Dar'
+      'Si'
+      'Și'
+      'Şi'
+    ]
+    'increaseIndentPattern': [
+      'Scenariu: .*'
+    ]
+    'commentStart': '# '

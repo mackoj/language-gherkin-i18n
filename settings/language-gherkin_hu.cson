@@ -1,0 +1,21 @@
+'.text.gherkin.feature.hu':
+  'editor':
+    'completions': [
+      'Jellemző:'
+      'Háttér:'
+      'Forgatókönyv:'
+      'Forgatókönyv vázlat:'
+      'Példák:'
+      'Amennyiben'
+      'Adott'
+      'Majd'
+      'Ha'
+      'Amikor'
+      'Akkor'
+      'De'
+      'És'
+    ]
+    'increaseIndentPattern': [
+      'Forgatókönyv: .*'
+    ]
+    'commentStart': '# '

@@ -1,0 +1,19 @@
+'.text.gherkin.feature.sv':
+  'editor':
+    'completions': [
+      'Egenskap:'
+      'Bakgrund:'
+      'Scenario:'
+      'Abstrakt Scenario:'
+      'Scenariomall:'
+      'Exempel:'
+      'Givet'
+      'När'
+      'Så'
+      'Men'
+      'Och'
+    ]
+    'increaseIndentPattern': [
+      'Scenario: .*'
+    ]
+    'commentStart': '# '

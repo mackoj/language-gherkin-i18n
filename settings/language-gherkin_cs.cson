@@ -1,0 +1,22 @@
+'.text.gherkin.feature.cs':
+  'editor':
+    'completions': [
+      'Požadavek:'
+      'Pozadí:'
+      'Kontext:'
+      'Scénář:'
+      'Náčrt Scénáře:'
+      'Osnova scénáře:'
+      'Příklady:'
+      'Pokud'
+      'Za předpokladu'
+      'Když'
+      'Pak'
+      'Ale'
+      'A také'
+      'A'
+    ]
+    'increaseIndentPattern': [
+      'Scénář: .*'
+    ]
+    'commentStart': '# '

@@ -1,0 +1,18 @@
+'.text.gherkin.feature.fa':
+  'editor':
+    'completions': [
+      'وِیژگی:'
+      'زمینه:'
+      'سناریو:'
+      'الگوی سناریو:'
+      'نمونه ها:'
+      'با فرض'
+      'هنگامی'
+      'آنگاه'
+      'اما'
+      'و'
+    ]
+    'increaseIndentPattern': [
+      'سناریو: .*'
+    ]
+    'commentStart': '# '

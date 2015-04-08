@@ -2,3 +2,4 @@
 * Support Gherkin Syntax
 * Support Syntax Coloring
 * Support for Internationalization
+* Support for Autocompletion

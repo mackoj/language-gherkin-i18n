@@ -1,0 +1,24 @@
+'.text.gherkin.feature.ca':
+  'editor':
+    'completions': [
+      'Característica:'
+      'Funcionalitat:'
+      'Rerefons:'
+      'Antecedents:'
+      'Escenari:'
+      'Esquema de l\'escenari:'
+      'Exemples:'
+      'Donat'
+      'Donada'
+      'Atès'
+      'Atesa'
+      'Quan'
+      'Aleshores'
+      'Cal'
+      'Però'
+      'I'
+    ]
+    'increaseIndentPattern': [
+      'Escenari: .*'
+    ]
+    'commentStart': '# '
