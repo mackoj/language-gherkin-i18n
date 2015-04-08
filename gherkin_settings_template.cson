@@ -12,5 +12,5 @@
       __BUT__
       __AND__
     ]
-    'increaseIndentPattern': 'Scenario: .*'
+    __INCREASE_INDENT_PATTERN__
     'commentStart': '# '

@@ -1,5 +1,8 @@
 <?php
 
+$smallLangWithADot = "__SMALLLANG_DOT__";
+$increaseIndentPattern = "'increaseIndentPattern': '__SCENARIO__: .*'";
+$increaseIndentPatternKey = "__INCREASE_INDENT_PATTERN__";
 $templateKeys = [
 	"__FEATURE__" => [ "name" => "feature", "separator" => ":" ],
 	"__BACKGROUND__" => [ "name" => "background", "separator" => ":" ],
