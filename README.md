@@ -1,13 +1,13 @@
 # Gherkin language support in Atom
 
-Adds Gherkin language support in Atom:
-* Syntax Coloring based on [Atom Language Gherkin](https://github.com/gigapixel/atom-language-gherkin)
-* Support for Internationalization(i18n)
-* Simple Completion (without autocomplete-plus)
+Adds Gherkin language in Atom and:
+* Support Syntax Coloring based on [Atom Language Gherkin](https://github.com/gigapixel/atom-language-gherkin)
+* Support for Internationalization based on [i18n.json](https://github.com/cucumber/gherkin/blob/master/lib/gherkin/i18n.json) file
+* Support for Simple Completion (without autocomplete-plus)
 
 Support 60 languages from the the officials Cucumber/Gherkin [i18n.json](https://github.com/cucumber/gherkin/blob/master/lib/gherkin/i18n.json) file
 
-In order to use a other language parser set as first line of your feature file.
+In order to use an other language parser set as first line of your feature file.
 
 `# language: <langID>`
 
