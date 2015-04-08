@@ -17,8 +17,10 @@ $templateKeys = [
 ];
 $gherkinTemplate = dirname(__FILE__) . "/gherkin_template.cson";
 
-$i18nRemoteFilePath = "https://raw.githubusercontent.com/cucumber/gherkin/master/lib/gherkin/i18n.json";
-// $cleaner = "^\*(.*)<?$";
+$useLocalI18n = TRUE;
+$i18nLocaleFilePath = dirname(__FILE__) . "/i18n.json";
+$i18nRemoteFilePath =  "https://raw.githubusercontent.com/cucumber/gherkin/master/lib/gherkin/i18n.json";
+
 $delimiter = "|";
 $search1 = "*|";
 $search2 = "<";
@@ -26,14 +28,29 @@ $search2 = "<";
 $gherkinGeneratedFilename = "gherkin";
 $gherkinGeneratedExtension = "cson";
 
+$langTableFileMarkdown = dirname(__FILE__) . "/langTable.md";
+$langTableFileMarkdownColumns = [ "name", "native" ];
+
 /// FUGLY ASS SCRIPT
 ////////////////////
 
-$fileContent  = file_get_contents($i18nRemoteFilePath);
+if ($useLocalI18n) 
+{
+	$i18nFilePath = $i18nLocaleFilePath;
+}
+else
+{
+	$i18nFilePath = $i18nRemoteFilePath;
+}
+
+$fileContent  = file_get_contents($i18nFilePath);
 $jsoni18nAssocArray = json_decode($fileContent, TRUE);
 $jsoni18nAssocArray[$defaultFile] = $jsoni18nAssocArray["en"];
 $base_template = file_get_contents($gherkinTemplate);
 $futureTemplate = array();
+
+$markdownTableLang = "|".$langTableFileMarkdownColumns[0]."|".$langTableFileMarkdownColumns[1]."|\n";
+$markdownTableLang .= "|".str_repeat("-", strlen($langTableFileMarkdownColumns[0]))."|".str_repeat("-", strlen($langTableFileMarkdownColumns[1]))."|\n";
 
 foreach ($jsoni18nAssocArray as $jsonKey => $jsonValue) 
 {
@@ -60,6 +77,7 @@ foreach ($jsoni18nAssocArray as $jsonKey => $jsonValue)
 		$tmp_template = str_replace($tKey, $tmp_str, $tmp_template);
 	}
 	$futureTemplate[$jsonKey] = $tmp_template;
+	$markdownTableLang .= "|".$jsonValue[$langTableFileMarkdownColumns[0]]."|".$jsonValue[$langTableFileMarkdownColumns[1]]."|\n";
 }
 
 
@@ -78,5 +96,9 @@ foreach ($futureTemplate as $keyLang => $langTemplateContent)
 	}
 	file_put_contents($tmpFilename, $langTemplateContent);
 }
+
+file_put_contents($langTableFileMarkdown, $markdownTableLang);
+
+
 
 ?>
