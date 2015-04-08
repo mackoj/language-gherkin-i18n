@@ -1,4 +1,4 @@
-'.text.gherkin.feature':
+'.text.gherkin.feature__SMALLLANG_DOT__':
   'editor':
     'completions': [
       __FEATURE__

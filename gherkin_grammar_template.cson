@@ -1,5 +1,5 @@
-'scopeName': 'text.gherkin.feature'
-'name': 'Gherkin-__SMALL_LANG__'
+'scopeName': 'text.gherkin.feature__SMALLLANG_DOT__'
+'name': 'Gherkin-__SMALLLANG__'
 __LANG__
 'fileTypes': [ 'feature' ]
 'patterns': [
