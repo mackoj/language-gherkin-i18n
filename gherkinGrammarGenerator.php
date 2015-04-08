@@ -59,8 +59,8 @@ if ($isDefaultLangEnable)
 $base_template = file_get_contents($gherkinTemplate);
 $futureTemplate = array();
 
-$markdownTableLang = "|Lang ID|".$langTableFileMarkdownColumns[0]."|".$langTableFileMarkdownColumns[1]."|\n";
-$markdownTableLang .= "|-------|".str_repeat("-", strlen($langTableFileMarkdownColumns[0]))."|".str_repeat("-", strlen($langTableFileMarkdownColumns[1]))."|\n";
+$markdownTableLang = "|".$langTableFileMarkdownColumns[0]."|".$langTableFileMarkdownColumns[1]."|Lang ID|\n";
+$markdownTableLang .= "|".str_repeat("-", strlen($langTableFileMarkdownColumns[0]))."|".str_repeat("-", strlen($langTableFileMarkdownColumns[1]))."|-------|\n";
 
 foreach ($jsoni18nAssocArray as $jsonKey => $jsonValue)
 {
@@ -91,7 +91,7 @@ foreach ($jsoni18nAssocArray as $jsonKey => $jsonValue)
 		$tmp_template = str_replace($tKey, $tmp_str, $tmp_template);
 	}
 	$futureTemplate[$jsonKey] = $tmp_template;
-	$markdownTableLang .= "|".$jsonKey."|".$jsonValue[$langTableFileMarkdownColumns[0]]."|".$jsonValue[$langTableFileMarkdownColumns[1]]."|\n";
+	$markdownTableLang .= "|".$jsonValue[$langTableFileMarkdownColumns[0]]."|".$jsonValue[$langTableFileMarkdownColumns[1]]."|".$jsonKey."|\n";
 }
 
 

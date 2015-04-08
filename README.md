@@ -6,71 +6,77 @@ Adds Gherkin language support in Atom:
 
 Support 60 languages from the the officials Cucumber/Gherkin [i18n.json](https://github.com/cucumber/gherkin/blob/master/lib/gherkin/i18n.json) file
 
+In order to use a other language parser set as first line of your feature file.
+
+`# language: <langID>` like `# language: fr`
+
+Like explain in [Cucumber documentation for spoken languages](https://github.com/cucumber/cucumber/wiki/Spoken-languages)
+
 List of language actually supported
 
-|Lang ID|Language Name(English)|Language Name(Native)|
-|-------|----------------------|---------------------|
-|af|Afrikaans|Afrikaans|
-|ar|Arabic|العربية|
-|bg|Bulgarian|български|
-|bm|Malay|Bahasa Melayu|
-|ca|Catalan|català|
-|cs|Czech|Česky|
-|cy-GB|Welsh|Cymraeg|
-|da|Danish|dansk|
-|de|German|Deutsch|
-|el|Greek|Ελληνικά|
-|en-Scouse|Scouse|Scouse|
-|en-au|Australian|Australian|
-|en-lol|LOLCAT|LOLCAT|
-|en-old|Old English|Englisc|
-|en-pirate|Pirate|Pirate|
-|en|English|English|
-|eo|Esperanto|Esperanto|
-|es|Spanish|español|
-|et|Estonian|eesti keel|
-|fa|Persian|فارسی|
-|fi|Finnish|suomi|
-|fr|French|français|
-|gl|Galician|galego|
-|he|Hebrew|עברית|
-|hi|Hindi|हिंदी|
-|hr|Croatian|hrvatski|
-|ht|Creole|kreyòl|
-|hu|Hungarian|magyar|
-|id|Indonesian|Bahasa Indonesia|
-|is|Icelandic|Íslenska|
-|it|Italian|italiano|
-|ja|Japanese|日本語|
-|jv|Javanese|Basa Jawa|
-|kn|Kannada|ಕನ್ನಡ|
-|ko|Korean|한국어|
-|lt|Lithuanian|lietuvių kalba|
-|lu|Luxemburgish|Lëtzebuergesch|
-|lv|Latvian|latviešu|
-|nl|Dutch|Nederlands|
-|no|Norwegian|norsk|
-|pa|Panjabi|ਪੰਜਾਬੀ|
-|pl|Polish|polski|
-|pt|Portuguese|português|
-|ro|Romanian|română|
-|ru|Russian|русский|
-|sk|Slovak|Slovensky|
-|sl|Slovenian|Slovenski|
-|sr-Cyrl|Serbian|Српски|
-|sr-Latn|Serbian (Latin)|Srpski (Latinica)|
-|sv|Swedish|Svenska|
-|th|Thai|ไทย|
-|tlh|Klingon|tlhIngan|
-|tl|Telugu|తెలుగు|
-|tr|Turkish|Türkçe|
-|tt|Tatar|Татарча|
-|uk|Ukrainian|Українська|
-|ur|Urdu|اردو|
-|uz|Uzbek|Узбекча|
-|vi|Vietnamese|Tiếng Việt|
-|zh-CN|Chinese simplified|简体中文|
-|zh-TW|Chinese traditional|繁體中文|
+|Language Name(English)|Language Name(Native)|Lang ID|
+|----------------------|---------------------|-------|
+|Afrikaans|Afrikaans|af|
+|Arabic|العربية|ar|
+|Australian|Australian|en-au|
+|Bulgarian|български|bg|
+|Catalan|català|ca|
+|Chinese simplified|简体中文|zh-CN|
+|Chinese traditional|繁體中文|zh-TW|
+|Creole|kreyòl|ht|
+|Croatian|hrvatski|hr|
+|Czech|Česky|cs|
+|Danish|dansk|da|
+|Dutch|Nederlands|nl|
+|English|English|en|
+|Esperanto|Esperanto|eo|
+|Estonian|eesti keel|et|
+|Finnish|suomi|fi|
+|French|français|fr|
+|Galician|galego|gl|
+|German|Deutsch|de|
+|Greek|Ελληνικά|el|
+|Hebrew|עברית|he|
+|Hindi|हिंदी|hi|
+|Hungarian|magyar|hu|
+|Icelandic|Íslenska|is|
+|Indonesian|Bahasa Indonesia|id|
+|Italian|italiano|it|
+|Japanese|日本語|ja|
+|Javanese|Basa Jawa|jv|
+|Kannada|ಕನ್ನಡ|kn|
+|Klingon|tlhIngan|tlh|
+|Korean|한국어|ko|
+|LOLCAT|LOLCAT|en-lol|
+|Latvian|latviešu|lv|
+|Lithuanian|lietuvių kalba|lt|
+|Luxemburgish|Lëtzebuergesch|lu|
+|Malay|Bahasa Melayu|bm|
+|Norwegian|norsk|no|
+|Old English|Englisc|en-old|
+|Panjabi|ਪੰਜਾਬੀ|pa|
+|Persian|فارسی|fa|
+|Pirate|Pirate|en-pirate|
+|Polish|polski|pl|
+|Portuguese|português|pt|
+|Romanian|română|ro|
+|Russian|русский|ru|
+|Scouse|Scouse|en-Scouse|
+|Serbian (Latin)|Srpski (Latinica)|sr-Latn|
+|Serbian|Српски|sr-Cyrl|
+|Slovak|Slovensky|sk|
+|Slovenian|Slovenski|sl|
+|Spanish|español|es|
+|Swedish|Svenska|sv|
+|Tatar|Татарча|tt|
+|Telugu|తెలుగు|tl|
+|Thai|ไทย|th|
+|Turkish|Türkçe|tr|
+|Ukrainian|Українська|uk|
+|Urdu|اردو|ur|
+|Uzbek|Узбекча|uz|
+|Vietnamese|Tiếng Việt|vi|
+|Welsh|Cymraeg|cy-GB|
 
 Contributions are greatly appreciated. Please fork this repository and open a
 pull request to add snippets, make grammar tweaks, etc.
