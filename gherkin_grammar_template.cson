@@ -1,4 +1,4 @@
-'scopeName': 'source.feature'
+'scopeName': 'text.gherkin.feature'
 'name': 'Gherkin-__SMALL_LANG__'
 __LANG__
 'fileTypes': [ 'feature' ]
