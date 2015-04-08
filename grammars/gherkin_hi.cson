@@ -1,4 +1,4 @@
-'scopeName': 'source.feature'
+'scopeName': 'text.gherkin.feature'
 'name': 'Gherkin-hi'
 'firstLineMatch' : '^(.*)\s*hi$'
 'fileTypes': [ 'feature' ]

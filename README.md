@@ -1,78 +1,76 @@
 # Gherkin language support in Atom
 
 Adds Gherkin language support in Atom:
-* Syntax coloring
-* i18n
+* Syntax Coloring
+* Support for Internationalization(i18n)
 
-Support all officials Cucumber/Gherkin language through [i18n.json](https://github.com/cucumber/gherkin/blob/master/lib/gherkin/i18n.json)
-
-Based on [Cucumber Textmate Bundle](https://github.com/cucumber/cucumber-tmbundle)
+Support 60 languages from the the officials Cucumber/Gherkin [i18n.json](https://github.com/cucumber/gherkin/blob/master/lib/gherkin/i18n.json) file
 
 List of language actually supported
 
-|Language Name(English)|Language Name(Native)|
-|-------------|-----------|
-|Afrikaans|Afrikaans|
-|Arabic|العربية|
-|Australian|Australian|
-|Bulgarian|български|
-|Catalan|català|
-|Chinese simplified|简体中文|
-|Chinese traditional|繁體中文|
-|Creole|kreyòl|
-|Croatian|hrvatski|
-|Czech|Česky|
-|Danish|dansk|
-|Dutch|Nederlands|
-|English|English|
-|Esperanto|Esperanto|
-|Estonian|eesti keel|
-|Finnish|suomi|
-|French|français|
-|Galician|galego|
-|German|Deutsch|
-|Greek|Ελληνικά|
-|Hebrew|עברית|
-|Hindi|हिंदी|
-|Hungarian|magyar|
-|Icelandic|Íslenska|
-|Indonesian|Bahasa Indonesia|
-|Italian|italiano|
-|Japanese|日本語|
-|Javanese|Basa Jawa|
-|Kannada|ಕನ್ನಡ|
-|Klingon|tlhIngan|
-|Korean|한국어|
-|LOLCAT|LOLCAT|
-|Latvian|latviešu|
-|Lithuanian|lietuvių kalba|
-|Luxemburgish|Lëtzebuergesch|
-|Malay|Bahasa Melayu|
-|Norwegian|norsk|
-|Old English|Englisc|
-|Panjabi|ਪੰਜਾਬੀ|
-|Persian|فارسی|
-|Pirate|Pirate|
-|Polish|polski|
-|Portuguese|português|
-|Romanian|română|
-|Russian|русский|
-|Scouse|Scouse|
-|Serbian (Latin)|Srpski (Latinica)|
-|Serbian|Српски|
-|Slovak|Slovensky|
-|Slovenian|Slovenski|
-|Spanish|español|
-|Swedish|Svenska|
-|Tatar|Татарча|
-|Telugu|తెలుగు|
-|Thai|ไทย|
-|Turkish|Türkçe|
-|Ukrainian|Українська|
-|Urdu|اردو|
-|Uzbek|Узбекча|
-|Vietnamese|Tiếng Việt|
-|Welsh|Cymraeg|
+|Lang ID|Language Name(English)|Language Name(Native)|
+|-------|----------------------|---------------------|
+|af|Afrikaans|Afrikaans|
+|ar|Arabic|العربية|
+|bg|Bulgarian|български|
+|bm|Malay|Bahasa Melayu|
+|ca|Catalan|català|
+|cs|Czech|Česky|
+|cy-GB|Welsh|Cymraeg|
+|da|Danish|dansk|
+|de|German|Deutsch|
+|el|Greek|Ελληνικά|
+|en-Scouse|Scouse|Scouse|
+|en-au|Australian|Australian|
+|en-lol|LOLCAT|LOLCAT|
+|en-old|Old English|Englisc|
+|en-pirate|Pirate|Pirate|
+|en|English|English|
+|eo|Esperanto|Esperanto|
+|es|Spanish|español|
+|et|Estonian|eesti keel|
+|fa|Persian|فارسی|
+|fi|Finnish|suomi|
+|fr|French|français|
+|gl|Galician|galego|
+|he|Hebrew|עברית|
+|hi|Hindi|हिंदी|
+|hr|Croatian|hrvatski|
+|ht|Creole|kreyòl|
+|hu|Hungarian|magyar|
+|id|Indonesian|Bahasa Indonesia|
+|is|Icelandic|Íslenska|
+|it|Italian|italiano|
+|ja|Japanese|日本語|
+|jv|Javanese|Basa Jawa|
+|kn|Kannada|ಕನ್ನಡ|
+|ko|Korean|한국어|
+|lt|Lithuanian|lietuvių kalba|
+|lu|Luxemburgish|Lëtzebuergesch|
+|lv|Latvian|latviešu|
+|nl|Dutch|Nederlands|
+|no|Norwegian|norsk|
+|pa|Panjabi|ਪੰਜਾਬੀ|
+|pl|Polish|polski|
+|pt|Portuguese|português|
+|ro|Romanian|română|
+|ru|Russian|русский|
+|sk|Slovak|Slovensky|
+|sl|Slovenian|Slovenski|
+|sr-Cyrl|Serbian|Српски|
+|sr-Latn|Serbian (Latin)|Srpski (Latinica)|
+|sv|Swedish|Svenska|
+|th|Thai|ไทย|
+|tlh|Klingon|tlhIngan|
+|tl|Telugu|తెలుగు|
+|tr|Turkish|Türkçe|
+|tt|Tatar|Татарча|
+|uk|Ukrainian|Українська|
+|ur|Urdu|اردو|
+|uz|Uzbek|Узбекча|
+|vi|Vietnamese|Tiếng Việt|
+|zh-CN|Chinese simplified|简体中文|
+|zh-TW|Chinese traditional|繁體中文|
 
 Contributions are greatly appreciated. Please fork this repository and open a
 pull request to add snippets, make grammar tweaks, etc.
@@ -93,4 +91,6 @@ Add support for:
 * Language Cucumber need to be done [Cucumber Atom](https://github.com/edda/cucumber-atom)
 * Snippets
 * 100% Test Coverage
-* Use the official [Gherkin BNF](https://github.com/cucumber/gherkin/wiki/BNF) as base for parsing
+* Based on [Cucumber Textmate Bundle](https://github.com/cucumber/cucumber-tmbundle)
+* Based on [Gherkin BNF](https://github.com/cucumber/gherkin/wiki/BNF)
+* Based on [Atom Language Gherkin](https://github.com/gigapixel/atom-language-gherkin)

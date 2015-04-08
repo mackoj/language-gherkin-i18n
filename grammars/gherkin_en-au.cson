@@ -1,4 +1,4 @@
-'scopeName': 'source.feature'
+'scopeName': 'text.gherkin.feature'
 'name': 'Gherkin-en-au'
 'firstLineMatch' : '^(.*)\s*en-au$'
 'fileTypes': [ 'feature' ]
