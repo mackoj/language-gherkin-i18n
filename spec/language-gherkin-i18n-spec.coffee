@@ -6,11 +6,11 @@ describe 'Gherkin grammar', ->
       atom.packages.activatePackage('language-gherkin-i18n')
 
     runs ->
-      grammar = atom.grammars.grammarForScopeName('source.feature')
+      grammar = atom.grammars.grammarForScopeName('text.gherkin.feature')
 
   it 'parses the grammar', ->
     expect(grammar).toBeTruthy()
-    expect(grammar.scopeName).toBe 'source.feature'
+    expect(grammar.scopeName).toBe 'text.gherkin.feature'
 
   # describe 'custom elements', ->
   #   it 'tokenizes them as tags', ->
