@@ -8,13 +8,17 @@ Support 60 languages from the the officials Cucumber/Gherkin [i18n.json](https:/
 
 In order to use a other language parser set as first line of your feature file.
 
-`# language: <langID>` like `# language: fr`
+`# language: <langID>`
+
+like
+
+`# language: fr`
 
 Like explain in [Cucumber documentation for spoken languages](https://github.com/cucumber/cucumber/wiki/Spoken-languages)
 
 List of language actually supported
 
-|Language Name(English)|Language Name(Native)|Lang ID|
+|Language Name(English)|Language Name(Native)|langID|
 |----------------------|---------------------|-------|
 |Afrikaans|Afrikaans|af|
 |Arabic|العربية|ar|
