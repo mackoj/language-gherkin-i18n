@@ -1,6 +1,7 @@
 <?php
 
 $langKey = "__LANG__";
+$isDefaultLangEnable = FALSE;
 $smallLangKey = "__SMALL_LANG__";
 $defaultLangKey = "__DEFAULT_LANG__";
 $defaultLang = "en";
@@ -47,7 +48,11 @@ else
 
 $fileContent  = file_get_contents($i18nFilePath);
 $jsoni18nAssocArray = json_decode($fileContent, TRUE);
-$jsoni18nAssocArray[$defaultLangKey] = $jsoni18nAssocArray[$defaultLang];
+if ($isDefaultLangEnable)
+{
+	$jsoni18nAssocArray[$defaultLangKey] = $jsoni18nAssocArray[$defaultLang];
+}
+
 $base_template = file_get_contents($gherkinTemplate);
 $futureTemplate = array();
 
