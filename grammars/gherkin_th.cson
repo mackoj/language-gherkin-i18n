@@ -52,7 +52,7 @@
         'name': 'keyword.gherkin.scenario'
     }
     {
-        'match': '\\s*(เหตุการณ์OUTLINE__\\:)'
+        'match': '\\s*(สรุปเหตุการณ์\\:|โครงสร้างของเหตุการณ์\\:)'
         'name': 'keyword.gherkin.scenario_outline'
     }
     {

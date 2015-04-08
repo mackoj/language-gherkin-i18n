@@ -52,7 +52,7 @@
         'name': 'keyword.gherkin.scenario'
     }
     {
-        'match': '\\s*(Awww, look mateOUTLINE__\\:)'
+        'match': '\\s*(Reckon it\'s like\\:)'
         'name': 'keyword.gherkin.scenario_outline'
     }
     {

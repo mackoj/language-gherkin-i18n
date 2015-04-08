@@ -52,7 +52,7 @@
         'name': 'keyword.gherkin.scenario'
     }
     {
-        'match': '\\s*(ಕಥಾಸಾರಾಂಶOUTLINE__\\:)'
+        'match': '\\s*(ವಿವರಣೆ\\:)'
         'name': 'keyword.gherkin.scenario_outline'
     }
     {

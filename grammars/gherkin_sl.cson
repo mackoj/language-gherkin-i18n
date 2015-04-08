@@ -52,7 +52,7 @@
         'name': 'keyword.gherkin.scenario'
     }
     {
-        'match': '\\s*(Scenarij\\:|PrimerOUTLINE__\\:)'
+        'match': '\\s*(Struktura scenarija\\:|Skica\\:|Koncept\\:|Oris scenarija\\:|Osnutek\\:)'
         'name': 'keyword.gherkin.scenario_outline'
     }
     {

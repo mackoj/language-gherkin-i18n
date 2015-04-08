@@ -52,7 +52,7 @@
         'name': 'keyword.gherkin.scenario'
     }
     {
-        'match': '\\s*(SwaOUTLINE__\\:)'
+        'match': '\\s*(Swa hwaer swa\\:|Swa hwær swa\\:)'
         'name': 'keyword.gherkin.scenario_outline'
     }
     {

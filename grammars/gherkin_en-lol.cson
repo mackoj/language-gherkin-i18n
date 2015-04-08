@@ -52,7 +52,7 @@
         'name': 'keyword.gherkin.scenario'
     }
     {
-        'match': '\\s*(MISHUNOUTLINE__\\:)'
+        'match': '\\s*(MISHUN SRSLY\\:)'
         'name': 'keyword.gherkin.scenario_outline'
     }
     {

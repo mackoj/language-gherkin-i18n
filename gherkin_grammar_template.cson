@@ -52,7 +52,7 @@ __LANG__
         'name': 'keyword.gherkin.scenario'
     }
     {
-        'match': '\\s*(__SCENARIO__OUTLINE__\\:)'
+        'match': '\\s*(__SCENARIOOUTLINE__\\:)'
         'name': 'keyword.gherkin.scenario_outline'
     }
     {

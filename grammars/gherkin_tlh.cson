@@ -52,7 +52,7 @@
         'name': 'keyword.gherkin.scenario'
     }
     {
-        'match': '\\s*(lutOUTLINE__\\:)'
+        'match': '\\s*(lut chovnatlh\\:)'
         'name': 'keyword.gherkin.scenario_outline'
     }
     {

@@ -1,16 +1,16 @@
 '.text.gherkin.feature':
   'editor':
     'completions': [
-      '__FEATURE__:'
-      '__BACKGROUND__:'
-      '__SCENARIO__:'
-      '__SCENARIO__OUTLINE__:'
-      '__EXAMPLES__:'
-      '__GIVEN__'
-      '__WHEN__'
-      '__THEN__'
-      '__BUT__'
-      '__AND__'
+      __FEATURE__
+      __BACKGROUND__
+      __SCENARIO__
+      __SCENARIOOUTLINE__
+      __EXAMPLES__
+      __GIVEN__
+      __WHEN__
+      __THEN__
+      __BUT__
+      __AND__
     ]
     'increaseIndentPattern': 'Scenario: .*'
     'commentStart': '# '

@@ -52,7 +52,7 @@
         'name': 'keyword.gherkin.scenario'
     }
     {
-        'match': '\\s*(SituasieOUTLINE__\\:)'
+        'match': '\\s*(Situasie Uiteensetting\\:)'
         'name': 'keyword.gherkin.scenario_outline'
     }
     {

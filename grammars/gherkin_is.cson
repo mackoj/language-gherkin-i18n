@@ -52,7 +52,7 @@
         'name': 'keyword.gherkin.scenario'
     }
     {
-        'match': '\\s*(AtburðarásOUTLINE__\\:)'
+        'match': '\\s*(Lýsing Atburðarásar\\:|Lýsing Dæma\\:)'
         'name': 'keyword.gherkin.scenario_outline'
     }
     {

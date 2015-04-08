@@ -52,7 +52,7 @@
         'name': 'keyword.gherkin.scenario'
     }
     {
-        'match': '\\s*(Heave toOUTLINE__\\:)'
+        'match': '\\s*(Shiver me timbers\\:)'
         'name': 'keyword.gherkin.scenario_outline'
     }
     {

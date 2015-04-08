@@ -52,7 +52,7 @@
         'name': 'keyword.gherkin.scenario'
     }
     {
-        'match': '\\s*(The thing of it isOUTLINE__\\:)'
+        'match': '\\s*(Wharrimean is\\:)'
         'name': 'keyword.gherkin.scenario_outline'
     }
     {

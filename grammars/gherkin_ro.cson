@@ -52,7 +52,7 @@
         'name': 'keyword.gherkin.scenario'
     }
     {
-        'match': '\\s*(ScenariuOUTLINE__\\:)'
+        'match': '\\s*(Structura scenariu\\:|Structură scenariu\\:)'
         'name': 'keyword.gherkin.scenario_outline'
     }
     {

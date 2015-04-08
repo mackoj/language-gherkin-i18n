@@ -52,7 +52,7 @@
         'name': 'keyword.gherkin.scenario'
     }
     {
-        'match': '\\s*(منظرنامہOUTLINE__\\:)'
+        'match': '\\s*(منظر نامے کا خاکہ\\:)'
         'name': 'keyword.gherkin.scenario_outline'
     }
     {

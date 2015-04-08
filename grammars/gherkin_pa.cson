@@ -52,7 +52,7 @@
         'name': 'keyword.gherkin.scenario'
     }
     {
-        'match': '\\s*(ਪਟਕਥਾOUTLINE__\\:)'
+        'match': '\\s*(ਪਟਕਥਾ ਢਾਂਚਾ\\:|ਪਟਕਥਾ ਰੂਪ ਰੇਖਾ\\:)'
         'name': 'keyword.gherkin.scenario_outline'
     }
     {

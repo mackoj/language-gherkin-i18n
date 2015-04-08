@@ -12,7 +12,7 @@ $templateKeys = [
 	"__FEATURE__" => [ "name" => "feature", "separator" => "\\\\:|" ],
 	"__BACKGROUND__" => [ "name" => "background", "separator" => "\\\\:|" ],
 	"__SCENARIO__" => [ "name" => "scenario", "separator" => "\\\\:|" ],
-	"__SCENARIO__OUTLINE__" => [ "name" => "scenario_outline", "separator" => "\\\\:|" ],
+	"__SCENARIOOUTLINE__" => [ "name" => "scenario_outline", "separator" => "\\\\:|" ],
 	"__EXAMPLES__" => [ "name" => "examples", "separator" => "\\\\:|" ],
 	"__GIVEN__" => [ "name" => "given", "separator" => "|" ],
 	"__WHEN__" => [ "name" => "when", "separator" => "|" ],

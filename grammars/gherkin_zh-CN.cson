@@ -52,7 +52,7 @@
         'name': 'keyword.gherkin.scenario'
     }
     {
-        'match': '\\s*(场景\\:|剧本OUTLINE__\\:)'
+        'match': '\\s*(场景大纲\\:|剧本大纲\\:)'
         'name': 'keyword.gherkin.scenario_outline'
     }
     {

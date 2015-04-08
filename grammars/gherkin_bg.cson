@@ -52,7 +52,7 @@
         'name': 'keyword.gherkin.scenario'
     }
     {
-        'match': '\\s*(СценарийOUTLINE__\\:)'
+        'match': '\\s*(Рамка на сценарий\\:)'
         'name': 'keyword.gherkin.scenario_outline'
     }
     {

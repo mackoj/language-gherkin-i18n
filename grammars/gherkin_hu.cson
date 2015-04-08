@@ -52,7 +52,7 @@
         'name': 'keyword.gherkin.scenario'
     }
     {
-        'match': '\\s*(ForgatókönyvOUTLINE__\\:)'
+        'match': '\\s*(Forgatókönyv vázlat\\:)'
         'name': 'keyword.gherkin.scenario_outline'
     }
     {

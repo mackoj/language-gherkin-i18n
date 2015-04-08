@@ -52,7 +52,7 @@
         'name': 'keyword.gherkin.scenario'
     }
     {
-        'match': '\\s*(Tình huống\\:|Kịch bảnOUTLINE__\\:)'
+        'match': '\\s*(Khung tình huống\\:|Khung kịch bản\\:)'
         'name': 'keyword.gherkin.scenario_outline'
     }
     {
