@@ -15,7 +15,7 @@ pull request to add snippets, make grammar tweaks, etc.
 
 List of language actually supported
 
-|Language Name|Native Name|
+|Language Name(English)|Language Name(Native)|
 |-------------|-----------|
 |Afrikaans|Afrikaans|
 |Arabic|العربية|
