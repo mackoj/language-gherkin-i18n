@@ -2,7 +2,8 @@
 
 $langKey = "__LANG__";
 $smallLangKey = "__SMALL_LANG__";
-$defaultFile = "__HACKED__";
+$defaultLangKey = "__DEFAULT_LANG__";
+$defaultLang = "en";
 $firstLineMatchLine = "'firstLineMatch' : '^(.*)\\s*__LANG__$'";
 $templateKeys = [ 
 	"__FEATURE__" => [ "name" => "feature", "separator" => "\\\\:|" ],
@@ -46,7 +47,7 @@ else
 
 $fileContent  = file_get_contents($i18nFilePath);
 $jsoni18nAssocArray = json_decode($fileContent, TRUE);
-$jsoni18nAssocArray[$defaultFile] = $jsoni18nAssocArray["en"];
+$jsoni18nAssocArray[$defaultLangKey] = $jsoni18nAssocArray[$defaultLang];
 $base_template = file_get_contents($gherkinTemplate);
 $futureTemplate = array();
 
@@ -58,7 +59,7 @@ foreach ($jsoni18nAssocArray as $jsonKey => $jsonValue)
 	$tmp_template = $base_template;
 	$tmp_firstLineMatchLine = "";
 			
-	if (strcmp($jsonKey, $defaultFile) !== 0) 
+	if (strcmp($jsonKey, $defaultLangKey) !== 0) 
 	{
 		$tmp_firstLineMatchLine = str_replace($langKey, $jsonKey, $firstLineMatchLine);
 		$tmp_template = str_replace($langKey, $tmp_firstLineMatchLine, $tmp_template);
@@ -68,7 +69,7 @@ foreach ($jsoni18nAssocArray as $jsonKey => $jsonValue)
 		$tmp_template = str_replace($langKey.PHP_EOL, $tmp_firstLineMatchLine, $tmp_template);
 	}
 
-	$tmp_template = str_replace($smallLangKey, $jsonKey, $tmp_template);
+	$tmp_template = str_replace($smallLangKey, (strcmp($jsonKey, $defaultLangKey) === 0 ? $defaultLang : $jsonKey), $tmp_template);
 		
 	foreach ($templateKeys as $tKey => $tValue) 
 	{
@@ -90,7 +91,7 @@ foreach ($futureTemplate as $keyLang => $langTemplateContent)
 {
 	$dirname = $gherkinPathInfo['dirname'];
 	$tmpFilename = "";
-	if (strcmp($keyLang, $defaultFile) !== 0) 
+	if (strcmp($keyLang, $defaultLangKey) !== 0) 
 	{
 		$tmpFilename = $dirname . "/grammars/" . $gherkinGeneratedFilename . "_" . $keyLang . "." . $gherkinGeneratedExtension;
 	}
