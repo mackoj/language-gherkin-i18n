@@ -1,4 +1,4 @@
 ## 0.1.0 - First Release
-* Basically make it work
 * Support Gherkin Syntax
 * Support for i18n
+* Based on [Cucumber Textmate Bundle](https://github.com/cucumber/cucumber-tmbundle)

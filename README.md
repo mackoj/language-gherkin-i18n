@@ -6,12 +6,7 @@ Adds Gherkin language support in Atom:
 
 Support all officials Cucumber/Gherkin language through [i18n.json](https://github.com/cucumber/gherkin/blob/master/lib/gherkin/i18n.json)
 
-~~Based on official [Gherkin BNF](https://github.com/cucumber/gherkin/wiki/BNF)~~ (soon)
-
-~~Actually support for autocompletion is through [autocomplete-gherkin-i18n](https://github.com/mackoj/autocomplete-gherkin-i18n) which is an autocomplete-plus Gherkin provider.~~ (soon)
-
-Contributions are greatly appreciated. Please fork this repository and open a
-pull request to add snippets, make grammar tweaks, etc.
+Based on [Cucumber Textmate Bundle](https://github.com/cucumber/cucumber-tmbundle)
 
 List of language actually supported
 
@@ -79,6 +74,9 @@ List of language actually supported
 |Vietnamese|Tiếng Việt|
 |Welsh|Cymraeg|
 
+Contributions are greatly appreciated. Please fork this repository and open a
+pull request to add snippets, make grammar tweaks, etc.
+
 <!--
 ![Capture #1](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
 ![Capture #2](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
@@ -91,6 +89,8 @@ List of language actually supported
 
 Add support for:
 * Simple Completion (without autocomplete-plus)
-* Advanced Completion (with autocomplete-plus)
+* Advanced Completion (with autocomplete-plus through it [Provider Api](https://github.com/atom-community/autocomplete-plus/wiki/Provider-API))
+* Language Cucumber need to be done [Cucumber Atom](https://github.com/edda/cucumber-atom)
 * Snippets
 * 100% Test Coverage
+* Use the official [Gherkin BNF](https://github.com/cucumber/gherkin/wiki/BNF) as base for parsing

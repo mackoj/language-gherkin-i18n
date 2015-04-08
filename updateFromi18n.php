@@ -1,6 +1,7 @@
 <?php
 
 $langKey = "__LANG__";
+$smallLangKey = "__SMALL_LANG__";
 $defaultFile = "__HACKED__";
 $firstLineMatchLine = "'firstLineMatch' : '^(.*)\\s*__LANG__$'";
 $templateKeys = [ 
@@ -56,6 +57,7 @@ foreach ($jsoni18nAssocArray as $jsonKey => $jsonValue)
 {
 	$tmp_template = $base_template;
 	$tmp_firstLineMatchLine = "";
+			
 	if (strcmp($jsonKey, $defaultFile) !== 0) 
 	{
 		$tmp_firstLineMatchLine = str_replace($langKey, $jsonKey, $firstLineMatchLine);
@@ -65,6 +67,8 @@ foreach ($jsoni18nAssocArray as $jsonKey => $jsonValue)
 	{
 		$tmp_template = str_replace($langKey.PHP_EOL, $tmp_firstLineMatchLine, $tmp_template);
 	}
+
+	$tmp_template = str_replace($smallLangKey, $jsonKey, $tmp_template);
 		
 	foreach ($templateKeys as $tKey => $tValue) 
 	{

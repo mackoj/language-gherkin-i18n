@@ -1,5 +1,5 @@
 'scopeName': 'source.feature'
-'name': 'Gherkin-i18n'
+'name': 'Gherkin-hu'
 'firstLineMatch' : '^(.*)\s*hu$'
 'fileTypes': [ 'feature' ]
 'patterns': [

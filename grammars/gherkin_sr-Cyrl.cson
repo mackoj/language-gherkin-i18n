@@ -1,5 +1,5 @@
 'scopeName': 'source.feature'
-'name': 'Gherkin-i18n'
+'name': 'Gherkin-sr-Cyrl'
 'firstLineMatch' : '^(.*)\s*sr-Cyrl$'
 'fileTypes': [ 'feature' ]
 'patterns': [
