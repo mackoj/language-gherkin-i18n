@@ -1,6 +1,0 @@
-'.text.gherkin.feature':
-  'editor':
-    'completions' : [
-
-    ]
-    'commentStart': '# '
