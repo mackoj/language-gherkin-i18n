@@ -14,6 +14,15 @@ When `# language: <langID>` is not specified, it defaults to English.
 
 The source documentation is the [Cucumber documentation for spoken languages](https://github.com/cucumber/cucumber/wiki/Spoken-languages)
 
+Syntax color best match with Atom One Dark theme.
+
+![English / French / German / Japanese / Hebrew](preview.gif)
+
+# Compatibility
+
+  * Gherkin (2.12.2)
+  * Cucumber (1.39.19 -> 2.0.0.rc.5)
+
 # List of language actually supported
 
 |Language Name(English)|Language Name(Native)|langID|
@@ -86,10 +95,8 @@ The source documentation is the [Cucumber documentation for spoken languages](ht
 # Contributing
 
 Contributions are greatly appreciated.
+If you find a bug please consider create a issue for it to be treated for it to be treated fast consider add a test case in the scpec file in order to reproduce it.
 Please fork this repository and open a pull request to add snippets, make grammar tweaks, etc.
-
-English / French / German / Japanese / Hebrew
-![](preview.gif)
 
 # How it is made
 
@@ -98,7 +105,6 @@ Using a template for the grammar and another one for the autocompletion, we pars
 # ToDo
 
 * Improve test coverage on the Gherkin grammar
-* Advanced completion need to be done with autocomplete-plus through its [Provider Api](https://github.com/atom-community/autocomplete-plus/wiki/Provider-API) in an other package
 * Language cucumber need to be done [Cucumber Atom](https://github.com/edda/cucumber-atom) in another package
 * Snippets for table and most used keyword (feature, scenario, etc...)
 * Bench other gherkin implementation like [Cucumber Textmate Bundle](https://github.com/cucumber/cucumber-tmbundle) and the official [Gherkin BNF](https://github.com/cucumber/gherkin/wiki/BNF) and maybe used them

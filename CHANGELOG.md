@@ -1,3 +1,7 @@
+# 1.1.1 - First Release
+
+  * Fix minor typos
+
 # 1.1.0 - First Release
 
   * Support Gherkin Syntax
