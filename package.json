@@ -1,7 +1,7 @@
 {
   "name": "language-gherkin-i18n",
   "version": "1.1.0",
-  "description": "Gherkin language in Atom with support of Internationalization in more 60 languages based",
+  "description": "Gherkin language in Atom with support of Internationalization in more 60 languages",
   "repository": "https://github.com/mackoj/language-gherkin-i18n",
   "license": "MIT",
   "engines": {
