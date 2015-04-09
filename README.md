@@ -88,9 +88,9 @@ Faire des capture en au moins 5 lang differente
 ![Capture #5](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
 -->
 
-# How it's work
+# How it is made
 
-We have template for the grammar and autocompletion and based on [i18n.json](https://github.com/cucumber/gherkin/blob/master/lib/gherkin/i18n.json) we generate file for each language.
+We have template for the grammar and autocompletion and based on [i18n.json](https://github.com/cucumber/gherkin/blob/master/lib/gherkin/i18n.json) we generate files for each language.
 
 # ToDo
 
