@@ -1,19 +1,12 @@
 # Gherkin language support in Atom
 
-Adds Gherkin language in Atom and:
-* Support Syntax Coloring based on [Atom Language Gherkin](https://github.com/gigapixel/atom-language-gherkin)
-* Support for Internationalization based on [i18n.json](https://github.com/cucumber/gherkin/blob/master/lib/gherkin/i18n.json) file
-* Support for Simple Completion (without autocomplete-plus)
+Add Gherkin language in Atom and support for:
+* Syntax Coloring based on [Atom Language Gherkin](https://github.com/gigapixel/atom-language-gherkin)
+* Internationalization in 60 languages based on [i18n.json](https://github.com/cucumber/gherkin/blob/master/lib/gherkin/i18n.json)
+* Simple Completion (without autocomplete-plus) in 60 languages
 
-Support 60 languages from the the officials Cucumber/Gherkin [i18n.json](https://github.com/cucumber/gherkin/blob/master/lib/gherkin/i18n.json) file
-
-In order to use an other language parser set as first line of your feature file.
-
-`# language: <langID>`
-
-like
-
-`# language: fr`
+The default way it work is Gherkin is equal Gherkin-en so when `# language: <langID>` is not specified it use English as default.
+In order to use an other language parser set as first line of your feature file `# language: <langID>` like `# language: fr`.
 
 Like explain in [Cucumber documentation for spoken languages](https://github.com/cucumber/cucumber/wiki/Spoken-languages)
 
@@ -87,6 +80,7 @@ Contributions are greatly appreciated. Please fork this repository and open a
 pull request to add snippets, make grammar tweaks, etc.
 
 <!--
+Faire des capture en au moins 5 lang differente
 ![Capture #1](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
 ![Capture #2](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
 ![Capture #3](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
@@ -94,11 +88,14 @@ pull request to add snippets, make grammar tweaks, etc.
 ![Capture #5](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
 -->
 
+# How it's work
+
+We have template for the grammar and autocompletion and based on [i18n.json](https://github.com/cucumber/gherkin/blob/master/lib/gherkin/i18n.json) we generate file for each language.
+
 # ToDo
 
-Add support for:
-* Advanced Completion (with autocomplete-plus through it [Provider Api](https://github.com/atom-community/autocomplete-plus/wiki/Provider-API))
-* Language Cucumber need to be done [Cucumber Atom](https://github.com/edda/cucumber-atom)
-* Snippets
 * 100% Test Coverage
-* Bench other parser like [Cucumber Textmate Bundle](https://github.com/cucumber/cucumber-tmbundle) or the official [Gherkin BNF](https://github.com/cucumber/gherkin/wiki/BNF) and maybe used them
+* Advanced Completion (with autocomplete-plus through it [Provider Api](https://github.com/atom-community/autocomplete-plus/wiki/Provider-API)) in an other package
+* Language Cucumber need to be done [Cucumber Atom](https://github.com/edda/cucumber-atom) in an other package
+* Snippets for table and most used keyword(feature, scenario, etc...)
+* Bench other gherkin implementation like [Cucumber Textmate Bundle](https://github.com/cucumber/cucumber-tmbundle) and the official [Gherkin BNF](https://github.com/cucumber/gherkin/wiki/BNF) and maybe used them
