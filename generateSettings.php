@@ -80,6 +80,10 @@ else
 }
 
 $fileContent  = file_get_contents($i18nFilePath);
+if ($useLocalI18n === FALSE)
+{
+	file_put_contents($i18nLocaleFilePath, $fileContent);
+}
 $jsoni18nAssocArray = json_decode($fileContent, TRUE);
 if ($isDefaultLangEnable)
 {

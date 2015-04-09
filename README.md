@@ -2,8 +2,8 @@
 
 Gherkin language in Atom and support for:
 * Syntax Coloring based on [Atom Language Gherkin](https://github.com/gigapixel/atom-language-gherkin)
-* Internationalization in 60 languages based on [i18n.json](https://github.com/cucumber/gherkin/blob/master/lib/gherkin/i18n.json)
-* Simple Completion (without autocomplete-plus) in 60 languages
+* Internationalization in 63 languages based on [i18n.json](https://github.com/cucumber/gherkin/blob/master/lib/gherkin/i18n.json)
+* Simple Completion (without autocomplete-plus) in 63 languages
 
 The default way it work is Gherkin is equal Gherkin-en so when `# language: <langID>` is not specified it use English as default.
 In order to use an other language parser set as first line of your feature file `# language: <langID>` like `# language: fr`.
@@ -16,6 +16,7 @@ List of language actually supported
 |----------------------|---------------------|------|
 |Afrikaans|Afrikaans|af|
 |Arabic|العربية|ar|
+|Armenian|հայերեն|am|
 |Australian|Australian|en-au|
 |Bulgarian|български|bg|
 |Catalan|català|ca|
@@ -34,6 +35,7 @@ List of language actually supported
 |Galician|galego|gl|
 |German|Deutsch|de|
 |Greek|Ελληνικά|el|
+|Gujarati|ગુજરાતી|gj|
 |Hebrew|עברית|he|
 |Hindi|हिंदी|hi|
 |Hungarian|magyar|hu|
@@ -66,6 +68,7 @@ List of language actually supported
 |Slovenian|Slovenski|sl|
 |Spanish|español|es|
 |Swedish|Svenska|sv|
+|Tamil|தமிழ்|ta|
 |Tatar|Татарча|tt|
 |Telugu|తెలుగు|tl|
 |Thai|ไทย|th|

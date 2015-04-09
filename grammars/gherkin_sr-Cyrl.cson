@@ -85,7 +85,7 @@
         ]
     }
     {
-        'match': '\\s*(Задато|Задате|Задати)'
+        'match': '\\s*(За дато|За дате|За дати)'
         'name': 'support.class.gherkin.given'
     }
     {

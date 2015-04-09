@@ -85,7 +85,7 @@
         ]
     }
     {
-        'match': '\\s*(Zakładając|Mając)'
+        'match': '\\s*(Zakładając|Mając|Zakładając, że)'
         'name': 'support.class.gherkin.given'
     }
     {

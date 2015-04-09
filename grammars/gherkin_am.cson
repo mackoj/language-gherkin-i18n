@@ -1,6 +1,6 @@
-'scopeName': 'text.gherkin.feature.es'
-'name': 'Gherkin-es'
-'firstLineMatch' : '^(.*)\s*es$'
+'scopeName': 'text.gherkin.feature.am'
+'name': 'Gherkin-am'
+'firstLineMatch' : '^(.*)\s*am$'
 'fileTypes': [ 'feature' ]
 'patterns': [
     {
@@ -40,23 +40,23 @@
         ]
     }
     {
-        'match': '\\s*(Característica\\:)'
+        'match': '\\s*(Ֆունկցիոնալություն\\:|Հատկություն\\:)'
         'name': 'keyword.gherkin.feature'
     }
     {
-        'match': '\\s*(Antecedentes\\:)'
+        'match': '\\s*(Կոնտեքստ\\:)'
         'name': 'keyword.gherkin.background'
     }
     {
-        'match': '\\s*(Escenario\\:)'
+        'match': '\\s*(Սցենար\\:)'
         'name': 'keyword.gherkin.scenario'
     }
     {
-        'match': '\\s*(Esquema del escenario\\:)'
+        'match': '\\s*(Սցենարի կառուցվացքը\\:)'
         'name': 'keyword.gherkin.scenario_outline'
     }
     {
-        'match': '\\s*(Ejemplos\\:)'
+        'match': '\\s*(Օրինակներ\\:)'
         'name': 'keyword.gherkin.examples'
     }
     {
@@ -85,23 +85,23 @@
         ]
     }
     {
-        'match': '\\s*(Dado|Dada|Dados|Dadas)'
+        'match': '\\s*(Դիցուք)'
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(Cuando)'
+        'match': '\\s*(Եթե|Երբ)'
         'name': 'support.class.gherkin.when'
     }
     {
-        'match': '\\s*(Entonces)'
+        'match': '\\s*(Ապա)'
         'name': 'support.class.gherkin.then'
     }
     {
-        'match': '\\s*(Pero)'
+        'match': '\\s*(Բայց)'
         'name': 'support.class.gherkin.but'
     }
     {
-        'match': '\\s*(Y|E)'
+        'match': '\\s*(Եվ)'
         'name': 'support.class.gherkin.and'
     }
     {

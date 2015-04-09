@@ -153,6 +153,20 @@
     "examples": "ชุดของตัวอย่าง|ชุดของเหตุการณ์",
     "given": "*|กำหนดให้"
   },
+  "ta": {
+	  "name": "Tamil",
+	  "native": "தமிழ்",
+	  "feature": "அம்சம்|வணிக தேவை|திறன்",
+	  "background": "பின்னணி",
+	  "scenario": "காட்சி",
+	  "scenario_outline": "காட்சி சுருக்கம்|காட்சி வார்ப்புரு",
+	  "examples": "எடுத்துக்காட்டுகள்|காட்சிகள்| நிலைமைகளில்",
+	  "given": "*|கொடுக்கப்பட்ட",
+	  "when": "*|எப்போது",
+	  "then": "*|அப்பொழுது",
+	  "and": "*|மேலும் |மற்றும்",
+	  "but": "*|ஆனால் "
+	},
   "tl": {
     "but": "*|కాని",
     "and": "*|మరియు",
@@ -179,7 +193,7 @@
     "scenario": "Сценарио|Пример",
     "scenario_outline": "Структура сценарија|Скица|Концепт",
     "examples": "Примери|Сценарији",
-    "given": "*|Задато|Задате|Задати"
+    "given": "*|За дато|За дате|За дати"
   },
   "sr-Latn": {
     "but": "*|Ali",
@@ -193,7 +207,7 @@
     "scenario": "Scenario|Primer",
     "scenario_outline": "Struktura scenarija|Skica|Koncept",
     "examples": "Primeri|Scenariji",
-    "given": "*|Zadato|Zadate|Zatati"
+    "given": "*|Za dato|Za date|Za dati"
   },
   "sl": {
     "but": "Toda|Ampak|Vendar",
@@ -291,7 +305,7 @@
     "scenario": "Scenariusz",
     "scenario_outline": "Szablon scenariusza",
     "examples": "Przykłady",
-    "given": "*|Zakładając|Mając"
+    "given": "*|Zakładając|Mając|Zakładając, że"
   },
   "pa": {
     "but": "*|ਪਰ",
@@ -573,6 +587,20 @@
     "examples": "Voorbeelde",
     "given": "*|Gegewe"
   },
+  "am": {
+    "name": "Armenian",
+    "native": "հայերեն",
+    "feature": "Ֆունկցիոնալություն|Հատկություն",
+    "background": "Կոնտեքստ",
+    "scenario": "Սցենար",
+    "scenario_outline": "Սցենարի կառուցվացքը",
+    "examples": "Օրինակներ",
+    "given": "*|Դիցուք",
+    "when": "*|Եթե|Երբ",
+    "then": "*|Ապա",
+    "and": "*|Եվ",
+    "but": "*|Բայց"
+  },
   "ar": {
     "but": "*|لكن",
     "and": "*|و",
@@ -666,14 +694,14 @@
     "native": "Esperanto",
     "feature": "Trajto",
     "background": "Fono",
-    "scenario": "Scenaro",
-    "scenario_outline": "Konturo de la scenaro",
+    "scenario": "Scenaro|Kazo",
+    "scenario_outline": "Konturo de la scenaro|Skizo|Kazo-skizo",
     "examples": "Ekzemploj",
-    "given": "*|Donitaĵo"
+    "given": "*|Donitaĵo|Komence"
   },
   "es": {
     "but": "*|Pero",
-    "and": "*|Y",
+    "and": "*|Y|E",
     "then": "*|Entonces",
     "when": "*|Cuando",
     "name": "Spanish",
@@ -852,5 +880,19 @@
     "scenario_outline": "Schema dello scenario",
     "examples": "Esempi",
     "given": "*|Dato|Data|Dati|Date"
-  }
+  },
+  "gj": {
+	  "name": "Gujarati",
+	  "native": "ગુજરાતી",
+	  "feature": "લક્ષણ|વ્યાપાર જરૂર|ક્ષમતા",
+	  "background": "બેકગ્રાઉન્ડ",
+	  "scenario": "સ્થિતિ",
+	  "scenario_outline": "પરિદ્દશ્ય રૂપરેખા|પરિદ્દશ્ય ઢાંચો",
+	  "examples": "ઉદાહરણો",
+	  "given": "*|આપેલ છે",
+	  "when": "*|ક્યારે",
+	  "then": "*|પછી",
+	  "and": "*|અને",
+	  "but": "*|પણ"
+	}
 }

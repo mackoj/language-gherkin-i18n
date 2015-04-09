@@ -4,9 +4,13 @@
       'Trajto:'
       'Fono:'
       'Scenaro:'
+      'Kazo:'
       'Konturo de la scenaro:'
+      'Skizo:'
+      'Kazo-skizo:'
       'Ekzemploj:'
       'Donitaĵo'
+      'Komence'
       'Se'
       'Do'
       'Sed'
@@ -14,5 +18,7 @@
     ]
     'increaseIndentPattern': [
       'Scenaro: .*'
+      'Kazo: .*'
+
     ]
     'commentStart': '# '

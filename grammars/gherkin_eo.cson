@@ -48,11 +48,11 @@
         'name': 'keyword.gherkin.background'
     }
     {
-        'match': '\\s*(Scenaro\\:)'
+        'match': '\\s*(Scenaro\\:|Kazo\\:)'
         'name': 'keyword.gherkin.scenario'
     }
     {
-        'match': '\\s*(Konturo de la scenaro\\:)'
+        'match': '\\s*(Konturo de la scenaro\\:|Skizo\\:|Kazo-skizo\\:)'
         'name': 'keyword.gherkin.scenario_outline'
     }
     {
@@ -85,7 +85,7 @@
         ]
     }
     {
-        'match': '\\s*(Donitaĵo)'
+        'match': '\\s*(Donitaĵo|Komence)'
         'name': 'support.class.gherkin.given'
     }
     {
