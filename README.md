@@ -80,7 +80,7 @@ Contributions are greatly appreciated. Please fork this repository and open a
 pull request to add snippets, make grammar tweaks, etc.
 
 <!--
-Faire des capture en au moins 5 lang differente
+Faire des capture en au moins 5 lang différente
 ![Capture #1](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
 ![Capture #2](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
 ![Capture #3](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
@@ -94,8 +94,8 @@ We have template for the grammar and autocompletion and based on [i18n.json](htt
 
 # ToDo
 
-* 100% Test Coverage
-* Advanced Completion (with autocomplete-plus through it [Provider Api](https://github.com/atom-community/autocomplete-plus/wiki/Provider-API)) in an other package
+* Improve Test Coverage on the Gherkin Grammar
+* Advanced Completion need to be done with autocomplete-plus through it [Provider Api](https://github.com/atom-community/autocomplete-plus/wiki/Provider-API) in an other package
 * Language Cucumber need to be done [Cucumber Atom](https://github.com/edda/cucumber-atom) in an other package
 * Snippets for table and most used keyword(feature, scenario, etc...)
 * Bench other gherkin implementation like [Cucumber Textmate Bundle](https://github.com/cucumber/cucumber-tmbundle) and the official [Gherkin BNF](https://github.com/cucumber/gherkin/wiki/BNF) and maybe used them
