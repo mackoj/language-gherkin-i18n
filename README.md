@@ -7,7 +7,9 @@ This `Gherkin language in Atom` plugin offers:
   * Simple Completion (without autocomplete-plus) in 64 languages
 
 The matching is done by looking at the very first line of each of you `.feature` files.
+
 So to use a specific language, set the first line of your feature file with the pattern `# language: <langID>`, e.g. `# language: fr`.
+
 When `# language: <langID>` is not specified, it defaults to English.
 
 The source documentation is the [Cucumber documentation for spoken languages](https://github.com/cucumber/cucumber/wiki/Spoken-languages)
