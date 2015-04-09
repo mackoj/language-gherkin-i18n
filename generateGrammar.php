@@ -100,6 +100,7 @@ foreach ($jsoni18nAssocArray as $jsonKey => $jsonValue)
 	$futureTemplate[$jsonKey] = $tmp_template;
 	$markdownTableLang .= "|".$jsonValue[$langTableFileMarkdownColumns[0]]."|".$jsonValue[$langTableFileMarkdownColumns[1]]."|".$jsonKey."|\n";
 }
+$markdownTableLang .= count($jsoni18nAssocArray)."\n";
 
 
 $gherkinPathInfo = pathinfo($gherkinTemplate);
