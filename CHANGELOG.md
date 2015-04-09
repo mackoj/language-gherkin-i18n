@@ -1,4 +1,4 @@
-# 1.0.0 - First Release
+# 1.1.0 - First Release
 
   * Support Gherkin Syntax
   * Syntax Coloring based on [Atom Language Gherkin](https://github.com/gigapixel/atom-language-gherkin)
