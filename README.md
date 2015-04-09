@@ -13,7 +13,7 @@ Like explain in [Cucumber documentation for spoken languages](https://github.com
 List of language actually supported
 
 |Language Name(English)|Language Name(Native)|langID|
-|----------------------|---------------------|-------|
+|----------------------|---------------------|------|
 |Afrikaans|Afrikaans|af|
 |Arabic|العربية|ar|
 |Australian|Australian|en-au|
