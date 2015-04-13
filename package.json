@@ -1,6 +1,6 @@
 {
   "name": "language-gherkin-i18n",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Gherkin language in Atom with support of Internationalization in more 60 languages",
   "repository": {
     "type": "git",
@@ -13,6 +13,6 @@
     "atom": ">=0.174.0 <2.0.0"
   },
   "bugs": {
-    "url" : "https://github.com/mackoj/language-gherkin-i18n/issues"
+    "url": "https://github.com/mackoj/language-gherkin-i18n/issues"
   }
 }
