@@ -1,0 +1,56 @@
+<aGherkinFile>  ::= <language> <header> <feature> <steps> <white>
+<header>    ::= (!(<scenario_outline> | <scenario> | <background>) .)*
+<language>  ::= (<language_key> <simple_space> <language_value> <white>)?
+<language_key> ::= "# language:"
+<language_value> ::= (.\*)
+
+<feature> ::= <white> <comment> <tags> <header> <background>? <feature_elements> <comment>?
+
+
+<steps> ::= <step>*
+<step> ::= <comment> <step_keyword> <keyword_space> <line_to_eol> (<eol>+ | <eof>) <multiline_arg>? <white>
+
+<scenario> ::= <comment> <tags> <scenario_keyword> <space>* <lines_to_keyword> <white> <steps>
+<scenario_outline> ::= <comment> <tags> <scenario_outline_keyword> <space>* <lines_to_keyword> <white> <steps> <examples_sections> <white>
+<feature_elements> ::= (<scenario> | <scenario_outline>)*
+
+<background> ::= <comment> <background_keyword> <space>* <lines_to_keyword>? (<eol>+ | <eof>) <steps>
+
+
+<py_string> ::= <open_py_string> (!<close_py_string> .)* <close_py_string>
+<open_py_string> :: = <space>* '"""' <space>* <eol>
+<close_py_string> ::= <eol> <space>* '"""' <white>
+
+<comment_line> ::= <space>* '#' <line_to_eol>
+<comment> ::= (<comment_line> <white>)*
+
+
+<step_keyword> ::= 'Given' | 'When' | 'Then' | 'And' | 'But'
+<scenario_outline_keyword> ::= '<scenario> Outline:'
+<scenario_keyword> ::= '<scenario>:'
+<background_keyword> ::= '<background>:'
+<reserved_words_and_symbols> ::= (<step_keyword> <keyword_space>) | <scenario_keyword> | <scenario_outline_keyword> | <table> | <tag> | <comment_line>
+
+<cell> ::= [^\r\n|]+ '|'
+<row> ::= <space>* '|' <cell>+ <eol>
+<table> ::= <row>+
+
+<tag> ::= '@' ([^@\r\n\t ])+
+<tags> ::= <white> (<tag> (<space>|<eol>)+)*
+
+<examples_sections> ::= <examples>*
+<examples> ::= <comment> <space>* <examples_keyword> <space>* <lines_to_keyword>? <eol> <table> <white>
+<examples_keyword> ::= 'Examples:'
+
+
+<lines_to_keyword> ::= (!(<eol> <space>* <reserved_words_and_symbols>) .)*
+<line_to_eol> ::= (!<eol> .)*
+<multiline_arg> ::=  <table> | <py_string>
+
+<space> ::= ' ' | '\t'
+<eol> ::= '\r'? '\n'
+<white> ::= (<space> | <eol>)*
+<keyword_space> ::= ' '
+<simple_space> ::= ' '
+
+<eof> = END OF FILE

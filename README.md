@@ -16,7 +16,7 @@ The source documentation is the [Cucumber documentation for spoken languages](ht
 
 Syntax color best match with Atom One Dark theme.
 
-![English / French / German / Japanese / Hebrew](preview.gif)
+![English / French / German / Japanese / Hebrew](http://www.macko.fr/preview.gif)
 
 # Compatibility
 
@@ -104,7 +104,7 @@ Using a template for the grammar and another one for the autocompletion, we pars
 
 # ToDo
 
-* Improve test coverage on the Gherkin grammar
-* Language cucumber need to be done [Cucumber Atom](https://github.com/edda/cucumber-atom) in another package
+* Improve parser
 * Snippets for table and most used keyword (feature, scenario, etc...)
-* Bench other gherkin implementation like [Cucumber Textmate Bundle](https://github.com/cucumber/cucumber-tmbundle) and the official [Gherkin BNF](https://github.com/cucumber/gherkin/wiki/BNF) and maybe used them
+* Add a better style
+* Improve test coverage on the Gherkin grammar
