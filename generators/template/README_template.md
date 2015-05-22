@@ -44,3 +44,4 @@ Using a template for the grammar and another one for the autocompletion, we pars
   * Improve parser
   * Improve documentation
   * Automate `language-gherkin-i18n` update by watching `i18n.json` update in released version
+  * Redo all the scrips in a more cleaner way and with Javascript

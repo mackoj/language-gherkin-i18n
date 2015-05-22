@@ -5,6 +5,7 @@ require_once('generateGlobalConfig.php');
 require_once('generateGrammar.php');
 require_once('generateReadme.php');
 require_once('generateSettings.php');
+require_once('generateLangTable.php');
 
 // Download i18n.json
 if ($useLocalI18n)
@@ -28,10 +29,12 @@ if ($isDefaultLangEnable)
 	$jsoni18nAssocArray[$defaultLangKey] = $jsoni18nAssocArray[$defaultLang];
 }
 
+// Generate LangTable artefact
+list($nb_lang, $markdownTableLang) = generateLanguageTable($jsoni18nAssocArray);
+
 // Generate Grammars
 force_rmdir($grammarsDir);
 mkdir($grammarsDir);
-list($nb_lang, $markdownTableLang) = generateLanguageTable($jsoni18nAssocArray);
 generateGrammar($jsoni18nAssocArray);
 
 // Generate Settings
