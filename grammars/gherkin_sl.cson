@@ -1,6 +1,6 @@
 'scopeName': 'text.gherkin.feature.sl'
 'name': 'Gherkin-sl'
-'firstLineMatch' : '^(.*)\s*sl$'
+'firstLineMatch' : '^# language: sl$'
 'fileTypes': [ 'feature' ]
 'patterns': [
     {

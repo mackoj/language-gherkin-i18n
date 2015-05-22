@@ -1,6 +1,6 @@
 'scopeName': 'text.gherkin.feature.en'
 'name': 'Gherkin-en'
-'firstLineMatch' : '^(.*)\s*en$'
+'firstLineMatch' : '^# language: en$'
 'fileTypes': [ 'feature' ]
 'patterns': [
     {

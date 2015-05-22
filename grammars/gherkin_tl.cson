@@ -1,6 +1,6 @@
 'scopeName': 'text.gherkin.feature.tl'
 'name': 'Gherkin-tl'
-'firstLineMatch' : '^(.*)\s*tl$'
+'firstLineMatch' : '^# language: tl$'
 'fileTypes': [ 'feature' ]
 'patterns': [
     {

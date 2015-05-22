@@ -1,6 +1,6 @@
 'scopeName': 'text.gherkin.feature.tr'
 'name': 'Gherkin-tr'
-'firstLineMatch' : '^(.*)\s*tr$'
+'firstLineMatch' : '^# language: tr$'
 'fileTypes': [ 'feature' ]
 'patterns': [
     {

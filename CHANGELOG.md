@@ -1,3 +1,15 @@
+# 1.1.3
+
+  * Update Grammar and Settings from last  [i18n.json](https://github.com/cucumber/gherkin/blob/master/lib/gherkin/i18n.json) update
+  * Simplification of scripts now everything update with one command
+  * Minor Readme / Changelog / package.json modification
+  * Cleaning folders
+
+# 1.1.2
+
+  * Fix for `Store package settings files in the settings/ directory instead of scoped-properties/`
+  * Small documentation and package update
+
 # 1.1.1 - First Release
 
   * Fix minor typos

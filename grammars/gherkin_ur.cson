@@ -1,6 +1,6 @@
 'scopeName': 'text.gherkin.feature.ur'
 'name': 'Gherkin-ur'
-'firstLineMatch' : '^(.*)\s*ur$'
+'firstLineMatch' : '^# language: ur$'
 'fileTypes': [ 'feature' ]
 'patterns': [
     {

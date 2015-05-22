@@ -1,6 +1,6 @@
 'scopeName': 'text.gherkin.feature.de'
 'name': 'Gherkin-de'
-'firstLineMatch' : '^(.*)\s*de$'
+'firstLineMatch' : '^# language: de$'
 'fileTypes': [ 'feature' ]
 'patterns': [
     {
@@ -85,7 +85,7 @@
         ]
     }
     {
-        'match': '\\s*(Angenommen|Gegeben seien|Gegeben sei)'
+        'match': '\\s*(Angenommen|Gegeben sei|Gegeben seien)'
         'name': 'support.class.gherkin.given'
     }
     {

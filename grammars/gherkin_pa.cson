@@ -1,6 +1,6 @@
 'scopeName': 'text.gherkin.feature.pa'
 'name': 'Gherkin-pa'
-'firstLineMatch' : '^(.*)\s*pa$'
+'firstLineMatch' : '^# language: pa$'
 'fileTypes': [ 'feature' ]
 'patterns': [
     {

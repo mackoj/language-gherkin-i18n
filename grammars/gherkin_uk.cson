@@ -1,6 +1,6 @@
 'scopeName': 'text.gherkin.feature.uk'
 'name': 'Gherkin-uk'
-'firstLineMatch' : '^(.*)\s*uk$'
+'firstLineMatch' : '^# language: uk$'
 'fileTypes': [ 'feature' ]
 'patterns': [
     {

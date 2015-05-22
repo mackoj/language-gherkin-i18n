@@ -1,6 +1,6 @@
 'scopeName': 'text.gherkin.feature.no'
 'name': 'Gherkin-no'
-'firstLineMatch' : '^(.*)\s*no$'
+'firstLineMatch' : '^# language: no$'
 'fileTypes': [ 'feature' ]
 'patterns': [
     {

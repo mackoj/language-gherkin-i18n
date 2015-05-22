@@ -1,6 +1,6 @@
 'scopeName': 'text.gherkin.feature.bm'
 'name': 'Gherkin-bm'
-'firstLineMatch' : '^(.*)\s*bm$'
+'firstLineMatch' : '^# language: bm$'
 'fileTypes': [ 'feature' ]
 'patterns': [
     {

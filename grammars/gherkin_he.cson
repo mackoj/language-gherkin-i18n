@@ -1,6 +1,6 @@
 'scopeName': 'text.gherkin.feature.he'
 'name': 'Gherkin-he'
-'firstLineMatch' : '^(.*)\s*he$'
+'firstLineMatch' : '^# language: he$'
 'fileTypes': [ 'feature' ]
 'patterns': [
     {

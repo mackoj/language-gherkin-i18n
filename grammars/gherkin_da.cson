@@ -1,6 +1,6 @@
 'scopeName': 'text.gherkin.feature.da'
 'name': 'Gherkin-da'
-'firstLineMatch' : '^(.*)\s*da$'
+'firstLineMatch' : '^# language: da$'
 'fileTypes': [ 'feature' ]
 'patterns': [
     {

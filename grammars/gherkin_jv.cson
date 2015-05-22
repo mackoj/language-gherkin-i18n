@@ -1,6 +1,6 @@
 'scopeName': 'text.gherkin.feature.jv'
 'name': 'Gherkin-jv'
-'firstLineMatch' : '^(.*)\s*jv$'
+'firstLineMatch' : '^# language: jv$'
 'fileTypes': [ 'feature' ]
 'patterns': [
     {

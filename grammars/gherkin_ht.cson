@@ -1,6 +1,6 @@
 'scopeName': 'text.gherkin.feature.ht'
 'name': 'Gherkin-ht'
-'firstLineMatch' : '^(.*)\s*ht$'
+'firstLineMatch' : '^# language: ht$'
 'fileTypes': [ 'feature' ]
 'patterns': [
     {
