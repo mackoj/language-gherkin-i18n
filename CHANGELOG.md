@@ -1,4 +1,4 @@
-# 1.1.3
+# 1.2.0
 
   * Update Grammar and Settings from last  [i18n.json](https://github.com/cucumber/gherkin/blob/master/lib/gherkin/i18n.json) update
   * Simplification of scripts : now everything updates with one command
