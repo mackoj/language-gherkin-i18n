@@ -1,7 +1,7 @@
 # 1.1.3
 
   * Update Grammar and Settings from last  [i18n.json](https://github.com/cucumber/gherkin/blob/master/lib/gherkin/i18n.json) update
-  * Simplification of scripts now everything update with one command
+  * Simplification of scripts : now everything updates with one command
   * Minor Readme / Changelog / package.json modification
   * Cleaning folders
 
