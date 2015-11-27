@@ -1,6 +1,6 @@
 'scopeName': 'text.gherkin.feature.sr-Cyrl'
 'name': 'Gherkin-sr-Cyrl'
-'firstLineMatch' : '^# language: sr-Cyrl$'
+'firstLineMatch' : '^# language: sr-Cyrl$(\r)?\n'
 'fileTypes': [ 'feature' ]
 'patterns': [
     {

@@ -1,6 +1,6 @@
 'scopeName': 'text.gherkin.feature.vi'
 'name': 'Gherkin-vi'
-'firstLineMatch' : '^# language: vi$'
+'firstLineMatch' : '^# language: vi$(\r)?\n'
 'fileTypes': [ 'feature' ]
 'patterns': [
     {

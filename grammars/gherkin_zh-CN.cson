@@ -1,6 +1,6 @@
 'scopeName': 'text.gherkin.feature.zh-CN'
 'name': 'Gherkin-zh-CN'
-'firstLineMatch' : '^# language: zh-CN$'
+'firstLineMatch' : '^# language: zh-CN$(\r)?\n'
 'fileTypes': [ 'feature' ]
 'patterns': [
     {

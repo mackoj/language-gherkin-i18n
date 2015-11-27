@@ -1,6 +1,6 @@
 'scopeName': 'text.gherkin.feature.gl'
 'name': 'Gherkin-gl'
-'firstLineMatch' : '^# language: gl$'
+'firstLineMatch' : '^# language: gl$(\r)?\n'
 'fileTypes': [ 'feature' ]
 'patterns': [
     {

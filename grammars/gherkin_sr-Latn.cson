@@ -1,6 +1,6 @@
 'scopeName': 'text.gherkin.feature.sr-Latn'
 'name': 'Gherkin-sr-Latn'
-'firstLineMatch' : '^# language: sr-Latn$'
+'firstLineMatch' : '^# language: sr-Latn$(\r)?\n'
 'fileTypes': [ 'feature' ]
 'patterns': [
     {

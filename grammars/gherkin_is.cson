@@ -1,6 +1,6 @@
 'scopeName': 'text.gherkin.feature.is'
 'name': 'Gherkin-is'
-'firstLineMatch' : '^# language: is$'
+'firstLineMatch' : '^# language: is$(\r)?\n'
 'fileTypes': [ 'feature' ]
 'patterns': [
     {
