@@ -1,6 +1,6 @@
 'scopeName': 'text.gherkin.feature.uz'
 'name': 'Gherkin-uz'
-'firstLineMatch' : '^# language: uz$'
+'firstLineMatch' : '^# language: uz$(\r)?\n'
 'fileTypes': [ 'feature' ]
 'patterns': [
     {

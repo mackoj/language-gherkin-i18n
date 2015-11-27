@@ -1,6 +1,6 @@
 'scopeName': 'text.gherkin.feature.en-lol'
 'name': 'Gherkin-en-lol'
-'firstLineMatch' : '^# language: en-lol$'
+'firstLineMatch' : '^# language: en-lol$(\r)?\n'
 'fileTypes': [ 'feature' ]
 'patterns': [
     {

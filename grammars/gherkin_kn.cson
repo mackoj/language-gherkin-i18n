@@ -1,6 +1,6 @@
 'scopeName': 'text.gherkin.feature.kn'
 'name': 'Gherkin-kn'
-'firstLineMatch' : '^# language: kn$'
+'firstLineMatch' : '^# language: kn$(\r)?\n'
 'fileTypes': [ 'feature' ]
 'patterns': [
     {

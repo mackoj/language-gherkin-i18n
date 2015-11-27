@@ -1,6 +1,6 @@
 'scopeName': 'text.gherkin.feature.cy-GB'
 'name': 'Gherkin-cy-GB'
-'firstLineMatch' : '^# language: cy-GB$'
+'firstLineMatch' : '^# language: cy-GB$(\r)?\n'
 'fileTypes': [ 'feature' ]
 'patterns': [
     {

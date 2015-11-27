@@ -1,6 +1,6 @@
 'scopeName': 'text.gherkin.feature.ja'
 'name': 'Gherkin-ja'
-'firstLineMatch' : '^# language: ja$'
+'firstLineMatch' : '^# language: ja$(\r)?\n'
 'fileTypes': [ 'feature' ]
 'patterns': [
     {

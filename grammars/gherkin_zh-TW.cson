@@ -1,6 +1,6 @@
 'scopeName': 'text.gherkin.feature.zh-TW'
 'name': 'Gherkin-zh-TW'
-'firstLineMatch' : '^# language: zh-TW$'
+'firstLineMatch' : '^# language: zh-TW$(\r)?\n'
 'fileTypes': [ 'feature' ]
 'patterns': [
     {

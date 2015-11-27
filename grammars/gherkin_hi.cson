@@ -1,6 +1,6 @@
 'scopeName': 'text.gherkin.feature.hi'
 'name': 'Gherkin-hi'
-'firstLineMatch' : '^# language: hi$'
+'firstLineMatch' : '^# language: hi$(\r)?\n'
 'fileTypes': [ 'feature' ]
 'patterns': [
     {

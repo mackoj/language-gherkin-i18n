@@ -1,6 +1,6 @@
 'scopeName': 'text.gherkin.feature.ta'
 'name': 'Gherkin-ta'
-'firstLineMatch' : '^# language: ta$'
+'firstLineMatch' : '^# language: ta$(\r)?\n'
 'fileTypes': [ 'feature' ]
 'patterns': [
     {

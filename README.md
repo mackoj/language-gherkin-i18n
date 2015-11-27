@@ -6,15 +6,15 @@ This `Gherkin language in Atom` plugin offers:
   * Internationalization in 64 languages based on [i18n.json](https://github.com/cucumber/gherkin/blob/master/lib/gherkin/i18n.json)
   * Simple Completion in 64 languages
 
-The matching is done by looking at the very first line of each of you `.feature` files.
+The languages matching is done by looking at the very first line of each of the `.feature` files.
 
-So to use a specific language, set the first line of your feature file with the pattern `# language: <langID>`, e.g. `# language: fr`.
+In order to use a specific language, set the first line of your feature file with the following pattern:  `# language: <langID>`, e.g. `# language: fr`.
 
 When `# language: <langID>` is not specified, it defaults to English.
 
 The source documentation is the [Cucumber documentation for spoken languages](https://github.com/cucumber/cucumber/wiki/Spoken-languages)
 
-Syntax color best match with Atom One Dark theme.
+Syntax color works better with Atom One Dark theme.
 
 ![English / French / German / Japanese / Hebrew](https://github.com/mackoj/language-gherkin-i18n/blob/develop/preview.gif)
 
@@ -23,7 +23,7 @@ Syntax color best match with Atom One Dark theme.
   * Gherkin (2.12.2)
   * Cucumber (1.39.19 -> 2.0.0.rc.5)
 
-# List of language actually supported
+# List of supported languages
 
 |Language Name(English)|Language Name(Native)|langID|
 |----------------------|---------------------|------|
@@ -95,7 +95,7 @@ Syntax color best match with Atom One Dark theme.
 # Contributing
 
 Contributions are greatly appreciated.
-If you find a bug please consider create a issue for it to be treated for it to be treated fast consider add a test case in the spec file in order to reproduce it.
+If you find a bug please consider creating an issue for it. To be treated fast consider adding a test case in the spec file in order to reproduce it.
 Please fork this repository and open a pull request to add snippets, make grammar tweaks, etc.
 
 # How it is made
@@ -104,8 +104,9 @@ Using a template for the grammar and another one for the autocompletion, we pars
 
 # ToDo
 
-  * Add unit test
+  * Add unit tests
   * Add Snippets for table and most used keyword (feature, scenario, etc...)
   * Improve parser
   * Improve documentation
-  * Automate `language-gherkin-i18n` update by watching `i18n.json` update in released version
+  * Automate `language-gherkin-i18n` update by watching `i18n.json` update in its released version
+  * Redo all the scrips in a more cleaner way and with Javascript
