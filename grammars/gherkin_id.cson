@@ -85,23 +85,23 @@
         ]
     }
     {
-        'match': '\\s*(Dengan)'
+        'match': '\\s*(* |Dengan )'
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(Ketika)'
+        'match': '\\s*(* |Ketika )'
         'name': 'support.class.gherkin.when'
     }
     {
-        'match': '\\s*(Maka)'
+        'match': '\\s*(* |Maka )'
         'name': 'support.class.gherkin.then'
     }
     {
-        'match': '\\s*(Tapi)'
+        'match': '\\s*(* |Tapi )'
         'name': 'support.class.gherkin.but'
     }
     {
-        'match': '\\s*(Dan)'
+        'match': '\\s*(* |Dan )'
         'name': 'support.class.gherkin.and'
     }
     {
@@ -113,15 +113,15 @@
         'name': 'entity.name.function.decorator.gherkin'
     }
     {
-        'match': '(\\<\\w+\\>)'
+        'match': '(\\<(\\w+\\s*)+\\>)'
         'name': 'constant.character.escape.feature'
     }
     {
-        'match': "(\\'.*?[^\\']\\')"
+        'match': "(\\s\\'.*?[^\\']\\'\\s)"
         'name': 'string.single.qoute.gherkin'
     }
     {
-        'match': '(\\".*?[^\\"]\\")'
+        'match': '(\\s\\".*?[^\\"]\\"\\s)'
         'name': 'string.double.qoute.gherkin'
     }
     {

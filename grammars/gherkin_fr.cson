@@ -85,23 +85,23 @@
         ]
     }
     {
-        'match': '\\s*(Soit|Etant donné|Etant donnée|Etant donnés|Etant données|Étant donné|Étant donnée|Étant donnés|Étant données)'
+        'match': '\\s*(* |Soit |Etant donné que |Etant donné qu\'|Etant donné |Etant donnée |Etant donnés |Etant données |Étant donné que |Étant donné qu\'|Étant donné |Étant donnée |Étant donnés |Étant données )'
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(Quand|Lorsque|Lorsqu\')'
+        'match': '\\s*(* |Quand |Lorsque |Lorsqu\')'
         'name': 'support.class.gherkin.when'
     }
     {
-        'match': '\\s*(Alors)'
+        'match': '\\s*(* |Alors )'
         'name': 'support.class.gherkin.then'
     }
     {
-        'match': '\\s*(Mais)'
+        'match': '\\s*(* |Mais que |Mais qu\'|Mais )'
         'name': 'support.class.gherkin.but'
     }
     {
-        'match': '\\s*(Et)'
+        'match': '\\s*(* |Et que |Et qu\'|Et )'
         'name': 'support.class.gherkin.and'
     }
     {
@@ -113,15 +113,15 @@
         'name': 'entity.name.function.decorator.gherkin'
     }
     {
-        'match': '(\\<\\w+\\>)'
+        'match': '(\\<(\\w+\\s*)+\\>)'
         'name': 'constant.character.escape.feature'
     }
     {
-        'match': "(\\'.*?[^\\']\\')"
+        'match': "(\\s\\'.*?[^\\']\\'\\s)"
         'name': 'string.single.qoute.gherkin'
     }
     {
-        'match': '(\\".*?[^\\"]\\")'
+        'match': '(\\s\\".*?[^\\"]\\"\\s)'
         'name': 'string.double.qoute.gherkin'
     }
     {

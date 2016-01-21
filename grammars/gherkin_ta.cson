@@ -85,23 +85,23 @@
         ]
     }
     {
-        'match': '\\s*(கொடுக்கப்பட்ட)'
+        'match': '\\s*(* |கொடுக்கப்பட்ட )'
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(எப்போது)'
+        'match': '\\s*(* |எப்போது )'
         'name': 'support.class.gherkin.when'
     }
     {
-        'match': '\\s*(அப்பொழுது)'
+        'match': '\\s*(* |அப்பொழுது )'
         'name': 'support.class.gherkin.then'
     }
     {
-        'match': '\\s*(ஆனால் )'
+        'match': '\\s*(* |ஆனால்  )'
         'name': 'support.class.gherkin.but'
     }
     {
-        'match': '\\s*(மேலும் |மற்றும்)'
+        'match': '\\s*(* |மேலும்  |மற்றும் )'
         'name': 'support.class.gherkin.and'
     }
     {
@@ -113,15 +113,15 @@
         'name': 'entity.name.function.decorator.gherkin'
     }
     {
-        'match': '(\\<\\w+\\>)'
+        'match': '(\\<(\\w+\\s*)+\\>)'
         'name': 'constant.character.escape.feature'
     }
     {
-        'match': "(\\'.*?[^\\']\\')"
+        'match': "(\\s\\'.*?[^\\']\\'\\s)"
         'name': 'string.single.qoute.gherkin'
     }
     {
-        'match': '(\\".*?[^\\"]\\")'
+        'match': '(\\s\\".*?[^\\"]\\"\\s)'
         'name': 'string.double.qoute.gherkin'
     }
     {

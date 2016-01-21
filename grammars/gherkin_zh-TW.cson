@@ -85,23 +85,23 @@
         ]
     }
     {
-        'match': '\\s*(假如|假設|假定)'
+        'match': '\\s*(* |假如|假設|假定)'
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(當)'
+        'match': '\\s*(* |當)'
         'name': 'support.class.gherkin.when'
     }
     {
-        'match': '\\s*(那麼)'
+        'match': '\\s*(* |那麼)'
         'name': 'support.class.gherkin.then'
     }
     {
-        'match': '\\s*(但是)'
+        'match': '\\s*(* |但是)'
         'name': 'support.class.gherkin.but'
     }
     {
-        'match': '\\s*(而且|並且|同時)'
+        'match': '\\s*(* |而且|並且|同時)'
         'name': 'support.class.gherkin.and'
     }
     {
@@ -113,15 +113,15 @@
         'name': 'entity.name.function.decorator.gherkin'
     }
     {
-        'match': '(\\<\\w+\\>)'
+        'match': '(\\<(\\w+\\s*)+\\>)'
         'name': 'constant.character.escape.feature'
     }
     {
-        'match': "(\\'.*?[^\\']\\')"
+        'match': "(\\s\\'.*?[^\\']\\'\\s)"
         'name': 'string.single.qoute.gherkin'
     }
     {
-        'match': '(\\".*?[^\\"]\\")'
+        'match': '(\\s\\".*?[^\\"]\\"\\s)'
         'name': 'string.double.qoute.gherkin'
     }
     {

@@ -6,9 +6,9 @@ $isDefaultLangEnable = TRUE;
 $defaultLangKey = "__DEFAULT_LANG__";
 $defaultLang = "en";
 
-$useLocalI18n = FALSE;
-$i18nLocaleFilePath = dirname(__FILE__) . "/../tmp/i18n.json";
-$i18nRemoteFilePath =  "https://raw.githubusercontent.com/cucumber/gherkin/master/lib/gherkin/i18n.json";
+$useLocalI18n = TRUE;
+$i18nLocaleFilePath = dirname(__FILE__) . "/../tmp/gherkin-languages.json";
+$i18nRemoteFilePath = "https://raw.githubusercontent.com/cucumber/gherkin/master/gherkin-languages.json";
 
 $delimiter = "|";
 $search1 = "*|";
@@ -26,7 +26,7 @@ $grammarTemplateKeys = [
 	"__FEATURE__" => [ "name" => "feature", "separator" => "\\\\:|" ],
 	"__BACKGROUND__" => [ "name" => "background", "separator" => "\\\\:|" ],
 	"__SCENARIO__" => [ "name" => "scenario", "separator" => "\\\\:|" ],
-	"__SCENARIOOUTLINE__" => [ "name" => "scenario_outline", "separator" => "\\\\:|" ],
+	"__SCENARIOOUTLINE__" => [ "name" => "scenarioOutline", "separator" => "\\\\:|" ],
 	"__EXAMPLES__" => [ "name" => "examples", "separator" => "\\\\:|" ],
 	"__GIVEN__" => [ "name" => "given", "separator" => "|" ],
 	"__WHEN__" => [ "name" => "when", "separator" => "|" ],
@@ -54,7 +54,7 @@ $settingsTemplateKeys = [
 	"__FEATURE__" => [ "name" => "feature", "separator" => ":" ],
 	"__BACKGROUND__" => [ "name" => "background", "separator" => ":" ],
 	"__SCENARIO__" => [ "name" => "scenario", "separator" => ":" ],
-	"__SCENARIOOUTLINE__" => [ "name" => "scenario_outline", "separator" => ":" ],
+	"__SCENARIOOUTLINE__" => [ "name" => "scenarioOutline", "separator" => ":" ],
 	"__EXAMPLES__" => [ "name" => "examples", "separator" => ":" ],
 	"__GIVEN__" => [ "name" => "given", "separator" => "" ],
 	"__WHEN__" => [ "name" => "when", "separator" => "" ],

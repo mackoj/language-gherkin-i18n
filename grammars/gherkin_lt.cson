@@ -85,23 +85,23 @@
         ]
     }
     {
-        'match': '\\s*(Duota)'
+        'match': '\\s*(* |Duota )'
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(Kai)'
+        'match': '\\s*(* |Kai )'
         'name': 'support.class.gherkin.when'
     }
     {
-        'match': '\\s*(Tada)'
+        'match': '\\s*(* |Tada )'
         'name': 'support.class.gherkin.then'
     }
     {
-        'match': '\\s*(Bet)'
+        'match': '\\s*(* |Bet )'
         'name': 'support.class.gherkin.but'
     }
     {
-        'match': '\\s*(Ir)'
+        'match': '\\s*(* |Ir )'
         'name': 'support.class.gherkin.and'
     }
     {
@@ -113,15 +113,15 @@
         'name': 'entity.name.function.decorator.gherkin'
     }
     {
-        'match': '(\\<\\w+\\>)'
+        'match': '(\\<(\\w+\\s*)+\\>)'
         'name': 'constant.character.escape.feature'
     }
     {
-        'match': "(\\'.*?[^\\']\\')"
+        'match': "(\\s\\'.*?[^\\']\\'\\s)"
         'name': 'string.single.qoute.gherkin'
     }
     {
-        'match': '(\\".*?[^\\"]\\")'
+        'match': '(\\s\\".*?[^\\"]\\"\\s)'
         'name': 'string.double.qoute.gherkin'
     }
     {

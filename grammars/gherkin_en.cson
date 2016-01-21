@@ -85,23 +85,23 @@
         ]
     }
     {
-        'match': '\\s*(Given)'
+        'match': '\\s*(* |Given )'
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(When)'
+        'match': '\\s*(* |When )'
         'name': 'support.class.gherkin.when'
     }
     {
-        'match': '\\s*(Then)'
+        'match': '\\s*(* |Then )'
         'name': 'support.class.gherkin.then'
     }
     {
-        'match': '\\s*(But)'
+        'match': '\\s*(* |But )'
         'name': 'support.class.gherkin.but'
     }
     {
-        'match': '\\s*(And)'
+        'match': '\\s*(* |And )'
         'name': 'support.class.gherkin.and'
     }
     {
@@ -113,15 +113,15 @@
         'name': 'entity.name.function.decorator.gherkin'
     }
     {
-        'match': '(\\<\\w+\\>)'
+        'match': '(\\<(\\w+\\s*)+\\>)'
         'name': 'constant.character.escape.feature'
     }
     {
-        'match': "(\\'.*?[^\\']\\')"
+        'match': "(\\s\\'.*?[^\\']\\'\\s)"
         'name': 'string.single.qoute.gherkin'
     }
     {
-        'match': '(\\".*?[^\\"]\\")'
+        'match': '(\\s\\".*?[^\\"]\\"\\s)'
         'name': 'string.double.qoute.gherkin'
     }
     {

@@ -1,0 +1,139 @@
+'scopeName': 'text.gherkin.feature.ga'
+'name': 'Gherkin-ga'
+'firstLineMatch' : '^# language: ga$(\r)?\n'
+'fileTypes': [ 'feature' ]
+'patterns': [
+    {
+        'match': '#(.*)$'
+        'name': 'comment.line.gherkin'
+    }
+    {
+        'match': '^\\.\\.\\.(.*)$'
+        'name': 'comment.line.gherkin'
+    }
+    {
+        'match': '(^\\*\\*\\*.*?\\*\\*\\*)|((?<=^\\|)\\s+\\*\\*\\*.*?\\*\\*\\*)'
+        'name': 'support.class.gherkin'
+    }
+    {
+        'match': '(\\$\\{.*?\\})|(@\\{.*?\\})'
+        'name': 'string.single.qoute.gherkin'
+    }
+    {
+        'name': 'keyword.gherkin'
+        'patterns': [
+          {
+            'include': '#keyword.gherkin.feature'
+          }
+          {
+            'include': '#keyword.gherkin.background'
+          }
+          {
+            'include': '#keyword.gherkin.scenario'
+          }
+          {
+            'include': '#keyword.gherkin.scenario_outline'
+          }
+          {
+            'include': '#keyword.gherkin.examples'
+          }
+        ]
+    }
+    {
+        'match': '\\s*(Gné\\:)'
+        'name': 'keyword.gherkin.feature'
+    }
+    {
+        'match': '\\s*(Cúlra\\:)'
+        'name': 'keyword.gherkin.background'
+    }
+    {
+        'match': '\\s*(Cás\\:)'
+        'name': 'keyword.gherkin.scenario'
+    }
+    {
+        'match': '\\s*(Cás Achomair\\:)'
+        'name': 'keyword.gherkin.scenario_outline'
+    }
+    {
+        'match': '\\s*(Samplaí\\:)'
+        'name': 'keyword.gherkin.examples'
+    }
+    {
+        "begin": '(^[^ \\t\\*\\n\\|]+)|((?<=^\\|)\\s+[^ \\t\\*\\n\\|]+)'
+        "end": '\\s{2}|\\t|$|\\s+(?=\\|)'
+        'name': 'keyword.gherkin'
+    }
+    {
+        'name': 'support.class.gherkin'
+        'patterns': [
+          {
+            'include': '#support.class.gherkin.given'
+          }
+          {
+            'include': '#support.class.gherkin.when'
+          }
+          {
+            'include': '#support.class.gherkin.then'
+          }
+          {
+            'include': '#support.class.gherkin.but'
+          }
+          {
+            'include': '#support.class.gherkin.and'
+          }
+        ]
+    }
+    {
+        'match': '\\s*(* |Cuir i gcás go|Cuir i gcás nach|Cuir i gcás gur|Cuir i gcás nár)'
+        'name': 'support.class.gherkin.given'
+    }
+    {
+        'match': '\\s*(* |Nuair a|Nuair nach|Nuair ba|Nuair nár)'
+        'name': 'support.class.gherkin.when'
+    }
+    {
+        'match': '\\s*(* |Ansin)'
+        'name': 'support.class.gherkin.then'
+    }
+    {
+        'match': '\\s*(* |Ach)'
+        'name': 'support.class.gherkin.but'
+    }
+    {
+        'match': '\\s*(* |Agus)'
+        'name': 'support.class.gherkin.and'
+    }
+    {
+        'match': '(?<=\\s|^)(@[A-Za-z0-9_\\-]+)'
+        'name': 'entity.name.function.decorator.gherkin'
+    }
+    {
+        'match': '\\s(\\d*)\\s'
+        'name': 'entity.name.function.decorator.gherkin'
+    }
+    {
+        'match': '(\\<(\\w+\\s*)+\\>)'
+        'name': 'constant.character.escape.feature'
+    }
+    {
+        'match': "(\\s\\'.*?[^\\']\\'\\s)"
+        'name': 'string.single.qoute.gherkin'
+    }
+    {
+        'match': '(\\s\\".*?[^\\"]\\"\\s)'
+        'name': 'string.double.qoute.gherkin'
+    }
+    {
+        'match': "\\[(\\'.*?[^\\']\\')\\]"
+        'name': 'constant.character.escape.feature'
+    }
+    {
+        'match': '(\\[[^]]*\\])'
+        'name': 'constant.numeric.gherkin'
+    }
+    {
+        'match': '\\|\\s(.*)\\s\\|'
+        'name': 'constant.numeric.gherkin'
+    }
+]

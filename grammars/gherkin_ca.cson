@@ -85,23 +85,23 @@
         ]
     }
     {
-        'match': '\\s*(Donat|Donada|Atès|Atesa)'
+        'match': '\\s*(* |Donat |Donada |Atès |Atesa )'
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(Quan)'
+        'match': '\\s*(* |Quan )'
         'name': 'support.class.gherkin.when'
     }
     {
-        'match': '\\s*(Aleshores|Cal)'
+        'match': '\\s*(* |Aleshores |Cal )'
         'name': 'support.class.gherkin.then'
     }
     {
-        'match': '\\s*(Però)'
+        'match': '\\s*(* |Però )'
         'name': 'support.class.gherkin.but'
     }
     {
-        'match': '\\s*(I)'
+        'match': '\\s*(* |I )'
         'name': 'support.class.gherkin.and'
     }
     {
@@ -113,15 +113,15 @@
         'name': 'entity.name.function.decorator.gherkin'
     }
     {
-        'match': '(\\<\\w+\\>)'
+        'match': '(\\<(\\w+\\s*)+\\>)'
         'name': 'constant.character.escape.feature'
     }
     {
-        'match': "(\\'.*?[^\\']\\')"
+        'match': "(\\s\\'.*?[^\\']\\'\\s)"
         'name': 'string.single.qoute.gherkin'
     }
     {
-        'match': '(\\".*?[^\\"]\\")'
+        'match': '(\\s\\".*?[^\\"]\\"\\s)'
         'name': 'string.double.qoute.gherkin'
     }
     {

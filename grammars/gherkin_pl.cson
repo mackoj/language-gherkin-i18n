@@ -85,23 +85,23 @@
         ]
     }
     {
-        'match': '\\s*(Zakładając|Mając|Zakładając, że)'
+        'match': '\\s*(* |Zakładając |Mając |Zakładając, że )'
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(Jeżeli|Jeśli|Gdy|Kiedy)'
+        'match': '\\s*(* |Jeżeli |Jeśli |Gdy |Kiedy )'
         'name': 'support.class.gherkin.when'
     }
     {
-        'match': '\\s*(Wtedy)'
+        'match': '\\s*(* |Wtedy )'
         'name': 'support.class.gherkin.then'
     }
     {
-        'match': '\\s*(Ale)'
+        'match': '\\s*(* |Ale )'
         'name': 'support.class.gherkin.but'
     }
     {
-        'match': '\\s*(Oraz|I)'
+        'match': '\\s*(* |Oraz |I )'
         'name': 'support.class.gherkin.and'
     }
     {
@@ -113,15 +113,15 @@
         'name': 'entity.name.function.decorator.gherkin'
     }
     {
-        'match': '(\\<\\w+\\>)'
+        'match': '(\\<(\\w+\\s*)+\\>)'
         'name': 'constant.character.escape.feature'
     }
     {
-        'match': "(\\'.*?[^\\']\\')"
+        'match': "(\\s\\'.*?[^\\']\\'\\s)"
         'name': 'string.single.qoute.gherkin'
     }
     {
-        'match': '(\\".*?[^\\"]\\")'
+        'match': '(\\s\\".*?[^\\"]\\"\\s)'
         'name': 'string.double.qoute.gherkin'
     }
     {

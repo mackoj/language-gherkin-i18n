@@ -85,23 +85,23 @@
         ]
     }
     {
-        'match': '\\s*(Dano|Podano|Zaradi|Privzeto)'
+        'match': '\\s*(Dano |Podano |Zaradi |Privzeto )'
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(Ko|Ce|Če|Kadar)'
+        'match': '\\s*(Ko |Ce |Če |Kadar )'
         'name': 'support.class.gherkin.when'
     }
     {
-        'match': '\\s*(Nato|Potem|Takrat)'
+        'match': '\\s*(Nato |Potem |Takrat )'
         'name': 'support.class.gherkin.then'
     }
     {
-        'match': '\\s*(Toda|Ampak|Vendar)'
+        'match': '\\s*(Toda |Ampak |Vendar )'
         'name': 'support.class.gherkin.but'
     }
     {
-        'match': '\\s*(In|Ter)'
+        'match': '\\s*(In |Ter )'
         'name': 'support.class.gherkin.and'
     }
     {
@@ -113,15 +113,15 @@
         'name': 'entity.name.function.decorator.gherkin'
     }
     {
-        'match': '(\\<\\w+\\>)'
+        'match': '(\\<(\\w+\\s*)+\\>)'
         'name': 'constant.character.escape.feature'
     }
     {
-        'match': "(\\'.*?[^\\']\\')"
+        'match': "(\\s\\'.*?[^\\']\\'\\s)"
         'name': 'string.single.qoute.gherkin'
     }
     {
-        'match': '(\\".*?[^\\"]\\")'
+        'match': '(\\s\\".*?[^\\"]\\"\\s)'
         'name': 'string.double.qoute.gherkin'
     }
     {

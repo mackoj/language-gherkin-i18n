@@ -85,23 +85,23 @@
         ]
     }
     {
-        'match': '\\s*(Դիցուք)'
+        'match': '\\s*(* |Դիցուք )'
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(Եթե|Երբ)'
+        'match': '\\s*(* |Եթե |Երբ )'
         'name': 'support.class.gherkin.when'
     }
     {
-        'match': '\\s*(Ապա)'
+        'match': '\\s*(* |Ապա )'
         'name': 'support.class.gherkin.then'
     }
     {
-        'match': '\\s*(Բայց)'
+        'match': '\\s*(* |Բայց )'
         'name': 'support.class.gherkin.but'
     }
     {
-        'match': '\\s*(Եվ)'
+        'match': '\\s*(* |Եվ )'
         'name': 'support.class.gherkin.and'
     }
     {
@@ -113,15 +113,15 @@
         'name': 'entity.name.function.decorator.gherkin'
     }
     {
-        'match': '(\\<\\w+\\>)'
+        'match': '(\\<(\\w+\\s*)+\\>)'
         'name': 'constant.character.escape.feature'
     }
     {
-        'match': "(\\'.*?[^\\']\\')"
+        'match': "(\\s\\'.*?[^\\']\\'\\s)"
         'name': 'string.single.qoute.gherkin'
     }
     {
-        'match': '(\\".*?[^\\"]\\")'
+        'match': '(\\s\\".*?[^\\"]\\"\\s)'
         'name': 'string.double.qoute.gherkin'
     }
     {

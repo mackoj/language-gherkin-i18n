@@ -85,23 +85,23 @@
         ]
     }
     {
-        'match': '\\s*(Zadan|Zadani|Zadano)'
+        'match': '\\s*(* |Zadan |Zadani |Zadano )'
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(Kada|Kad)'
+        'match': '\\s*(* |Kada |Kad )'
         'name': 'support.class.gherkin.when'
     }
     {
-        'match': '\\s*(Onda)'
+        'match': '\\s*(* |Onda )'
         'name': 'support.class.gherkin.then'
     }
     {
-        'match': '\\s*(Ali)'
+        'match': '\\s*(* |Ali )'
         'name': 'support.class.gherkin.but'
     }
     {
-        'match': '\\s*(I)'
+        'match': '\\s*(* |I )'
         'name': 'support.class.gherkin.and'
     }
     {
@@ -113,15 +113,15 @@
         'name': 'entity.name.function.decorator.gherkin'
     }
     {
-        'match': '(\\<\\w+\\>)'
+        'match': '(\\<(\\w+\\s*)+\\>)'
         'name': 'constant.character.escape.feature'
     }
     {
-        'match': "(\\'.*?[^\\']\\')"
+        'match': "(\\s\\'.*?[^\\']\\'\\s)"
         'name': 'string.single.qoute.gherkin'
     }
     {
-        'match': '(\\".*?[^\\"]\\")'
+        'match': '(\\s\\".*?[^\\"]\\"\\s)'
         'name': 'string.double.qoute.gherkin'
     }
     {

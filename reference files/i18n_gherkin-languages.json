@@ -1,0 +1,74 @@
+{
+  "fr_old": {
+    "but": "*|Mais",
+    "and": "*|Et",
+    "then": "*|Alors",
+    "when": "*|Quand|Lorsque|Lorsqu'<",
+    "name": "French",
+    "native": "français",
+    "feature": "Fonctionnalité",
+    "background": "Contexte",
+    "scenario": "Scénario",
+    "scenario_outline": "Plan du scénario|Plan du Scénario",
+    "examples": "Exemples",
+    "given": "*|Soit|Etant donné|Etant donnée|Etant donnés|Etant données|Étant donné|Étant donnée|Étant donnés|Étant données"
+  },
+  "fr_new": {
+    "and": [
+      "* ",
+      "Et que ",
+      "Et qu'",
+      "Et "
+    ],
+    "background": [
+      "Contexte"
+    ],
+    "but": [
+      "* ",
+      "Mais que ",
+      "Mais qu'",
+      "Mais "
+    ],
+    "examples": [
+      "Exemples"
+    ],
+    "feature": [
+      "Fonctionnalité"
+    ],
+    "given": [
+      "* ",
+      "Soit ",
+      "Etant donné que ",
+      "Etant donné qu'",
+      "Etant donné ",
+      "Etant donnée ",
+      "Etant donnés ",
+      "Etant données ",
+      "Étant donné que ",
+      "Étant donné qu'",
+      "Étant donné ",
+      "Étant donnée ",
+      "Étant donnés ",
+      "Étant données "
+    ],
+    "name": "French",
+    "native": "français",
+    "scenario": [
+      "Scénario"
+    ],
+    "scenarioOutline": [
+      "Plan du scénario",
+      "Plan du Scénario"
+    ],
+    "then": [
+      "* ",
+      "Alors "
+    ],
+    "when": [
+      "* ",
+      "Quand ",
+      "Lorsque ",
+      "Lorsqu'"
+    ]
+  }
+}

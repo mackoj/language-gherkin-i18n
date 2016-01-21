@@ -18,6 +18,8 @@ else
 	$i18nFilePath = $i18nRemoteFilePath;
 }
 
+convertNewGherkinLanguagesToOldi18n($i18nFilePath);
+
 $fileContent  = file_get_contents($i18nFilePath);
 if ($useLocalI18n === FALSE)
 {

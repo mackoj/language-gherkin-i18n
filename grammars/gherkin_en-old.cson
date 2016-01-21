@@ -85,23 +85,23 @@
         ]
     }
     {
-        'match': '\\s*(Thurh|Þurh|Ðurh)'
+        'match': '\\s*(* |Thurh |Þurh |Ðurh )'
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(Tha|Þa|Ða)'
+        'match': '\\s*(* |Tha |Þa |Ða )'
         'name': 'support.class.gherkin.when'
     }
     {
-        'match': '\\s*(Tha|Þa|Ða|Tha the|Þa þe|Ða ðe)'
+        'match': '\\s*(* |Tha |Þa |Ða |Tha the |Þa þe |Ða ðe )'
         'name': 'support.class.gherkin.then'
     }
     {
-        'match': '\\s*(Ac)'
+        'match': '\\s*(* |Ac )'
         'name': 'support.class.gherkin.but'
     }
     {
-        'match': '\\s*(Ond|7)'
+        'match': '\\s*(* |Ond |7 )'
         'name': 'support.class.gherkin.and'
     }
     {
@@ -113,15 +113,15 @@
         'name': 'entity.name.function.decorator.gherkin'
     }
     {
-        'match': '(\\<\\w+\\>)'
+        'match': '(\\<(\\w+\\s*)+\\>)'
         'name': 'constant.character.escape.feature'
     }
     {
-        'match': "(\\'.*?[^\\']\\')"
+        'match': "(\\s\\'.*?[^\\']\\'\\s)"
         'name': 'string.single.qoute.gherkin'
     }
     {
-        'match': '(\\".*?[^\\"]\\")'
+        'match': '(\\s\\".*?[^\\"]\\"\\s)'
         'name': 'string.double.qoute.gherkin'
     }
     {

@@ -85,23 +85,23 @@
         ]
     }
     {
-        'match': '\\s*(Biết|Cho)'
+        'match': '\\s*(* |Biết |Cho )'
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(Khi)'
+        'match': '\\s*(* |Khi )'
         'name': 'support.class.gherkin.when'
     }
     {
-        'match': '\\s*(Thì)'
+        'match': '\\s*(* |Thì )'
         'name': 'support.class.gherkin.then'
     }
     {
-        'match': '\\s*(Nhưng)'
+        'match': '\\s*(* |Nhưng )'
         'name': 'support.class.gherkin.but'
     }
     {
-        'match': '\\s*(Và)'
+        'match': '\\s*(* |Và )'
         'name': 'support.class.gherkin.and'
     }
     {
@@ -113,15 +113,15 @@
         'name': 'entity.name.function.decorator.gherkin'
     }
     {
-        'match': '(\\<\\w+\\>)'
+        'match': '(\\<(\\w+\\s*)+\\>)'
         'name': 'constant.character.escape.feature'
     }
     {
-        'match': "(\\'.*?[^\\']\\')"
+        'match': "(\\s\\'.*?[^\\']\\'\\s)"
         'name': 'string.single.qoute.gherkin'
     }
     {
-        'match': '(\\".*?[^\\"]\\")'
+        'match': '(\\s\\".*?[^\\"]\\"\\s)'
         'name': 'string.double.qoute.gherkin'
     }
     {

@@ -1,0 +1,23 @@
+'.text.gherkin.feature.em':
+  'editor':
+    'completions': [
+      '📚:'
+      '💤:'
+      '📕:'
+      '📖:'
+      '📓:'
+      '* '
+      '😐'
+      '* '
+      '🎬'
+      '* '
+      '🙏'
+      '* '
+      '😔'
+      '* '
+      '😂'
+    ]
+    'increaseIndentPattern': [
+      '📕: .*'
+    ]
+    'commentStart': '# '

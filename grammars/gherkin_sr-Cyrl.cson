@@ -85,23 +85,23 @@
         ]
     }
     {
-        'match': '\\s*(За дато|За дате|За дати)'
+        'match': '\\s*(* |За дато |За дате |За дати )'
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(Када|Кад)'
+        'match': '\\s*(* |Када |Кад )'
         'name': 'support.class.gherkin.when'
     }
     {
-        'match': '\\s*(Онда)'
+        'match': '\\s*(* |Онда )'
         'name': 'support.class.gherkin.then'
     }
     {
-        'match': '\\s*(Али)'
+        'match': '\\s*(* |Али )'
         'name': 'support.class.gherkin.but'
     }
     {
-        'match': '\\s*(И)'
+        'match': '\\s*(* |И )'
         'name': 'support.class.gherkin.and'
     }
     {
@@ -113,15 +113,15 @@
         'name': 'entity.name.function.decorator.gherkin'
     }
     {
-        'match': '(\\<\\w+\\>)'
+        'match': '(\\<(\\w+\\s*)+\\>)'
         'name': 'constant.character.escape.feature'
     }
     {
-        'match': "(\\'.*?[^\\']\\')"
+        'match': "(\\s\\'.*?[^\\']\\'\\s)"
         'name': 'string.single.qoute.gherkin'
     }
     {
-        'match': '(\\".*?[^\\"]\\")'
+        'match': '(\\s\\".*?[^\\"]\\"\\s)'
         'name': 'string.double.qoute.gherkin'
     }
     {

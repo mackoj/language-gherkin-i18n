@@ -3,8 +3,8 @@
 This `Gherkin language in Atom` plugin offers:
 
   * Syntax Coloring based on [Atom Language Gherkin](https://github.com/gigapixel/atom-language-gherkin)
-  * Internationalization in 64 languages based on [i18n.json](https://github.com/cucumber/gherkin/blob/master/lib/gherkin/i18n.json)
-  * Simple Completion in 64 languages
+  * Internationalization in 68 languages based on [i18n.json](https://github.com/cucumber/gherkin/blob/master/lib/gherkin/i18n.json)
+  * Simple Completion in 68 languages
 
 The languages matching is done by looking at the very first line of each of the `.feature` files.
 
@@ -31,6 +31,7 @@ Syntax color works better with Atom One Dark theme.
 |Arabic|العربية|ar|
 |Armenian|հայերեն|am|
 |Australian|Australian|en-au|
+|Bosnian|Bosanski|bs|
 |Bulgarian|български|bg|
 |Catalan|català|ca|
 |Chinese simplified|简体中文|zh-CN|
@@ -40,6 +41,7 @@ Syntax color works better with Atom One Dark theme.
 |Czech|Česky|cs|
 |Danish|dansk|da|
 |Dutch|Nederlands|nl|
+|Emoji|😀|em|
 |English|English|en|
 |Esperanto|Esperanto|eo|
 |Estonian|eesti keel|et|
@@ -54,6 +56,7 @@ Syntax color works better with Atom One Dark theme.
 |Hungarian|magyar|hu|
 |Icelandic|Íslenska|is|
 |Indonesian|Bahasa Indonesia|id|
+|Irish|Gaeilge|ga|
 |Italian|italiano|it|
 |Japanese|日本語|ja|
 |Javanese|Basa Jawa|jv|
@@ -65,6 +68,7 @@ Syntax color works better with Atom One Dark theme.
 |Lithuanian|lietuvių kalba|lt|
 |Luxemburgish|Lëtzebuergesch|lu|
 |Malay|Bahasa Melayu|bm|
+|Mongolian|монгол|mn|
 |Norwegian|norsk|no|
 |Old English|Englisc|en-old|
 |Panjabi|ਪੰਜਾਬੀ|pa|

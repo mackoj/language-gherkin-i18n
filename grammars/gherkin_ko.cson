@@ -85,23 +85,23 @@
         ]
     }
     {
-        'match': '\\s*(조건|먼저)'
+        'match': '\\s*(* |조건|먼저)'
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(만일|만약)'
+        'match': '\\s*(* |만일|만약)'
         'name': 'support.class.gherkin.when'
     }
     {
-        'match': '\\s*(그러면)'
+        'match': '\\s*(* |그러면)'
         'name': 'support.class.gherkin.then'
     }
     {
-        'match': '\\s*(하지만|단)'
+        'match': '\\s*(* |하지만|단)'
         'name': 'support.class.gherkin.but'
     }
     {
-        'match': '\\s*(그리고)'
+        'match': '\\s*(* |그리고)'
         'name': 'support.class.gherkin.and'
     }
     {
@@ -113,15 +113,15 @@
         'name': 'entity.name.function.decorator.gherkin'
     }
     {
-        'match': '(\\<\\w+\\>)'
+        'match': '(\\<(\\w+\\s*)+\\>)'
         'name': 'constant.character.escape.feature'
     }
     {
-        'match': "(\\'.*?[^\\']\\')"
+        'match': "(\\s\\'.*?[^\\']\\'\\s)"
         'name': 'string.single.qoute.gherkin'
     }
     {
-        'match': '(\\".*?[^\\"]\\")'
+        'match': '(\\s\\".*?[^\\"]\\"\\s)'
         'name': 'string.double.qoute.gherkin'
     }
     {

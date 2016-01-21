@@ -14,6 +14,28 @@ function addQuote2($word)
     return("      '".$word.":'");
 }
 
+function convertNewGherkinLanguagesToOldi18n($i18nFilePath)
+{
+  $fileContent = file_get_contents($i18nFilePath);
+  $jsoni18nAssocArray = json_decode($fileContent, TRUE);
+  $newjson = array();
+  foreach ($jsoni18nAssocArray as $country => $pieces)
+  {
+    foreach ($pieces as $keyword => $values)
+    {
+      if (is_array($values))
+      {
+        $newjson[$country][$keyword] = implode("|", $values);
+      }
+      else 
+      {
+        $newjson[$country][$keyword] = $values;
+      }
+    }
+  }
+  file_put_contents($i18nFilePath, json_encode($newjson, JSON_PRETTY_PRINT));
+}
+
 function cleanLine($futureRegex)
 {
 	global $search1, $search2, $delimiter;

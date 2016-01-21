@@ -85,23 +85,23 @@
         ]
     }
     {
-        'match': '\\s*(Pokud|Za předpokladu)'
+        'match': '\\s*(* |Pokud |Za předpokladu )'
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(Když)'
+        'match': '\\s*(* |Když )'
         'name': 'support.class.gherkin.when'
     }
     {
-        'match': '\\s*(Pak)'
+        'match': '\\s*(* |Pak )'
         'name': 'support.class.gherkin.then'
     }
     {
-        'match': '\\s*(Ale)'
+        'match': '\\s*(* |Ale )'
         'name': 'support.class.gherkin.but'
     }
     {
-        'match': '\\s*(A také|A)'
+        'match': '\\s*(* |A také |A )'
         'name': 'support.class.gherkin.and'
     }
     {
@@ -113,15 +113,15 @@
         'name': 'entity.name.function.decorator.gherkin'
     }
     {
-        'match': '(\\<\\w+\\>)'
+        'match': '(\\<(\\w+\\s*)+\\>)'
         'name': 'constant.character.escape.feature'
     }
     {
-        'match': "(\\'.*?[^\\']\\')"
+        'match': "(\\s\\'.*?[^\\']\\'\\s)"
         'name': 'string.single.qoute.gherkin'
     }
     {
-        'match': '(\\".*?[^\\"]\\")'
+        'match': '(\\s\\".*?[^\\"]\\"\\s)'
         'name': 'string.double.qoute.gherkin'
     }
     {

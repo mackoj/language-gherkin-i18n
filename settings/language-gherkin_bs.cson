@@ -1,0 +1,28 @@
+'.text.gherkin.feature.bs':
+  'editor':
+    'completions': [
+      'Karakteristika:'
+      'Pozadina:'
+      'Scenariju:'
+      'Scenario:'
+      'Scenariju-obris:'
+      'Scenario-outline:'
+      'Primjeri:'
+      '* '
+      'Dato '
+      '* '
+      'Kada '
+      '* '
+      'Zatim '
+      '* '
+      'Ali '
+      '* '
+      'I '
+      'A '
+    ]
+    'increaseIndentPattern': [
+      'Scenariju: .*'
+      'Scenario: .*'
+
+    ]
+    'commentStart': '# '

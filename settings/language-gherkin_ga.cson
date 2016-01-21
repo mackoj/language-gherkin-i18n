@@ -1,0 +1,29 @@
+'.text.gherkin.feature.ga':
+  'editor':
+    'completions': [
+      'Gné:'
+      'Cúlra:'
+      'Cás:'
+      'Cás Achomair:'
+      'Samplaí:'
+      '* '
+      'Cuir i gcás go'
+      'Cuir i gcás nach'
+      'Cuir i gcás gur'
+      'Cuir i gcás nár'
+      '* '
+      'Nuair a'
+      'Nuair nach'
+      'Nuair ba'
+      'Nuair nár'
+      '* '
+      'Ansin'
+      '* '
+      'Ach'
+      '* '
+      'Agus'
+    ]
+    'increaseIndentPattern': [
+      'Cás: .*'
+    ]
+    'commentStart': '# '

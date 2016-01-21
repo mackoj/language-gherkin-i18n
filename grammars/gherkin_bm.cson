@@ -48,11 +48,11 @@
         'name': 'keyword.gherkin.background'
     }
     {
-        'match': '\\s*(Senario\\:|Situai\\:|Keadaan\\:)'
+        'match': '\\s*(Senario\\:|Situasi\\:|Keadaan\\:)'
         'name': 'keyword.gherkin.scenario'
     }
     {
-        'match': '\\s*(Template Senario\\:|Template Situai\\:|Template Keadaan\\:|Menggariskan Senario\\:)'
+        'match': '\\s*(Kerangka Senario\\:|Kerangka Situasi\\:|Kerangka Keadaan\\:|Garis Panduan Senario\\:)'
         'name': 'keyword.gherkin.scenario_outline'
     }
     {
@@ -85,23 +85,23 @@
         ]
     }
     {
-        'match': '\\s*(Diberi|Bagi)'
+        'match': '\\s*(* |Diberi |Bagi )'
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(Apabila)'
+        'match': '\\s*(* |Apabila )'
         'name': 'support.class.gherkin.when'
     }
     {
-        'match': '\\s*(Maka|Kemudian)'
+        'match': '\\s*(* |Maka |Kemudian )'
         'name': 'support.class.gherkin.then'
     }
     {
-        'match': '\\s*(Tetapi|Tapi)'
+        'match': '\\s*(* |Tetapi |Tapi )'
         'name': 'support.class.gherkin.but'
     }
     {
-        'match': '\\s*(Dan)'
+        'match': '\\s*(* |Dan )'
         'name': 'support.class.gherkin.and'
     }
     {
@@ -113,15 +113,15 @@
         'name': 'entity.name.function.decorator.gherkin'
     }
     {
-        'match': '(\\<\\w+\\>)'
+        'match': '(\\<(\\w+\\s*)+\\>)'
         'name': 'constant.character.escape.feature'
     }
     {
-        'match': "(\\'.*?[^\\']\\')"
+        'match': "(\\s\\'.*?[^\\']\\'\\s)"
         'name': 'string.single.qoute.gherkin'
     }
     {
-        'match': '(\\".*?[^\\"]\\")'
+        'match': '(\\s\\".*?[^\\"]\\"\\s)'
         'name': 'string.double.qoute.gherkin'
     }
     {
