@@ -85,23 +85,23 @@
         ]
     }
     {
-        'match': '\\s*(* |Әйтик )'
+        'match': '\\s*(Әйтик)'
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(* |Әгәр )'
+        'match': '\\s*(Әгәр)'
         'name': 'support.class.gherkin.when'
     }
     {
-        'match': '\\s*(* |Нәтиҗәдә )'
+        'match': '\\s*(Нәтиҗәдә)'
         'name': 'support.class.gherkin.then'
     }
     {
-        'match': '\\s*(* |Ләкин |Әмма )'
+        'match': '\\s*(Ләкин|Әмма)'
         'name': 'support.class.gherkin.but'
     }
     {
-        'match': '\\s*(* |Һәм |Вә )'
+        'match': '\\s*(Һәм|Вә)'
         'name': 'support.class.gherkin.and'
     }
     {

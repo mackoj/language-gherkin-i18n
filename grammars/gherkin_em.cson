@@ -85,23 +85,23 @@
         ]
     }
     {
-        'match': '\\s*(* |😐)'
+        'match': '\\s*(😐)'
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(* |🎬)'
+        'match': '\\s*(🎬)'
         'name': 'support.class.gherkin.when'
     }
     {
-        'match': '\\s*(* |🙏)'
+        'match': '\\s*(🙏)'
         'name': 'support.class.gherkin.then'
     }
     {
-        'match': '\\s*(* |😔)'
+        'match': '\\s*(😔)'
         'name': 'support.class.gherkin.but'
     }
     {
-        'match': '\\s*(* |😂)'
+        'match': '\\s*(😂)'
         'name': 'support.class.gherkin.and'
     }
     {

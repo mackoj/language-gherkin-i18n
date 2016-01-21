@@ -85,23 +85,23 @@
         ]
     }
     {
-        'match': '\\s*(* |بفرض )'
+        'match': '\\s*(بفرض)'
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(* |متى |عندما )'
+        'match': '\\s*(متى|عندما)'
         'name': 'support.class.gherkin.when'
     }
     {
-        'match': '\\s*(* |اذاً |ثم )'
+        'match': '\\s*(اذاً|ثم)'
         'name': 'support.class.gherkin.then'
     }
     {
-        'match': '\\s*(* |لكن )'
+        'match': '\\s*(لكن)'
         'name': 'support.class.gherkin.but'
     }
     {
-        'match': '\\s*(* |و )'
+        'match': '\\s*(و)'
         'name': 'support.class.gherkin.and'
     }
     {

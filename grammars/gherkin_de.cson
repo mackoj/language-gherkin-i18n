@@ -85,23 +85,23 @@
         ]
     }
     {
-        'match': '\\s*(* |Angenommen |Gegeben sei |Gegeben seien )'
+        'match': '\\s*(Angenommen|Gegeben sei|Gegeben seien)'
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(* |Wenn )'
+        'match': '\\s*(Wenn)'
         'name': 'support.class.gherkin.when'
     }
     {
-        'match': '\\s*(* |Dann )'
+        'match': '\\s*(Dann)'
         'name': 'support.class.gherkin.then'
     }
     {
-        'match': '\\s*(* |Aber )'
+        'match': '\\s*(Aber)'
         'name': 'support.class.gherkin.but'
     }
     {
-        'match': '\\s*(* |Und )'
+        'match': '\\s*(Und)'
         'name': 'support.class.gherkin.and'
     }
     {

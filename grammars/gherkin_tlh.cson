@@ -85,23 +85,23 @@
         ]
     }
     {
-        'match': '\\s*(* |ghu\' noblu\' |DaH ghu\' bejlu\' )'
+        'match': '\\s*(ghu\' noblu\'|DaH ghu\' bejlu\')'
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(* |qaSDI\' )'
+        'match': '\\s*(qaSDI\')'
         'name': 'support.class.gherkin.when'
     }
     {
-        'match': '\\s*(* |vaj )'
+        'match': '\\s*(vaj)'
         'name': 'support.class.gherkin.then'
     }
     {
-        'match': '\\s*(* |\'ach |\'a )'
+        'match': '\\s*(\'ach|\'a)'
         'name': 'support.class.gherkin.but'
     }
     {
-        'match': '\\s*(* |\'ej |latlh )'
+        'match': '\\s*(\'ej|latlh)'
         'name': 'support.class.gherkin.and'
     }
     {

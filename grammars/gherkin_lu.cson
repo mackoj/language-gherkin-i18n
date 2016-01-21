@@ -85,23 +85,23 @@
         ]
     }
     {
-        'match': '\\s*(* |ugeholl )'
+        'match': '\\s*(ugeholl)'
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(* |wann )'
+        'match': '\\s*(wann)'
         'name': 'support.class.gherkin.when'
     }
     {
-        'match': '\\s*(* |dann )'
+        'match': '\\s*(dann)'
         'name': 'support.class.gherkin.then'
     }
     {
-        'match': '\\s*(* |awer |mä )'
+        'match': '\\s*(awer|mä)'
         'name': 'support.class.gherkin.but'
     }
     {
-        'match': '\\s*(* |an |a )'
+        'match': '\\s*(an|a)'
         'name': 'support.class.gherkin.and'
     }
     {

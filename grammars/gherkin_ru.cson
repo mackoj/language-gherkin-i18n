@@ -85,23 +85,23 @@
         ]
     }
     {
-        'match': '\\s*(* |Допустим |Дано |Пусть )'
+        'match': '\\s*(Допустим|Дано|Пусть)'
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(* |Если |Когда )'
+        'match': '\\s*(Если|Когда)'
         'name': 'support.class.gherkin.when'
     }
     {
-        'match': '\\s*(* |То |Тогда )'
+        'match': '\\s*(То|Тогда)'
         'name': 'support.class.gherkin.then'
     }
     {
-        'match': '\\s*(* |Но |А )'
+        'match': '\\s*(Но|А)'
         'name': 'support.class.gherkin.but'
     }
     {
-        'match': '\\s*(* |И |К тому же |Также )'
+        'match': '\\s*(И|К тому же|Также)'
         'name': 'support.class.gherkin.and'
     }
     {

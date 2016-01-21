@@ -85,23 +85,23 @@
         ]
     }
     {
-        'match': '\\s*(* |Amennyiben |Adott )'
+        'match': '\\s*(Amennyiben|Adott)'
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(* |Majd |Ha |Amikor )'
+        'match': '\\s*(Majd|Ha|Amikor)'
         'name': 'support.class.gherkin.when'
     }
     {
-        'match': '\\s*(* |Akkor )'
+        'match': '\\s*(Akkor)'
         'name': 'support.class.gherkin.then'
     }
     {
-        'match': '\\s*(* |De )'
+        'match': '\\s*(De)'
         'name': 'support.class.gherkin.but'
     }
     {
-        'match': '\\s*(* |És )'
+        'match': '\\s*(És)'
         'name': 'support.class.gherkin.and'
     }
     {

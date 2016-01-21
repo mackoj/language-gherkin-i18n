@@ -85,23 +85,23 @@
         ]
     }
     {
-        'match': '\\s*(* |Givet )'
+        'match': '\\s*(Givet)'
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(* |Når )'
+        'match': '\\s*(Når)'
         'name': 'support.class.gherkin.when'
     }
     {
-        'match': '\\s*(* |Så )'
+        'match': '\\s*(Så)'
         'name': 'support.class.gherkin.then'
     }
     {
-        'match': '\\s*(* |Men )'
+        'match': '\\s*(Men)'
         'name': 'support.class.gherkin.but'
     }
     {
-        'match': '\\s*(* |Og )'
+        'match': '\\s*(Og)'
         'name': 'support.class.gherkin.and'
     }
     {

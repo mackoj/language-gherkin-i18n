@@ -1,9 +1,14 @@
+# 1.3.0
+
+  * Support new gherkin-languages.json file format
+  * Update Grammar and Settings from last [gherkin-languages.json](https://github.com/cucumber/gherkin/blob/master/gherkin-languages.json) update
+  * Minor Readme / Changelog / package.json modification
+
 # 1.2.1
 
   * [Issue #4](https://github.com/mackoj/language-gherkin-i18n/issues/4): Update gnerateGlobalConfig.php to autodetect language in CRLF and LF line ending files 
   * Update Grammar and Settings from last  [i18n.json](https://github.com/cucumber/gherkin/blob/master/lib/gherkin/i18n.json) update
   * Minor Readme / Changelog / package.json modification
-
 
 # 1.2.0
 

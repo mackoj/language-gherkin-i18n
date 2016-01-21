@@ -85,23 +85,23 @@
         ]
     }
     {
-        'match': '\\s*(* |Date fiind |Dat fiind |Dati fiind |Dați fiind |Daţi fiind )'
+        'match': '\\s*(Date fiind|Dat fiind|Dati fiind|Dați fiind|Daţi fiind)'
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(* |Cand |Când )'
+        'match': '\\s*(Cand|Când)'
         'name': 'support.class.gherkin.when'
     }
     {
-        'match': '\\s*(* |Atunci )'
+        'match': '\\s*(Atunci)'
         'name': 'support.class.gherkin.then'
     }
     {
-        'match': '\\s*(* |Dar )'
+        'match': '\\s*(Dar)'
         'name': 'support.class.gherkin.but'
     }
     {
-        'match': '\\s*(* |Si |Și |Şi )'
+        'match': '\\s*(Si|Și|Şi)'
         'name': 'support.class.gherkin.and'
     }
     {

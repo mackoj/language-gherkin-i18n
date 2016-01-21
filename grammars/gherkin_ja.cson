@@ -85,23 +85,23 @@
         ]
     }
     {
-        'match': '\\s*(* |前提)'
+        'match': '\\s*(前提)'
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(* |もし)'
+        'match': '\\s*(もし)'
         'name': 'support.class.gherkin.when'
     }
     {
-        'match': '\\s*(* |ならば)'
+        'match': '\\s*(ならば)'
         'name': 'support.class.gherkin.then'
     }
     {
-        'match': '\\s*(* |しかし|但し|ただし)'
+        'match': '\\s*(しかし|但し|ただし)'
         'name': 'support.class.gherkin.but'
     }
     {
-        'match': '\\s*(* |かつ)'
+        'match': '\\s*(かつ)'
         'name': 'support.class.gherkin.and'
     }
     {

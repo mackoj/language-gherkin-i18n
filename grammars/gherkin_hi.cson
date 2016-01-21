@@ -85,23 +85,23 @@
         ]
     }
     {
-        'match': '\\s*(* |अगर |यदि |चूंकि )'
+        'match': '\\s*(अगर|यदि|चूंकि)'
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(* |जब |कदा )'
+        'match': '\\s*(जब|कदा)'
         'name': 'support.class.gherkin.when'
     }
     {
-        'match': '\\s*(* |तब |तदा )'
+        'match': '\\s*(तब|तदा)'
         'name': 'support.class.gherkin.then'
     }
     {
-        'match': '\\s*(* |पर |परन्तु |किन्तु )'
+        'match': '\\s*(पर|परन्तु|किन्तु)'
         'name': 'support.class.gherkin.but'
     }
     {
-        'match': '\\s*(* |और |तथा )'
+        'match': '\\s*(और|तथा)'
         'name': 'support.class.gherkin.and'
     }
     {

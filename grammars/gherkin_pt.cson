@@ -85,23 +85,23 @@
         ]
     }
     {
-        'match': '\\s*(* |Dado |Dada |Dados |Dadas )'
+        'match': '\\s*(Dado|Dada|Dados|Dadas)'
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(* |Quando )'
+        'match': '\\s*(Quando)'
         'name': 'support.class.gherkin.when'
     }
     {
-        'match': '\\s*(* |Então |Entao )'
+        'match': '\\s*(Então|Entao)'
         'name': 'support.class.gherkin.then'
     }
     {
-        'match': '\\s*(* |Mas )'
+        'match': '\\s*(Mas)'
         'name': 'support.class.gherkin.but'
     }
     {
-        'match': '\\s*(* |E )'
+        'match': '\\s*(E)'
         'name': 'support.class.gherkin.and'
     }
     {

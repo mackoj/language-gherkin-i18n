@@ -85,23 +85,23 @@
         ]
     }
     {
-        'match': '\\s*(* |Dato )'
+        'match': '\\s*(Dato)'
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(* |Kada )'
+        'match': '\\s*(Kada)'
         'name': 'support.class.gherkin.when'
     }
     {
-        'match': '\\s*(* |Zatim )'
+        'match': '\\s*(Zatim)'
         'name': 'support.class.gherkin.then'
     }
     {
-        'match': '\\s*(* |Ali )'
+        'match': '\\s*(Ali)'
         'name': 'support.class.gherkin.but'
     }
     {
-        'match': '\\s*(* |I |A )'
+        'match': '\\s*(I|A)'
         'name': 'support.class.gherkin.and'
     }
     {

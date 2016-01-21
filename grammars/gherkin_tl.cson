@@ -85,23 +85,23 @@
         ]
     }
     {
-        'match': '\\s*(* |చెప్పబడినది )'
+        'match': '\\s*(చెప్పబడినది)'
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(* |ఈ పరిస్థితిలో )'
+        'match': '\\s*(ఈ పరిస్థితిలో)'
         'name': 'support.class.gherkin.when'
     }
     {
-        'match': '\\s*(* |అప్పుడు )'
+        'match': '\\s*(అప్పుడు)'
         'name': 'support.class.gherkin.then'
     }
     {
-        'match': '\\s*(* |కాని )'
+        'match': '\\s*(కాని)'
         'name': 'support.class.gherkin.but'
     }
     {
-        'match': '\\s*(* |మరియు )'
+        'match': '\\s*(మరియు)'
         'name': 'support.class.gherkin.and'
     }
     {

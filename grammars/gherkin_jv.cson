@@ -85,23 +85,23 @@
         ]
     }
     {
-        'match': '\\s*(* |Nalika |Nalikaning )'
+        'match': '\\s*(Nalika|Nalikaning)'
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(* |Manawa |Menawa )'
+        'match': '\\s*(Manawa|Menawa)'
         'name': 'support.class.gherkin.when'
     }
     {
-        'match': '\\s*(* |Njuk |Banjur )'
+        'match': '\\s*(Njuk|Banjur)'
         'name': 'support.class.gherkin.then'
     }
     {
-        'match': '\\s*(* |Tapi |Nanging |Ananging )'
+        'match': '\\s*(Tapi|Nanging|Ananging)'
         'name': 'support.class.gherkin.but'
     }
     {
-        'match': '\\s*(* |Lan )'
+        'match': '\\s*(Lan)'
         'name': 'support.class.gherkin.and'
     }
     {

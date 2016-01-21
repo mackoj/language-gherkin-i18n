@@ -85,23 +85,23 @@
         ]
     }
     {
-        'match': '\\s*(* |Dato |Data |Dati |Date )'
+        'match': '\\s*(Dato|Data|Dati|Date)'
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(* |Quando )'
+        'match': '\\s*(Quando)'
         'name': 'support.class.gherkin.when'
     }
     {
-        'match': '\\s*(* |Allora )'
+        'match': '\\s*(Allora)'
         'name': 'support.class.gherkin.then'
     }
     {
-        'match': '\\s*(* |Ma )'
+        'match': '\\s*(Ma)'
         'name': 'support.class.gherkin.but'
     }
     {
-        'match': '\\s*(* |E )'
+        'match': '\\s*(E)'
         'name': 'support.class.gherkin.and'
     }
     {

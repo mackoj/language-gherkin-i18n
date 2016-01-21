@@ -85,23 +85,23 @@
         ]
     }
     {
-        'match': '\\s*(* |Cuir i gcás go|Cuir i gcás nach|Cuir i gcás gur|Cuir i gcás nár)'
+        'match': '\\s*(Cuir i gcás go|Cuir i gcás nach|Cuir i gcás gur|Cuir i gcás nár)'
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(* |Nuair a|Nuair nach|Nuair ba|Nuair nár)'
+        'match': '\\s*(Nuair a|Nuair nach|Nuair ba|Nuair nár)'
         'name': 'support.class.gherkin.when'
     }
     {
-        'match': '\\s*(* |Ansin)'
+        'match': '\\s*(Ansin)'
         'name': 'support.class.gherkin.then'
     }
     {
-        'match': '\\s*(* |Ach)'
+        'match': '\\s*(Ach)'
         'name': 'support.class.gherkin.but'
     }
     {
-        'match': '\\s*(* |Agus)'
+        'match': '\\s*(Agus)'
         'name': 'support.class.gherkin.and'
     }
     {
