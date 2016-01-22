@@ -1,3 +1,7 @@
+# 1.3.2
+
+  * Fix issue #11
+
 # 1.3.1
 
   * Disable CRLF fix
@@ -10,7 +14,7 @@
 
 # 1.2.1
 
-  * [Issue #4](https://github.com/mackoj/language-gherkin-i18n/issues/4): Update gnerateGlobalConfig.php to autodetect language in CRLF and LF line ending files 
+  * [Issue #4](https://github.com/mackoj/language-gherkin-i18n/issues/4): Update gnerateGlobalConfig.php to autodetect language in CRLF and LF line ending files
   * Update Grammar and Settings from last  [i18n.json](https://github.com/cucumber/gherkin/blob/master/lib/gherkin/i18n.json) update
   * Minor Readme / Changelog / package.json modification
 
