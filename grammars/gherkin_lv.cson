@@ -85,23 +85,23 @@
         ]
     }
     {
-        'match': '\\s*(Kad)'
+        'match': '\\s*(Kad )'
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(Ja)'
+        'match': '\\s*(Ja )'
         'name': 'support.class.gherkin.when'
     }
     {
-        'match': '\\s*(Tad)'
+        'match': '\\s*(Tad )'
         'name': 'support.class.gherkin.then'
     }
     {
-        'match': '\\s*(Bet)'
+        'match': '\\s*(Bet )'
         'name': 'support.class.gherkin.but'
     }
     {
-        'match': '\\s*(Un)'
+        'match': '\\s*(Un )'
         'name': 'support.class.gherkin.and'
     }
     {

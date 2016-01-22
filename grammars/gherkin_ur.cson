@@ -85,23 +85,23 @@
         ]
     }
     {
-        'match': '\\s*(اگر|بالفرض|فرض کیا)'
+        'match': '\\s*(اگر |بالفرض |فرض کیا )'
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(جب)'
+        'match': '\\s*(جب )'
         'name': 'support.class.gherkin.when'
     }
     {
-        'match': '\\s*(پھر|تب)'
+        'match': '\\s*(پھر |تب )'
         'name': 'support.class.gherkin.then'
     }
     {
-        'match': '\\s*(لیکن)'
+        'match': '\\s*(لیکن )'
         'name': 'support.class.gherkin.but'
     }
     {
-        'match': '\\s*(اور)'
+        'match': '\\s*(اور )'
         'name': 'support.class.gherkin.and'
     }
     {

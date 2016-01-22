@@ -28,14 +28,14 @@ function convertNewGherkinLanguagesToOldi18n($i18nFilePath)
         $futureValues = array();
         foreach ($values as $tmpVal)
         {
-          if (strcmp($tmpVal, "* ") != 0) 
+          if (strcmp($tmpVal, "* ") != 0)
           {
-            $futureValues[] = trim($tmpVal);
+            $futureValues[] = $tmpVal;
           }
         }
         $newjson[$country][$keyword] = implode("|", $futureValues);
       }
-      else 
+      else
       {
         $newjson[$country][$keyword] = $values;
       }

@@ -8,12 +8,12 @@
       'Scenariju-obris:'
       'Scenario-outline:'
       'Primjeri:'
-      'Dato'
-      'Kada'
-      'Zatim'
-      'Ali'
-      'I'
-      'A'
+      'Dato '
+      'Kada '
+      'Zatim '
+      'Ali '
+      'I '
+      'A '
     ]
     'increaseIndentPattern': [
       'Scenariju: .*'

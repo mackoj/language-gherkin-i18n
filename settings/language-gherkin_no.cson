@@ -7,11 +7,11 @@
       'Scenariomal:'
       'Abstrakt Scenario:'
       'Eksempler:'
-      'Gitt'
-      'Når'
-      'Så'
-      'Men'
-      'Og'
+      'Gitt '
+      'Når '
+      'Så '
+      'Men '
+      'Og '
     ]
     'increaseIndentPattern': [
       'Scenario: .*'

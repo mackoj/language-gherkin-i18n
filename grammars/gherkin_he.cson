@@ -85,23 +85,23 @@
         ]
     }
     {
-        'match': '\\s*(בהינתן)'
+        'match': '\\s*(בהינתן )'
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(כאשר)'
+        'match': '\\s*(כאשר )'
         'name': 'support.class.gherkin.when'
     }
     {
-        'match': '\\s*(אז|אזי)'
+        'match': '\\s*(אז |אזי )'
         'name': 'support.class.gherkin.then'
     }
     {
-        'match': '\\s*(אבל)'
+        'match': '\\s*(אבל )'
         'name': 'support.class.gherkin.but'
     }
     {
-        'match': '\\s*(וגם)'
+        'match': '\\s*(וגם )'
         'name': 'support.class.gherkin.and'
     }
     {

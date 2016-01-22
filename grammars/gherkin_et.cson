@@ -85,23 +85,23 @@
         ]
     }
     {
-        'match': '\\s*(Eeldades)'
+        'match': '\\s*(Eeldades )'
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(Kui)'
+        'match': '\\s*(Kui )'
         'name': 'support.class.gherkin.when'
     }
     {
-        'match': '\\s*(Siis)'
+        'match': '\\s*(Siis )'
         'name': 'support.class.gherkin.then'
     }
     {
-        'match': '\\s*(Kuid)'
+        'match': '\\s*(Kuid )'
         'name': 'support.class.gherkin.but'
     }
     {
-        'match': '\\s*(Ja)'
+        'match': '\\s*(Ja )'
         'name': 'support.class.gherkin.and'
     }
     {

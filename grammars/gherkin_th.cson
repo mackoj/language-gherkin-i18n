@@ -85,23 +85,23 @@
         ]
     }
     {
-        'match': '\\s*(กำหนดให้)'
+        'match': '\\s*(กำหนดให้ )'
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(เมื่อ)'
+        'match': '\\s*(เมื่อ )'
         'name': 'support.class.gherkin.when'
     }
     {
-        'match': '\\s*(ดังนั้น)'
+        'match': '\\s*(ดังนั้น )'
         'name': 'support.class.gherkin.then'
     }
     {
-        'match': '\\s*(แต่)'
+        'match': '\\s*(แต่ )'
         'name': 'support.class.gherkin.but'
     }
     {
-        'match': '\\s*(และ)'
+        'match': '\\s*(และ )'
         'name': 'support.class.gherkin.and'
     }
     {

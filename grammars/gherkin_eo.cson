@@ -85,23 +85,23 @@
         ]
     }
     {
-        'match': '\\s*(Donitaĵo|Komence)'
+        'match': '\\s*(Donitaĵo |Komence )'
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(Se)'
+        'match': '\\s*(Se )'
         'name': 'support.class.gherkin.when'
     }
     {
-        'match': '\\s*(Do)'
+        'match': '\\s*(Do )'
         'name': 'support.class.gherkin.then'
     }
     {
-        'match': '\\s*(Sed)'
+        'match': '\\s*(Sed )'
         'name': 'support.class.gherkin.but'
     }
     {
-        'match': '\\s*(Kaj)'
+        'match': '\\s*(Kaj )'
         'name': 'support.class.gherkin.and'
     }
     {

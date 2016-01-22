@@ -85,23 +85,23 @@
         ]
     }
     {
-        'match': '\\s*(Anrhegedig a)'
+        'match': '\\s*(Anrhegedig a )'
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(Pryd)'
+        'match': '\\s*(Pryd )'
         'name': 'support.class.gherkin.when'
     }
     {
-        'match': '\\s*(Yna)'
+        'match': '\\s*(Yna )'
         'name': 'support.class.gherkin.then'
     }
     {
-        'match': '\\s*(Ond)'
+        'match': '\\s*(Ond )'
         'name': 'support.class.gherkin.but'
     }
     {
-        'match': '\\s*(A)'
+        'match': '\\s*(A )'
         'name': 'support.class.gherkin.and'
     }
     {

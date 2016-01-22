@@ -85,23 +85,23 @@
         ]
     }
     {
-        'match': '\\s*(Gegeven|Stel)'
+        'match': '\\s*(Gegeven |Stel )'
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(Als)'
+        'match': '\\s*(Als )'
         'name': 'support.class.gherkin.when'
     }
     {
-        'match': '\\s*(Dan)'
+        'match': '\\s*(Dan )'
         'name': 'support.class.gherkin.then'
     }
     {
-        'match': '\\s*(Maar)'
+        'match': '\\s*(Maar )'
         'name': 'support.class.gherkin.but'
     }
     {
-        'match': '\\s*(En)'
+        'match': '\\s*(En )'
         'name': 'support.class.gherkin.and'
     }
     {

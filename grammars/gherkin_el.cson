@@ -85,23 +85,23 @@
         ]
     }
     {
-        'match': '\\s*(Δεδομένου)'
+        'match': '\\s*(Δεδομένου )'
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(Όταν)'
+        'match': '\\s*(Όταν )'
         'name': 'support.class.gherkin.when'
     }
     {
-        'match': '\\s*(Τότε)'
+        'match': '\\s*(Τότε )'
         'name': 'support.class.gherkin.then'
     }
     {
-        'match': '\\s*(Αλλά)'
+        'match': '\\s*(Αλλά )'
         'name': 'support.class.gherkin.but'
     }
     {
-        'match': '\\s*(Και)'
+        'match': '\\s*(Και )'
         'name': 'support.class.gherkin.and'
     }
     {

@@ -6,11 +6,11 @@
       'Skenario:'
       'Skenario konsep:'
       'Contoh:'
-      'Dengan'
-      'Ketika'
-      'Maka'
-      'Tapi'
-      'Dan'
+      'Dengan '
+      'Ketika '
+      'Maka '
+      'Tapi '
+      'Dan '
     ]
     'increaseIndentPattern': [
       'Skenario: .*'

@@ -8,11 +8,11 @@
       'Pavyzdžiai:'
       'Scenarijai:'
       'Variantai:'
-      'Duota'
-      'Kai'
-      'Tada'
-      'Bet'
-      'Ir'
+      'Duota '
+      'Kai '
+      'Tada '
+      'Bet '
+      'Ir '
     ]
     'increaseIndentPattern': [
       'Scenarijus: .*'

@@ -85,23 +85,23 @@
         ]
     }
     {
-        'match': '\\s*(Oletetaan)'
+        'match': '\\s*(Oletetaan )'
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(Kun)'
+        'match': '\\s*(Kun )'
         'name': 'support.class.gherkin.when'
     }
     {
-        'match': '\\s*(Niin)'
+        'match': '\\s*(Niin )'
         'name': 'support.class.gherkin.then'
     }
     {
-        'match': '\\s*(Mutta)'
+        'match': '\\s*(Mutta )'
         'name': 'support.class.gherkin.but'
     }
     {
-        'match': '\\s*(Ja)'
+        'match': '\\s*(Ja )'
         'name': 'support.class.gherkin.and'
     }
     {

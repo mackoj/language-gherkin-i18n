@@ -85,23 +85,23 @@
         ]
     }
     {
-        'match': '\\s*(Pokiaľ|Za predpokladu)'
+        'match': '\\s*(Pokiaľ |Za predpokladu )'
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(Keď|Ak)'
+        'match': '\\s*(Keď |Ak )'
         'name': 'support.class.gherkin.when'
     }
     {
-        'match': '\\s*(Tak|Potom)'
+        'match': '\\s*(Tak |Potom )'
         'name': 'support.class.gherkin.then'
     }
     {
-        'match': '\\s*(Ale)'
+        'match': '\\s*(Ale )'
         'name': 'support.class.gherkin.but'
     }
     {
-        'match': '\\s*(A|A tiež|A taktiež|A zároveň)'
+        'match': '\\s*(A |A tiež |A taktiež |A zároveň )'
         'name': 'support.class.gherkin.and'
     }
     {

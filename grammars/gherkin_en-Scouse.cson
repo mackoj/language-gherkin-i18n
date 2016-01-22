@@ -85,23 +85,23 @@
         ]
     }
     {
-        'match': '\\s*(Givun|Youse know when youse got)'
+        'match': '\\s*(Givun |Youse know when youse got )'
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(Wun|Youse know like when)'
+        'match': '\\s*(Wun |Youse know like when )'
         'name': 'support.class.gherkin.when'
     }
     {
-        'match': '\\s*(Dun|Den youse gotta)'
+        'match': '\\s*(Dun |Den youse gotta )'
         'name': 'support.class.gherkin.then'
     }
     {
-        'match': '\\s*(Buh)'
+        'match': '\\s*(Buh )'
         'name': 'support.class.gherkin.but'
     }
     {
-        'match': '\\s*(An)'
+        'match': '\\s*(An )'
         'name': 'support.class.gherkin.and'
     }
     {

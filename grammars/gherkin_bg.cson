@@ -85,23 +85,23 @@
         ]
     }
     {
-        'match': '\\s*(Дадено)'
+        'match': '\\s*(Дадено )'
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(Когато)'
+        'match': '\\s*(Когато )'
         'name': 'support.class.gherkin.when'
     }
     {
-        'match': '\\s*(То)'
+        'match': '\\s*(То )'
         'name': 'support.class.gherkin.then'
     }
     {
-        'match': '\\s*(Но)'
+        'match': '\\s*(Но )'
         'name': 'support.class.gherkin.but'
     }
     {
-        'match': '\\s*(И)'
+        'match': '\\s*(И )'
         'name': 'support.class.gherkin.and'
     }
     {

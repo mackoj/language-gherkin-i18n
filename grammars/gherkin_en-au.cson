@@ -85,23 +85,23 @@
         ]
     }
     {
-        'match': '\\s*(Y\'know)'
+        'match': '\\s*(Y\'know )'
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(It\'s just unbelievable)'
+        'match': '\\s*(It\'s just unbelievable )'
         'name': 'support.class.gherkin.when'
     }
     {
-        'match': '\\s*(But at the end of the day I reckon)'
+        'match': '\\s*(But at the end of the day I reckon )'
         'name': 'support.class.gherkin.then'
     }
     {
-        'match': '\\s*(Yeah nah)'
+        'match': '\\s*(Yeah nah )'
         'name': 'support.class.gherkin.but'
     }
     {
-        'match': '\\s*(Too right)'
+        'match': '\\s*(Too right )'
         'name': 'support.class.gherkin.and'
     }
     {

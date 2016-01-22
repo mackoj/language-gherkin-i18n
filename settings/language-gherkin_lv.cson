@@ -9,11 +9,11 @@
       'Scenārijs pēc parauga:'
       'Piemēri:'
       'Paraugs:'
-      'Kad'
-      'Ja'
-      'Tad'
-      'Bet'
-      'Un'
+      'Kad '
+      'Ja '
+      'Tad '
+      'Bet '
+      'Un '
     ]
     'increaseIndentPattern': [
       'Scenārijs: .*'

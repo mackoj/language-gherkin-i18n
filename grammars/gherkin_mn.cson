@@ -85,23 +85,23 @@
         ]
     }
     {
-        'match': '\\s*(Өгөгдсөн нь|Анх)'
+        'match': '\\s*(Өгөгдсөн нь |Анх )'
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(Хэрэв)'
+        'match': '\\s*(Хэрэв )'
         'name': 'support.class.gherkin.when'
     }
     {
-        'match': '\\s*(Тэгэхэд|Үүний дараа)'
+        'match': '\\s*(Тэгэхэд |Үүний дараа )'
         'name': 'support.class.gherkin.then'
     }
     {
-        'match': '\\s*(Гэхдээ|Харин)'
+        'match': '\\s*(Гэхдээ |Харин )'
         'name': 'support.class.gherkin.but'
     }
     {
-        'match': '\\s*(Мөн|Тэгээд)'
+        'match': '\\s*(Мөн |Тэгээд )'
         'name': 'support.class.gherkin.and'
     }
     {
