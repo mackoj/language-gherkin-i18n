@@ -1,6 +1,6 @@
 'scopeName': 'text.gherkin.feature.eo'
 'name': 'Gherkin-eo'
-'firstLineMatch' : '^# language: eo$(\r)?\n'
+'firstLineMatch' : '\# language\: eo'
 'fileTypes': [ 'feature' ]
 'patterns': [
     {

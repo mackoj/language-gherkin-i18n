@@ -1,6 +1,6 @@
 'scopeName': 'text.gherkin.feature.hu'
 'name': 'Gherkin-hu'
-'firstLineMatch' : '^# language: hu$(\r)?\n'
+'firstLineMatch' : '\# language\: hu'
 'fileTypes': [ 'feature' ]
 'patterns': [
     {

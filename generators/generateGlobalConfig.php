@@ -20,7 +20,7 @@ $smallLangWithADot = "__SMALLLANG_DOT__";
 $templateFolder = "/template";
 
 // Grammar
-$firstLineMatchLine = "'firstLineMatch' : '^# language: __LANG__$(\\r)?\\n'";
+$firstLineMatchLine = "'firstLineMatch' : '\\# language\\: __LANG__'";
 
 $grammarTemplateKeys = [
 	"__FEATURE__" => [ "name" => "feature", "separator" => "\\\\:|" ],

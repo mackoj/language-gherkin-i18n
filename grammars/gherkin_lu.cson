@@ -1,6 +1,6 @@
 'scopeName': 'text.gherkin.feature.lu'
 'name': 'Gherkin-lu'
-'firstLineMatch' : '^# language: lu$(\r)?\n'
+'firstLineMatch' : '\# language\: lu'
 'fileTypes': [ 'feature' ]
 'patterns': [
     {

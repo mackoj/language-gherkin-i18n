@@ -1,6 +1,6 @@
 'scopeName': 'text.gherkin.feature.ga'
 'name': 'Gherkin-ga'
-'firstLineMatch' : '^# language: ga$(\r)?\n'
+'firstLineMatch' : '\# language\: ga'
 'fileTypes': [ 'feature' ]
 'patterns': [
     {

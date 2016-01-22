@@ -1,6 +1,6 @@
 'scopeName': 'text.gherkin.feature.en-old'
 'name': 'Gherkin-en-old'
-'firstLineMatch' : '^# language: en-old$(\r)?\n'
+'firstLineMatch' : '\# language\: en-old'
 'fileTypes': [ 'feature' ]
 'patterns': [
     {

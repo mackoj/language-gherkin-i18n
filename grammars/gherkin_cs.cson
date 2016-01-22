@@ -1,6 +1,6 @@
 'scopeName': 'text.gherkin.feature.cs'
 'name': 'Gherkin-cs'
-'firstLineMatch' : '^# language: cs$(\r)?\n'
+'firstLineMatch' : '\# language\: cs'
 'fileTypes': [ 'feature' ]
 'patterns': [
     {

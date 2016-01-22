@@ -1,6 +1,6 @@
 'scopeName': 'text.gherkin.feature.ca'
 'name': 'Gherkin-ca'
-'firstLineMatch' : '^# language: ca$(\r)?\n'
+'firstLineMatch' : '\# language\: ca'
 'fileTypes': [ 'feature' ]
 'patterns': [
     {

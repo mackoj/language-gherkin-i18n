@@ -1,6 +1,6 @@
 'scopeName': 'text.gherkin.feature.ru'
 'name': 'Gherkin-ru'
-'firstLineMatch' : '^# language: ru$(\r)?\n'
+'firstLineMatch' : '\# language\: ru'
 'fileTypes': [ 'feature' ]
 'patterns': [
     {

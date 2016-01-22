@@ -1,6 +1,6 @@
 'scopeName': 'text.gherkin.feature.en-Scouse'
 'name': 'Gherkin-en-Scouse'
-'firstLineMatch' : '^# language: en-Scouse$(\r)?\n'
+'firstLineMatch' : '\# language\: en-Scouse'
 'fileTypes': [ 'feature' ]
 'patterns': [
     {

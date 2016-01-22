@@ -1,6 +1,6 @@
 'scopeName': 'text.gherkin.feature.mn'
 'name': 'Gherkin-mn'
-'firstLineMatch' : '^# language: mn$(\r)?\n'
+'firstLineMatch' : '\# language\: mn'
 'fileTypes': [ 'feature' ]
 'patterns': [
     {

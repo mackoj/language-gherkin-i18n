@@ -1,6 +1,6 @@
 'scopeName': 'text.gherkin.feature.gj'
 'name': 'Gherkin-gj'
-'firstLineMatch' : '^# language: gj$(\r)?\n'
+'firstLineMatch' : '\# language\: gj'
 'fileTypes': [ 'feature' ]
 'patterns': [
     {

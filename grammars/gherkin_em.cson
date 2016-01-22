@@ -1,6 +1,6 @@
 'scopeName': 'text.gherkin.feature.em'
 'name': 'Gherkin-em'
-'firstLineMatch' : '^# language: em$(\r)?\n'
+'firstLineMatch' : '\# language\: em'
 'fileTypes': [ 'feature' ]
 'patterns': [
     {
