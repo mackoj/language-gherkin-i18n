@@ -1,3 +1,7 @@
+# 1.3.1
+
+  * Disable CRLF fix
+
 # 1.3.0
 
   * Support new gherkin-languages.json file format
