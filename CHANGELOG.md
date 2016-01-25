@@ -1,3 +1,7 @@
+# 1.3.3
+
+  * Improve resilience on language detection
+
 # 1.3.2
 
   * Fix issue #11
