@@ -1,6 +1,6 @@
 'scopeName': 'text.gherkin.feature.nl'
 'name': 'Gherkin-nl'
-'firstLineMatch' : '\# language\: nl'
+'firstLineMatch' : '\#( +)?language\:( +)?nl'
 'fileTypes': [ 'feature' ]
 'patterns': [
     {

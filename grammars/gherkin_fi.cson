@@ -1,6 +1,6 @@
 'scopeName': 'text.gherkin.feature.fi'
 'name': 'Gherkin-fi'
-'firstLineMatch' : '\# language\: fi'
+'firstLineMatch' : '\#( +)?language\:( +)?fi'
 'fileTypes': [ 'feature' ]
 'patterns': [
     {

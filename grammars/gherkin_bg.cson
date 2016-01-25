@@ -1,6 +1,6 @@
 'scopeName': 'text.gherkin.feature.bg'
 'name': 'Gherkin-bg'
-'firstLineMatch' : '\# language\: bg'
+'firstLineMatch' : '\#( +)?language\:( +)?bg'
 'fileTypes': [ 'feature' ]
 'patterns': [
     {

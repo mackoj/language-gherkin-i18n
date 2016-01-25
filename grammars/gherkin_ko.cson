@@ -1,6 +1,6 @@
 'scopeName': 'text.gherkin.feature.ko'
 'name': 'Gherkin-ko'
-'firstLineMatch' : '\# language\: ko'
+'firstLineMatch' : '\#( +)?language\:( +)?ko'
 'fileTypes': [ 'feature' ]
 'patterns': [
     {

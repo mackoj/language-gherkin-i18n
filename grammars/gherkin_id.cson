@@ -1,6 +1,6 @@
 'scopeName': 'text.gherkin.feature.id'
 'name': 'Gherkin-id'
-'firstLineMatch' : '\# language\: id'
+'firstLineMatch' : '\#( +)?language\:( +)?id'
 'fileTypes': [ 'feature' ]
 'patterns': [
     {

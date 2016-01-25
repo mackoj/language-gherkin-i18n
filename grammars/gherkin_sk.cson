@@ -1,6 +1,6 @@
 'scopeName': 'text.gherkin.feature.sk'
 'name': 'Gherkin-sk'
-'firstLineMatch' : '\# language\: sk'
+'firstLineMatch' : '\#( +)?language\:( +)?sk'
 'fileTypes': [ 'feature' ]
 'patterns': [
     {

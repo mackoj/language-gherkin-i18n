@@ -1,6 +1,6 @@
 'scopeName': 'text.gherkin.feature.fa'
 'name': 'Gherkin-fa'
-'firstLineMatch' : '\# language\: fa'
+'firstLineMatch' : '\#( +)?language\:( +)?fa'
 'fileTypes': [ 'feature' ]
 'patterns': [
     {

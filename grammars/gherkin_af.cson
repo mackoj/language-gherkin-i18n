@@ -1,6 +1,6 @@
 'scopeName': 'text.gherkin.feature.af'
 'name': 'Gherkin-af'
-'firstLineMatch' : '\# language\: af'
+'firstLineMatch' : '\#( +)?language\:( +)?af'
 'fileTypes': [ 'feature' ]
 'patterns': [
     {
