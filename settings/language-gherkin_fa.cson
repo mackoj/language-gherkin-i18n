@@ -12,7 +12,5 @@
       'اما '
       'و '
     ]
-    'increaseIndentPattern': [
-      'سناریو: .*'
-    ]
+    'increaseIndentPattern':       'سناریو: .*'
     'commentStart': '# '

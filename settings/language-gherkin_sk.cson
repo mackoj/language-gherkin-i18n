@@ -22,7 +22,5 @@
       'A taktiež '
       'A zároveň '
     ]
-    'increaseIndentPattern': [
-      'Scenár: .*'
-    ]
+    'increaseIndentPattern':       'Scenár: .*'
     'commentStart': '# '

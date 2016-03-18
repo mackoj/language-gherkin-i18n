@@ -18,7 +18,5 @@
       'Però '
       'I '
     ]
-    'increaseIndentPattern': [
-      'Escenari: .*'
-    ]
+    'increaseIndentPattern':       'Escenari: .*'
     'commentStart': '# '

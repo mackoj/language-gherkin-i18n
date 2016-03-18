@@ -15,7 +15,5 @@
       'Buh '
       'An '
     ]
-    'increaseIndentPattern': [
-      'The thing of it is: .*'
-    ]
+    'increaseIndentPattern':       'The thing of it is: .*'
     'commentStart': '# '

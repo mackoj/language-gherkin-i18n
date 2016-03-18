@@ -15,7 +15,5 @@
       'Bet '
       'Un '
     ]
-    'increaseIndentPattern': [
-      'Scenārijs: .*'
-    ]
+    'increaseIndentPattern':       'Scenārijs: .*'
     'commentStart': '# '

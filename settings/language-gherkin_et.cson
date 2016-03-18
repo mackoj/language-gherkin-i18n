@@ -12,7 +12,5 @@
       'Kuid '
       'Ja '
     ]
-    'increaseIndentPattern': [
-      'Stsenaarium: .*'
-    ]
+    'increaseIndentPattern':       'Stsenaarium: .*'
     'commentStart': '# '

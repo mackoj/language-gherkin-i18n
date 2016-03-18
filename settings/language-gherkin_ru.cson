@@ -22,7 +22,5 @@
       'К тому же '
       'Также '
     ]
-    'increaseIndentPattern': [
-      'Сценарий: .*'
-    ]
+    'increaseIndentPattern':       'Сценарий: .*'
     'commentStart': '# '

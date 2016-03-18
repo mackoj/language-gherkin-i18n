@@ -16,9 +16,7 @@
       'Sed '
       'Kaj '
     ]
-    'increaseIndentPattern': [
-      'Scenaro: .*'
+    'increaseIndentPattern':       'Scenaro: .*'
       'Kazo: .*'
 
-    ]
     'commentStart': '# '

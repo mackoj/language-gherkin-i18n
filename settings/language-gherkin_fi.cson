@@ -12,7 +12,5 @@
       'Mutta '
       'Ja '
     ]
-    'increaseIndentPattern': [
-      'Tapaus: .*'
-    ]
+    'increaseIndentPattern':       'Tapaus: .*'
     'commentStart': '# '

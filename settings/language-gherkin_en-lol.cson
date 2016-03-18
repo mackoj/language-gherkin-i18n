@@ -12,7 +12,5 @@
       'BUT '
       'AN '
     ]
-    'increaseIndentPattern': [
-      'MISHUN: .*'
-    ]
+    'increaseIndentPattern':       'MISHUN: .*'
     'commentStart': '# '

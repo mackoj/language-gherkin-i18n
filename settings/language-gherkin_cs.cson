@@ -16,7 +16,5 @@
       'A také '
       'A '
     ]
-    'increaseIndentPattern': [
-      'Scénář: .*'
-    ]
+    'increaseIndentPattern':       'Scénář: .*'
     'commentStart': '# '

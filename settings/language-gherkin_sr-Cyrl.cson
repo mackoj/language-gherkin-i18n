@@ -23,9 +23,7 @@
       'Али '
       'И '
     ]
-    'increaseIndentPattern': [
-      'Сценарио: .*'
+    'increaseIndentPattern':       'Сценарио: .*'
       'Пример: .*'
 
-    ]
     'commentStart': '# '

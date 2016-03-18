@@ -12,7 +12,5 @@
       'Tapi '
       'Dan '
     ]
-    'increaseIndentPattern': [
-      'Skenario: .*'
-    ]
+    'increaseIndentPattern':       'Skenario: .*'
     'commentStart': '# '

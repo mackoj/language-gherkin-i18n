@@ -21,7 +21,5 @@
       'Oraz '
       'I '
     ]
-    'increaseIndentPattern': [
-      'Scenariusz: .*'
-    ]
+    'increaseIndentPattern':       'Scenariusz: .*'
     'commentStart': '# '

@@ -14,7 +14,5 @@
       'Αλλά '
       'Και '
     ]
-    'increaseIndentPattern': [
-      'Σενάριο: .*'
-    ]
+    'increaseIndentPattern':       'Σενάριο: .*'
     'commentStart': '# '

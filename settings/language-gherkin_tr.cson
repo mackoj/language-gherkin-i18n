@@ -13,7 +13,5 @@
       'Ama '
       'Ve '
     ]
-    'increaseIndentPattern': [
-      'Senaryo: .*'
-    ]
+    'increaseIndentPattern':       'Senaryo: .*'
     'commentStart': '# '

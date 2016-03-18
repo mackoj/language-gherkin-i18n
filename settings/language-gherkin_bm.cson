@@ -20,10 +20,8 @@
       'Tapi '
       'Dan '
     ]
-    'increaseIndentPattern': [
-      'Senario: .*'
+    'increaseIndentPattern':       'Senario: .*'
       'Situasi: .*'
       'Keadaan: .*'
 
-    ]
     'commentStart': '# '

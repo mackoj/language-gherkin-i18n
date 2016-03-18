@@ -17,7 +17,5 @@
       'لیکن '
       'اور '
     ]
-    'increaseIndentPattern': [
-      'منظرنامہ: .*'
-    ]
+    'increaseIndentPattern':       'منظرنامہ: .*'
     'commentStart': '# '

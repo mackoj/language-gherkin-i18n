@@ -18,7 +18,5 @@
       'Ananging '
       'Lan '
     ]
-    'increaseIndentPattern': [
-      'Skenario: .*'
-    ]
+    'increaseIndentPattern':       'Skenario: .*'
     'commentStart': '# '

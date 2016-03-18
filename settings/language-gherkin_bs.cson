@@ -15,9 +15,7 @@
       'I '
       'A '
     ]
-    'increaseIndentPattern': [
-      'Scenariju: .*'
+    'increaseIndentPattern':       'Scenariju: .*'
       'Scenario: .*'
 
-    ]
     'commentStart': '# '

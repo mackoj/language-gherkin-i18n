@@ -12,7 +12,5 @@
       'Ond '
       'A '
     ]
-    'increaseIndentPattern': [
-      'Scenario: .*'
-    ]
+    'increaseIndentPattern':       'Scenario: .*'
     'commentStart': '# '

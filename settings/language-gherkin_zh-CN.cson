@@ -18,9 +18,7 @@
       '并且'
       '同时'
     ]
-    'increaseIndentPattern': [
-      '场景: .*'
+    'increaseIndentPattern':       '场景: .*'
       '剧本: .*'
 
-    ]
     'commentStart': '# '

@@ -36,9 +36,7 @@
       'In '
       'Ter '
     ]
-    'increaseIndentPattern': [
-      'Scenarij: .*'
+    'increaseIndentPattern':       'Scenarij: .*'
       'Primer: .*'
 
-    ]
     'commentStart': '# '

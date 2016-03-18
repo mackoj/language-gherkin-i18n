@@ -16,7 +16,5 @@
       'Һәм '
       'Вә '
     ]
-    'increaseIndentPattern': [
-      'Сценарий: .*'
-    ]
+    'increaseIndentPattern':       'Сценарий: .*'
     'commentStart': '# '

@@ -12,7 +12,5 @@
       'Avast! '
       'Aye '
     ]
-    'increaseIndentPattern': [
-      'Heave to: .*'
-    ]
+    'increaseIndentPattern':       'Heave to: .*'
     'commentStart': '# '

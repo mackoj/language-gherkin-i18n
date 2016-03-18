@@ -12,7 +12,5 @@
       'ಆದರೆ '
       'ಮತ್ತು '
     ]
-    'increaseIndentPattern': [
-      'ಕಥಾಸಾರಾಂಶ: .*'
-    ]
+    'increaseIndentPattern':       'ಕಥಾಸಾರಾಂಶ: .*'
     'commentStart': '# '

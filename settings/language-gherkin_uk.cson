@@ -19,7 +19,5 @@
       'А також '
       'Та '
     ]
-    'increaseIndentPattern': [
-      'Сценарій: .*'
-    ]
+    'increaseIndentPattern':       'Сценарій: .*'
     'commentStart': '# '

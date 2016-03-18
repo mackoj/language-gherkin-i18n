@@ -16,7 +16,5 @@
       'แต่ '
       'และ '
     ]
-    'increaseIndentPattern': [
-      'เหตุการณ์: .*'
-    ]
+    'increaseIndentPattern':       'เหตุการณ์: .*'
     'commentStart': '# '

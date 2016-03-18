@@ -16,7 +16,5 @@
       'But '
       'And '
     ]
-    'increaseIndentPattern': [
-      'Scenario: .*'
-    ]
+    'increaseIndentPattern':       'Scenario: .*'
     'commentStart': '# '

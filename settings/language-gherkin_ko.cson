@@ -15,7 +15,5 @@
       '단'
       '그리고'
     ]
-    'increaseIndentPattern': [
-      '시나리오: .*'
-    ]
+    'increaseIndentPattern':       '시나리오: .*'
     'commentStart': '# '

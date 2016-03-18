@@ -15,9 +15,7 @@
       'Nhưng '
       'Và '
     ]
-    'increaseIndentPattern': [
-      'Tình huống: .*'
+    'increaseIndentPattern':       'Tình huống: .*'
       'Kịch bản: .*'
 
-    ]
     'commentStart': '# '

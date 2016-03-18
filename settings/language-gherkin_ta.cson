@@ -18,7 +18,5 @@
       'மேலும்  '
       'மற்றும் '
     ]
-    'increaseIndentPattern': [
-      'காட்சி: .*'
-    ]
+    'increaseIndentPattern':       'காட்சி: .*'
     'commentStart': '# '

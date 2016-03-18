@@ -12,7 +12,5 @@
       'Men '
       'Og '
     ]
-    'increaseIndentPattern': [
-      'Scenarie: .*'
-    ]
+    'increaseIndentPattern':       'Scenarie: .*'
     'commentStart': '# '

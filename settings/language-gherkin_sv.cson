@@ -13,7 +13,5 @@
       'Men '
       'Och '
     ]
-    'increaseIndentPattern': [
-      'Scenario: .*'
-    ]
+    'increaseIndentPattern':       'Scenario: .*'
     'commentStart': '# '

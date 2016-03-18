@@ -12,7 +12,5 @@
       '😔'
       '😂'
     ]
-    'increaseIndentPattern': [
-      '📕: .*'
-    ]
+    'increaseIndentPattern':       '📕: .*'
     'commentStart': '# '

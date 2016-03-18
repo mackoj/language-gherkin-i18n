@@ -24,9 +24,7 @@
       'Ali '
       'I '
     ]
-    'increaseIndentPattern': [
-      'Scenario: .*'
+    'increaseIndentPattern':       'Scenario: .*'
       'Primer: .*'
 
-    ]
     'commentStart': '# '

@@ -17,7 +17,5 @@
       'Мөн '
       'Тэгээд '
     ]
-    'increaseIndentPattern': [
-      'Сценар: .*'
-    ]
+    'increaseIndentPattern':       'Сценар: .*'
     'commentStart': '# '

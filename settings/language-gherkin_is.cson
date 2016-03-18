@@ -14,7 +14,5 @@
       'En '
       'Og '
     ]
-    'increaseIndentPattern': [
-      'Atburðarás: .*'
-    ]
+    'increaseIndentPattern':       'Atburðarás: .*'
     'commentStart': '# '

@@ -12,7 +12,5 @@
       'Но '
       'И '
     ]
-    'increaseIndentPattern': [
-      'Сценарий: .*'
-    ]
+    'increaseIndentPattern':       'Сценарий: .*'
     'commentStart': '# '

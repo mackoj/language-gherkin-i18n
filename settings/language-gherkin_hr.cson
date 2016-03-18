@@ -19,7 +19,5 @@
       'Ali '
       'I '
     ]
-    'increaseIndentPattern': [
-      'Scenarij: .*'
-    ]
+    'increaseIndentPattern':       'Scenarij: .*'
     'commentStart': '# '

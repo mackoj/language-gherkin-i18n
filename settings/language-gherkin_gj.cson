@@ -15,7 +15,5 @@
       'પણ '
       'અને '
     ]
-    'increaseIndentPattern': [
-      'સ્થિતિ: .*'
-    ]
+    'increaseIndentPattern':       'સ્થિતિ: .*'
     'commentStart': '# '

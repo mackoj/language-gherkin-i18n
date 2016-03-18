@@ -27,9 +27,7 @@
       'Mas '
       'E '
     ]
-    'increaseIndentPattern': [
-      'Cenário: .*'
+    'increaseIndentPattern':       'Cenário: .*'
       'Cenario: .*'
 
-    ]
     'commentStart': '# '

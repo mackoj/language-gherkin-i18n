@@ -16,7 +16,5 @@
       'ਪਰ '
       'ਅਤੇ '
     ]
-    'increaseIndentPattern': [
-      'ਪਟਕਥਾ: .*'
-    ]
+    'increaseIndentPattern':       'ਪਟਕਥਾ: .*'
     'commentStart': '# '

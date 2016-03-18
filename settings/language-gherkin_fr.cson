@@ -31,7 +31,5 @@
       'Et qu\''
       'Et '
     ]
-    'increaseIndentPattern': [
-      'Scénario: .*'
-    ]
+    'increaseIndentPattern':       'Scénario: .*'
     'commentStart': '# '

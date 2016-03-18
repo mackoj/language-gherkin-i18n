@@ -27,7 +27,5 @@
       'Ond '
       '7 '
     ]
-    'increaseIndentPattern': [
-      'Swa: .*'
-    ]
+    'increaseIndentPattern':       'Swa: .*'
     'commentStart': '# '

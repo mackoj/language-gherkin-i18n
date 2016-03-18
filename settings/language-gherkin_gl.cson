@@ -17,7 +17,5 @@
       'Pero '
       'E '
     ]
-    'increaseIndentPattern': [
-      'Escenario: .*'
-    ]
+    'increaseIndentPattern':       'Escenario: .*'
     'commentStart': '# '

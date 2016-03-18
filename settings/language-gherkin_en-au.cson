@@ -12,7 +12,5 @@
       'Yeah nah '
       'Too right '
     ]
-    'increaseIndentPattern': [
-      'Awww, look mate: .*'
-    ]
+    'increaseIndentPattern':       'Awww, look mate: .*'
     'commentStart': '# '

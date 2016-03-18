@@ -22,7 +22,5 @@
       'Și '
       'Şi '
     ]
-    'increaseIndentPattern': [
-      'Scenariu: .*'
-    ]
+    'increaseIndentPattern':       'Scenariu: .*'
     'commentStart': '# '

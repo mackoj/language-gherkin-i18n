@@ -12,7 +12,5 @@
       'కాని '
       'మరియు '
     ]
-    'increaseIndentPattern': [
-      'సన్నివేశం: .*'
-    ]
+    'increaseIndentPattern':       'సన్నివేశం: .*'
     'commentStart': '# '

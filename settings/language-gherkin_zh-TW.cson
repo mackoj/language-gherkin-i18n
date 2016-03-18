@@ -18,9 +18,7 @@
       '並且'
       '同時'
     ]
-    'increaseIndentPattern': [
-      '場景: .*'
+    'increaseIndentPattern':       '場景: .*'
       '劇本: .*'
 
-    ]
     'commentStart': '# '

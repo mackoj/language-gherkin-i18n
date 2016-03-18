@@ -19,7 +19,5 @@
       'ただし'
       'かつ'
     ]
-    'increaseIndentPattern': [
-      'シナリオ: .*'
-    ]
+    'increaseIndentPattern':       'シナリオ: .*'
     'commentStart': '# '

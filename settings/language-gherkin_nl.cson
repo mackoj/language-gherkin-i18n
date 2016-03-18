@@ -13,7 +13,5 @@
       'Maar '
       'En '
     ]
-    'increaseIndentPattern': [
-      'Scenario: .*'
-    ]
+    'increaseIndentPattern':       'Scenario: .*'
     'commentStart': '# '

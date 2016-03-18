@@ -20,7 +20,5 @@
       '\'ej '
       'latlh '
     ]
-    'increaseIndentPattern': [
-      'lut: .*'
-    ]
+    'increaseIndentPattern':       'lut: .*'
     'commentStart': '# '

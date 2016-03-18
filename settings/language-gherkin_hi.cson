@@ -19,7 +19,5 @@
       'और '
       'तथा '
     ]
-    'increaseIndentPattern': [
-      'परिदृश्य: .*'
-    ]
+    'increaseIndentPattern':       'परिदृश्य: .*'
     'commentStart': '# '
