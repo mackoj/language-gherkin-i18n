@@ -12,7 +12,5 @@ __THEN__
 __BUT__
 __AND__
     ]
-    'increaseIndentPattern': [
-__INCREASEINDENTPATTERNKEY__
-    ]
+    'increaseIndentPattern': __INCREASEINDENTPATTERNKEY__
     'commentStart': '# '
