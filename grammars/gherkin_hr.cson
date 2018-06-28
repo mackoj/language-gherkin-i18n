@@ -85,7 +85,7 @@
         ]
     }
     {
-        'match': '\\s*(Zadan |Zadani |Zadano )'
+        'match': '\\s*(Zadan |Zadani |Zadano |Ukoliko )'
         'name': 'support.class.gherkin.given'
     }
     {
