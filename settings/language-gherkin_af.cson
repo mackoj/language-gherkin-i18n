@@ -5,6 +5,7 @@
       'Besigheid Behoefte:'
       'Vermoë:'
       'Agtergrond:'
+      'Voorbeeld:'
       'Situasie:'
       'Situasie Uiteensetting:'
       'Voorbeelde:'
@@ -14,5 +15,7 @@
       'Maar '
       'En '
     ]
-    'increaseIndentPattern':       'Situasie: .*'
+    'increaseIndentPattern':       'Voorbeeld: .*'
+      'Situasie: .*'
+
     'commentStart': '# '

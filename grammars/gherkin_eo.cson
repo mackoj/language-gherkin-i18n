@@ -48,7 +48,7 @@
         'name': 'keyword.gherkin.background'
     }
     {
-        'match': '\\s*(Scenaro\\:|Kazo\\:)'
+        'match': '\\s*(Ekzemplo\\:|Scenaro\\:|Kazo\\:)'
         'name': 'keyword.gherkin.scenario'
     }
     {

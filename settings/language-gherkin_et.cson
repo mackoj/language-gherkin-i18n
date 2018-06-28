@@ -3,7 +3,9 @@
     'completions': [
       'Omadus:'
       'Taust:'
+      'Juhtum:'
       'Stsenaarium:'
+      'Raamstjuhtum:'
       'Raamstsenaarium:'
       'Juhtumid:'
       'Eeldades '
@@ -12,5 +14,7 @@
       'Kuid '
       'Ja '
     ]
-    'increaseIndentPattern':       'Stsenaarium: .*'
+    'increaseIndentPattern':       'Juhtum: .*'
+      'Stsenaarium: .*'
+
     'commentStart': '# '

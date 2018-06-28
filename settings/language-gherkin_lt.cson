@@ -3,6 +3,7 @@
     'completions': [
       'Savybė:'
       'Kontekstas:'
+      'Pavyzdys:'
       'Scenarijus:'
       'Scenarijaus šablonas:'
       'Pavyzdžiai:'
@@ -14,5 +15,7 @@
       'Bet '
       'Ir '
     ]
-    'increaseIndentPattern':       'Scenarijus: .*'
+    'increaseIndentPattern':       'Pavyzdys: .*'
+      'Scenarijus: .*'
+
     'commentStart': '# '

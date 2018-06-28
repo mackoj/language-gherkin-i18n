@@ -3,6 +3,7 @@
     'completions': [
       'Trajto:'
       'Fono:'
+      'Ekzemplo:'
       'Scenaro:'
       'Kazo:'
       'Konturo de la scenaro:'
@@ -16,7 +17,8 @@
       'Sed '
       'Kaj '
     ]
-    'increaseIndentPattern':       'Scenaro: .*'
+    'increaseIndentPattern':       'Ekzemplo: .*'
+      'Scenaro: .*'
       'Kazo: .*'
 
     'commentStart': '# '

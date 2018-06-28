@@ -3,6 +3,7 @@
     'completions': [
       'خاصية:'
       'الخلفية:'
+      'مثال:'
       'سيناريو:'
       'سيناريو مخطط:'
       'امثلة:'
@@ -14,5 +15,7 @@
       'لكن '
       'و '
     ]
-    'increaseIndentPattern':       'سيناريو: .*'
+    'increaseIndentPattern':       'مثال: .*'
+      'سيناريو: .*'
+
     'commentStart': '# '

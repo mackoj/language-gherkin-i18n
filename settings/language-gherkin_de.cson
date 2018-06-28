@@ -3,6 +3,7 @@
     'completions': [
       'Funktionalität:'
       'Grundlage:'
+      'Beispiel:'
       'Szenario:'
       'Szenariogrundriss:'
       'Beispiele:'
@@ -14,5 +15,7 @@
       'Aber '
       'Und '
     ]
-    'increaseIndentPattern':       'Szenario: .*'
+    'increaseIndentPattern':       'Beispiel: .*'
+      'Szenario: .*'
+
     'commentStart': '# '

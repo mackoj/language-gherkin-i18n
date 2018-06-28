@@ -48,7 +48,7 @@
         'name': 'keyword.gherkin.background'
     }
     {
-        'match': '\\s*(Cás\\:)'
+        'match': '\\s*(Sampla\\:|Cás\\:)'
         'name': 'keyword.gherkin.scenario'
     }
     {

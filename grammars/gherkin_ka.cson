@@ -1,0 +1,139 @@
+'scopeName': 'text.gherkin.feature.ka'
+'name': 'Gherkin-ka'
+'firstLineMatch' : '\#( +)?language\:( +)?ka'
+'fileTypes': [ 'feature' ]
+'patterns': [
+    {
+        'match': '#(.*)$'
+        'name': 'comment.line.gherkin'
+    }
+    {
+        'match': '^\\.\\.\\.(.*)$'
+        'name': 'comment.line.gherkin'
+    }
+    {
+        'match': '(^\\*\\*\\*.*?\\*\\*\\*)|((?<=^\\|)\\s+\\*\\*\\*.*?\\*\\*\\*)'
+        'name': 'support.class.gherkin'
+    }
+    {
+        'match': '(\\$\\{.*?\\})|(@\\{.*?\\})'
+        'name': 'string.single.qoute.gherkin'
+    }
+    {
+        'name': 'keyword.gherkin'
+        'patterns': [
+          {
+            'include': '#keyword.gherkin.feature'
+          }
+          {
+            'include': '#keyword.gherkin.background'
+          }
+          {
+            'include': '#keyword.gherkin.scenario'
+          }
+          {
+            'include': '#keyword.gherkin.scenario_outline'
+          }
+          {
+            'include': '#keyword.gherkin.examples'
+          }
+        ]
+    }
+    {
+        'match': '\\s*(თვისება\\:)'
+        'name': 'keyword.gherkin.feature'
+    }
+    {
+        'match': '\\s*(კონტექსტი\\:)'
+        'name': 'keyword.gherkin.background'
+    }
+    {
+        'match': '\\s*(მაგალითად\\:|სცენარის\\:)'
+        'name': 'keyword.gherkin.scenario'
+    }
+    {
+        'match': '\\s*(სცენარის ნიმუში\\:)'
+        'name': 'keyword.gherkin.scenario_outline'
+    }
+    {
+        'match': '\\s*(მაგალითები\\:)'
+        'name': 'keyword.gherkin.examples'
+    }
+    {
+        "begin": '(^[^ \\t\\*\\n\\|]+)|((?<=^\\|)\\s+[^ \\t\\*\\n\\|]+)'
+        "end": '\\s{2}|\\t|$|\\s+(?=\\|)'
+        'name': 'keyword.gherkin'
+    }
+    {
+        'name': 'support.class.gherkin'
+        'patterns': [
+          {
+            'include': '#support.class.gherkin.given'
+          }
+          {
+            'include': '#support.class.gherkin.when'
+          }
+          {
+            'include': '#support.class.gherkin.then'
+          }
+          {
+            'include': '#support.class.gherkin.but'
+          }
+          {
+            'include': '#support.class.gherkin.and'
+          }
+        ]
+    }
+    {
+        'match': '\\s*(მოცემული)'
+        'name': 'support.class.gherkin.given'
+    }
+    {
+        'match': '\\s*(როდესაც)'
+        'name': 'support.class.gherkin.when'
+    }
+    {
+        'match': '\\s*(მაშინ)'
+        'name': 'support.class.gherkin.then'
+    }
+    {
+        'match': '\\s*(მაგ­რამ)'
+        'name': 'support.class.gherkin.but'
+    }
+    {
+        'match': '\\s*(და)'
+        'name': 'support.class.gherkin.and'
+    }
+    {
+        'match': '(?<=\\s|^)(@[A-Za-z0-9_\\-]+)'
+        'name': 'entity.name.function.decorator.gherkin'
+    }
+    {
+        'match': '\\s(\\d*)\\s'
+        'name': 'entity.name.function.decorator.gherkin'
+    }
+    {
+        'match': '(\\<(\\w+\\s*)+\\>)'
+        'name': 'constant.character.escape.feature'
+    }
+    {
+        'match': "(\\s\\'.*?[^\\']\\'\\s)"
+        'name': 'string.single.qoute.gherkin'
+    }
+    {
+        'match': '(\\s\\".*?[^\\"]\\"\\s)'
+        'name': 'string.double.qoute.gherkin'
+    }
+    {
+        'match': "\\[(\\'.*?[^\\']\\')\\]"
+        'name': 'constant.character.escape.feature'
+    }
+    {
+        'match': '(\\[[^]]*\\])'
+        'name': 'constant.numeric.gherkin'
+    }
+    {
+        'match': '\\|\\s(.*)\\s\\|'
+        'name': 'constant.numeric.gherkin'
+    }
+]

@@ -5,6 +5,7 @@
       'Fīča:'
       'Konteksts:'
       'Situācija:'
+      'Piemērs:'
       'Scenārijs:'
       'Scenārijs pēc parauga:'
       'Piemēri:'
@@ -15,5 +16,7 @@
       'Bet '
       'Un '
     ]
-    'increaseIndentPattern':       'Scenārijs: .*'
+    'increaseIndentPattern':       'Piemērs: .*'
+      'Scenārijs: .*'
+
     'commentStart': '# '

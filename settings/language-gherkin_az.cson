@@ -1,0 +1,24 @@
+'.text.gherkin.feature.az':
+  'editor':
+    'completions': [
+      'Özəllik:'
+      'Keçmiş:'
+      'Kontekst:'
+      'Nümunələr:'
+      'Ssenari:'
+      'Ssenarinin strukturu:'
+      'Nümunələr:'
+      'Tutaq ki '
+      'Verilir '
+      'Əgər '
+      'Nə vaxt ki '
+      'O halda '
+      'Amma '
+      'Ancaq '
+      'Və '
+      'Həm '
+    ]
+    'increaseIndentPattern':       'Nümunələr: .*'
+      'Ssenari: .*'
+
+    'commentStart': '# '

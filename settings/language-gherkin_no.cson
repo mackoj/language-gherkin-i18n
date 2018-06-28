@@ -3,6 +3,7 @@
     'completions': [
       'Egenskap:'
       'Bakgrunn:'
+      'Eksempel:'
       'Scenario:'
       'Scenariomal:'
       'Abstrakt Scenario:'
@@ -13,5 +14,7 @@
       'Men '
       'Og '
     ]
-    'increaseIndentPattern':       'Scenario: .*'
+    'increaseIndentPattern':       'Eksempel: .*'
+      'Scenario: .*'
+
     'commentStart': '# '

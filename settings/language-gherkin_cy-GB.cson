@@ -3,6 +3,7 @@
     'completions': [
       'Arwedd:'
       'Cefndir:'
+      'Enghraifft:'
       'Scenario:'
       'Scenario Amlinellol:'
       'Enghreifftiau:'
@@ -12,5 +13,7 @@
       'Ond '
       'A '
     ]
-    'increaseIndentPattern':       'Scenario: .*'
+    'increaseIndentPattern':       'Enghraifft: .*'
+      'Scenario: .*'
+
     'commentStart': '# '

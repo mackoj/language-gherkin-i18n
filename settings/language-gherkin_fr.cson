@@ -3,6 +3,7 @@
     'completions': [
       'Fonctionnalité:'
       'Contexte:'
+      'Exemple:'
       'Scénario:'
       'Plan du scénario:'
       'Plan du Scénario:'
@@ -31,5 +32,7 @@
       'Et qu\''
       'Et '
     ]
-    'increaseIndentPattern':       'Scénario: .*'
+    'increaseIndentPattern':       'Exemple: .*'
+      'Scénario: .*'
+
     'commentStart': '# '

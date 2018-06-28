@@ -48,7 +48,7 @@
         'name': 'keyword.gherkin.background'
     }
     {
-        'match': '\\s*(Scenarij\\:)'
+        'match': '\\s*(Primjer\\:|Scenarij\\:)'
         'name': 'keyword.gherkin.scenario'
     }
     {

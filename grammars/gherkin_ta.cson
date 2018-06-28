@@ -48,7 +48,7 @@
         'name': 'keyword.gherkin.background'
     }
     {
-        'match': '\\s*(காட்சி\\:)'
+        'match': '\\s*(உதாரணமாக\\:|காட்சி\\:)'
         'name': 'keyword.gherkin.scenario'
     }
     {
@@ -56,7 +56,7 @@
         'name': 'keyword.gherkin.scenario_outline'
     }
     {
-        'match': '\\s*(எடுத்துக்காட்டுகள்\\:|காட்சிகள்\\:| நிலைமைகளில்\\:)'
+        'match': '\\s*(எடுத்துக்காட்டுகள்\\:|காட்சிகள்\\:|நிலைமைகளில்\\:)'
         'name': 'keyword.gherkin.examples'
     }
     {

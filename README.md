@@ -3,8 +3,8 @@
 This `Gherkin language in Atom` plugin offers:
 
   * Syntax Coloring based on [Atom Language Gherkin](https://github.com/gigapixel/atom-language-gherkin)
-  * Internationalization in 68 languages based on [gherkin-languages.json](https://github.com/cucumber/gherkin/blob/master/gherkin-languages.json)
-  * Simple Completion in 68 languages
+  * Internationalization in 74 languages based on [gherkin-languages.json](https://github.com/cucumber/cucumber/blob/master/gherkin/gherkin-languages.json)
+  * Simple Completion in 74 languages
 
 The languages matching is done by looking at the very first line of each of the `.feature` files.
 
@@ -28,8 +28,11 @@ Syntax color works better with Atom One Dark theme.
 |----------------------|---------------------|------|
 |Afrikaans|Afrikaans|af|
 |Arabic|العربية|ar|
+|Aragonese|Aragonés|an|
 |Armenian|հայերեն|am|
+|Asturian|asturianu|ast|
 |Australian|Australian|en-au|
+|Azerbaijani|Azərbaycanca|az|
 |Bosnian|Bosanski|bs|
 |Bulgarian|български|bg|
 |Catalan|català|ca|
@@ -47,6 +50,7 @@ Syntax color works better with Atom One Dark theme.
 |Finnish|suomi|fi|
 |French|français|fr|
 |Galician|galego|gl|
+|Georgian|ქართველი|ka|
 |German|Deutsch|de|
 |Greek|Ελληνικά|el|
 |Gujarati|ગુજરાતી|gj|
@@ -66,6 +70,8 @@ Syntax color works better with Atom One Dark theme.
 |Latvian|latviešu|lv|
 |Lithuanian|lietuvių kalba|lt|
 |Luxemburgish|Lëtzebuergesch|lu|
+|Macedonian (Latin)|Makedonski (Latinica)|mk-Latn|
+|Macedonian|Македонски|mk-Cyrl|
 |Malay|Bahasa Melayu|bm|
 |Mongolian|монгол|mn|
 |Norwegian|norsk|no|
@@ -103,7 +109,7 @@ Please fork this repository and open a pull request to add snippets, make gramma
 
 # How it is made
 
-Using a template for the grammar and another one for the autocompletion, we parse the [gherkin-languages.json](https://github.com/cucumber/gherkin/blob/master/gherkin-languages.json) file to generate the corresponding files for each language.
+Using a template for the grammar and another one for the autocompletion, we parse the [gherkin-languages.json](https://github.com/cucumber/cucumber/blob/master/gherkin/gherkin-languages.json) file to generate the corresponding files for each language.
 
 # ToDo
 

@@ -3,6 +3,7 @@
     'completions': [
       '📚:'
       '💤:'
+      '🥒:'
       '📕:'
       '📖:'
       '📓:'
@@ -12,5 +13,7 @@
       '😔'
       '😂'
     ]
-    'increaseIndentPattern':       '📕: .*'
+    'increaseIndentPattern':       '🥒: .*'
+      '📕: .*'
+
     'commentStart': '# '

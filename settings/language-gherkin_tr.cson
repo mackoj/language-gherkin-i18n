@@ -3,6 +3,7 @@
     'completions': [
       'Özellik:'
       'Geçmiş:'
+      'Örnek:'
       'Senaryo:'
       'Senaryo taslağı:'
       'Örnekler:'
@@ -13,5 +14,7 @@
       'Ama '
       'Ve '
     ]
-    'increaseIndentPattern':       'Senaryo: .*'
+    'increaseIndentPattern':       'Örnek: .*'
+      'Senaryo: .*'
+
     'commentStart': '# '

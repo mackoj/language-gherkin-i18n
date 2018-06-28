@@ -3,6 +3,7 @@
     'completions': [
       'Gné:'
       'Cúlra:'
+      'Sampla:'
       'Cás:'
       'Cás Achomair:'
       'Samplaí:'
@@ -18,5 +19,7 @@
       'Ach'
       'Agus'
     ]
-    'increaseIndentPattern':       'Cás: .*'
+    'increaseIndentPattern':       'Sampla: .*'
+      'Cás: .*'
+
     'commentStart': '# '

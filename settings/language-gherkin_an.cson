@@ -1,0 +1,25 @@
+'.text.gherkin.feature.an':
+  'editor':
+    'completions': [
+      'Caracteristica:'
+      'Antecedents:'
+      'Eixemplo:'
+      'Caso:'
+      'Esquema del caso:'
+      'Eixemplos:'
+      'Dau '
+      'Dada '
+      'Daus '
+      'Dadas '
+      'Cuan '
+      'Alavez '
+      'Allora '
+      'Antonces '
+      'Pero '
+      'Y '
+      'E '
+    ]
+    'increaseIndentPattern':       'Eixemplo: .*'
+      'Caso: .*'
+
+    'commentStart': '# '

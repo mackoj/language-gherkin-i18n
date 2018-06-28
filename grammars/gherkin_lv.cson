@@ -48,7 +48,7 @@
         'name': 'keyword.gherkin.background'
     }
     {
-        'match': '\\s*(Scenārijs\\:)'
+        'match': '\\s*(Piemērs\\:|Scenārijs\\:)'
         'name': 'keyword.gherkin.scenario'
     }
     {

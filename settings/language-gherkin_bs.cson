@@ -3,6 +3,7 @@
     'completions': [
       'Karakteristika:'
       'Pozadina:'
+      'Primjer:'
       'Scenariju:'
       'Scenario:'
       'Scenariju-obris:'
@@ -15,7 +16,8 @@
       'I '
       'A '
     ]
-    'increaseIndentPattern':       'Scenariju: .*'
+    'increaseIndentPattern':       'Primjer: .*'
+      'Scenariju: .*'
       'Scenario: .*'
 
     'commentStart': '# '

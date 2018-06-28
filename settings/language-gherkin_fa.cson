@@ -3,6 +3,7 @@
     'completions': [
       'وِیژگی:'
       'زمینه:'
+      'مثال:'
       'سناریو:'
       'الگوی سناریو:'
       'نمونه ها:'
@@ -12,5 +13,7 @@
       'اما '
       'و '
     ]
-    'increaseIndentPattern':       'سناریو: .*'
+    'increaseIndentPattern':       'مثال: .*'
+      'سناریو: .*'
+
     'commentStart': '# '

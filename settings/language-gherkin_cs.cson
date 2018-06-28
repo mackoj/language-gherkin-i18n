@@ -4,6 +4,7 @@
       'Požadavek:'
       'Pozadí:'
       'Kontext:'
+      'Příklad:'
       'Scénář:'
       'Náčrt Scénáře:'
       'Osnova scénáře:'
@@ -16,5 +17,7 @@
       'A také '
       'A '
     ]
-    'increaseIndentPattern':       'Scénář: .*'
+    'increaseIndentPattern':       'Příklad: .*'
+      'Scénář: .*'
+
     'commentStart': '# '

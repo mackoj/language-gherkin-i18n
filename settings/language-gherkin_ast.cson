@@ -1,0 +1,23 @@
+'.text.gherkin.feature.ast':
+  'editor':
+    'completions': [
+      'Carauterística:'
+      'Antecedentes:'
+      'Exemplo:'
+      'Casu:'
+      'Esbozu del casu:'
+      'Exemplos:'
+      'Dáu '
+      'Dada '
+      'Daos '
+      'Daes '
+      'Cuando '
+      'Entós '
+      'Peru '
+      'Y '
+      'Ya '
+    ]
+    'increaseIndentPattern':       'Exemplo: .*'
+      'Casu: .*'
+
+    'commentStart': '# '

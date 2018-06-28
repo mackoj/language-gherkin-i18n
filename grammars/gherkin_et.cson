@@ -48,11 +48,11 @@
         'name': 'keyword.gherkin.background'
     }
     {
-        'match': '\\s*(Stsenaarium\\:)'
+        'match': '\\s*(Juhtum\\:|Stsenaarium\\:)'
         'name': 'keyword.gherkin.scenario'
     }
     {
-        'match': '\\s*(Raamstsenaarium\\:)'
+        'match': '\\s*(Raamstjuhtum\\:|Raamstsenaarium\\:)'
         'name': 'keyword.gherkin.scenario_outline'
     }
     {

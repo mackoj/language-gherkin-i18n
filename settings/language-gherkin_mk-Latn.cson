@@ -1,0 +1,26 @@
+'.text.gherkin.feature.mk-Latn':
+  'editor':
+    'completions': [
+      'Funkcionalnost:'
+      'Biznis potreba:'
+      'Mozhnost:'
+      'Kontekst:'
+      'Sodrzhina:'
+      'Scenario:'
+      'Na primer:'
+      'Pregled na scenarija:'
+      'Skica:'
+      'Koncept:'
+      'Primeri:'
+      'Scenaria:'
+      'Dadeno '
+      'Dadena '
+      'Koga '
+      'Togash '
+      'No '
+      'I '
+    ]
+    'increaseIndentPattern':       'Scenario: .*'
+      'Na primer: .*'
+
+    'commentStart': '# '

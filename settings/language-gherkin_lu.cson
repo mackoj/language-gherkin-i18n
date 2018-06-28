@@ -3,6 +3,7 @@
     'completions': [
       'Funktionalitéit:'
       'Hannergrond:'
+      'Beispill:'
       'Szenario:'
       'Plang vum Szenario:'
       'Beispiller:'
@@ -14,5 +15,7 @@
       'an '
       'a '
     ]
-    'increaseIndentPattern':       'Szenario: .*'
+    'increaseIndentPattern':       'Beispill: .*'
+      'Szenario: .*'
+
     'commentStart': '# '

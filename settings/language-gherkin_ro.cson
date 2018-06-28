@@ -5,12 +5,14 @@
       'Funcționalitate:'
       'Funcţionalitate:'
       'Context:'
+      'Exemplu:'
       'Scenariu:'
       'Structura scenariu:'
       'Structură scenariu:'
       'Exemple:'
       'Date fiind '
       'Dat fiind '
+      'Dată fiind'
       'Dati fiind '
       'Dați fiind '
       'Daţi fiind '
@@ -22,5 +24,7 @@
       'Și '
       'Şi '
     ]
-    'increaseIndentPattern':       'Scenariu: .*'
+    'increaseIndentPattern':       'Exemplu: .*'
+      'Scenariu: .*'
+
     'commentStart': '# '

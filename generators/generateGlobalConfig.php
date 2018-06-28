@@ -8,7 +8,7 @@ $defaultLang = "en";
 
 $useLocalI18n = TRUE;
 $i18nLocaleFilePath = dirname(__FILE__) . "/../tmp/gherkin-languages.json";
-$i18nRemoteFilePath = "https://raw.githubusercontent.com/cucumber/gherkin/master/gherkin-languages.json";
+$i18nRemoteFilePath = "https://raw.githubusercontent.com/cucumber/cucumber/master/gherkin/gherkin-languages.json";
 
 $delimiter = "|";
 $search1 = "*|";

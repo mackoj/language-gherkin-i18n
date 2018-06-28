@@ -48,7 +48,7 @@
         'name': 'keyword.gherkin.background'
     }
     {
-        'match': '\\s*(Escenario\\:)'
+        'match': '\\s*(Exemplo\\:|Escenario\\:)'
         'name': 'keyword.gherkin.scenario'
     }
     {

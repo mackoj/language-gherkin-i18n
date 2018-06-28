@@ -48,7 +48,7 @@
         'name': 'keyword.gherkin.background'
     }
     {
-        'match': '\\s*(ಕಥಾಸಾರಾಂಶ\\:)'
+        'match': '\\s*(ಉದಾಹರಣೆ\\:|ಕಥಾಸಾರಾಂಶ\\:)'
         'name': 'keyword.gherkin.scenario'
     }
     {

@@ -5,6 +5,7 @@
       'Funcionalitat:'
       'Rerefons:'
       'Antecedents:'
+      'Exemple:'
       'Escenari:'
       'Esquema de l\'escenari:'
       'Exemples:'
@@ -18,5 +19,7 @@
       'Però '
       'I '
     ]
-    'increaseIndentPattern':       'Escenari: .*'
+    'increaseIndentPattern':       'Exemple: .*'
+      'Escenari: .*'
+
     'commentStart': '# '

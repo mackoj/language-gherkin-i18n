@@ -48,7 +48,7 @@
         'name': 'keyword.gherkin.background'
     }
     {
-        'match': '\\s*(సన్నివేశం\\:)'
+        'match': '\\s*(ఉదాహరణ\\:|సన్నివేశం\\:)'
         'name': 'keyword.gherkin.scenario'
     }
     {

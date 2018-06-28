@@ -5,6 +5,7 @@
       'Mogućnost:'
       'Mogucnost:'
       'Pozadina:'
+      'Primjer:'
       'Scenarij:'
       'Skica:'
       'Koncept:'
@@ -19,5 +20,7 @@
       'Ali '
       'I '
     ]
-    'increaseIndentPattern':       'Scenarij: .*'
+    'increaseIndentPattern':       'Primjer: .*'
+      'Scenarij: .*'
+
     'commentStart': '# '

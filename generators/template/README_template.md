@@ -3,7 +3,7 @@
 This `Gherkin language in Atom` plugin offers:
 
   * Syntax Coloring based on [Atom Language Gherkin](https://github.com/gigapixel/atom-language-gherkin)
-  * Internationalization in __NB_LANG__ languages based on [gherkin-languages.json](https://github.com/cucumber/gherkin/blob/master/gherkin-languages.json)
+  * Internationalization in __NB_LANG__ languages based on [gherkin-languages.json](https://github.com/cucumber/cucumber/blob/master/gherkin/gherkin-languages.json)
   * Simple Completion in __NB_LANG__ languages
 
 The languages matching is done by looking at the very first line of each of the `.feature` files.
@@ -34,7 +34,7 @@ Please fork this repository and open a pull request to add snippets, make gramma
 
 # How it is made
 
-Using a template for the grammar and another one for the autocompletion, we parse the [gherkin-languages.json](https://github.com/cucumber/gherkin/blob/master/gherkin-languages.json) file to generate the corresponding files for each language.
+Using a template for the grammar and another one for the autocompletion, we parse the [gherkin-languages.json](https://github.com/cucumber/cucumber/blob/master/gherkin/gherkin-languages.json) file to generate the corresponding files for each language.
 
 # ToDo
 

@@ -48,7 +48,7 @@
         'name': 'keyword.gherkin.background'
     }
     {
-        'match': '\\s*(سناریو\\:)'
+        'match': '\\s*(مثال\\:|سناریو\\:)'
         'name': 'keyword.gherkin.scenario'
     }
     {

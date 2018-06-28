@@ -48,11 +48,11 @@
         'name': 'keyword.gherkin.background'
     }
     {
-        'match': '\\s*(Σενάριο\\:)'
+        'match': '\\s*(Παράδειγμα\\:|Σενάριο\\:)'
         'name': 'keyword.gherkin.scenario'
     }
     {
-        'match': '\\s*(Περιγραφή Σεναρίου\\:)'
+        'match': '\\s*(Περιγραφή Σεναρίου\\:|Περίγραμμα Σεναρίου\\:)'
         'name': 'keyword.gherkin.scenario_outline'
     }
     {

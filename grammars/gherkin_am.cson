@@ -48,7 +48,7 @@
         'name': 'keyword.gherkin.background'
     }
     {
-        'match': '\\s*(Սցենար\\:)'
+        'match': '\\s*(Օրինակ\\:|Սցենար\\:)'
         'name': 'keyword.gherkin.scenario'
     }
     {

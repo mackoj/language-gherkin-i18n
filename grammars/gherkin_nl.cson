@@ -48,7 +48,7 @@
         'name': 'keyword.gherkin.background'
     }
     {
-        'match': '\\s*(Scenario\\:)'
+        'match': '\\s*(Voorbeeld\\:|Scenario\\:)'
         'name': 'keyword.gherkin.scenario'
     }
     {
@@ -89,7 +89,7 @@
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(Als )'
+        'match': '\\s*(Als |Wanneer )'
         'name': 'support.class.gherkin.when'
     }
     {

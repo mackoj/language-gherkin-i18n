@@ -40,7 +40,7 @@
         ]
     }
     {
-        'match': '\\s*(Функция\\:|Функционал\\:|Свойство\\:)'
+        'match': '\\s*(Функция\\:|Функциональность\\:|Функционал\\:|Свойство\\:)'
         'name': 'keyword.gherkin.feature'
     }
     {
@@ -48,7 +48,7 @@
         'name': 'keyword.gherkin.background'
     }
     {
-        'match': '\\s*(Сценарий\\:)'
+        'match': '\\s*(Пример\\:|Сценарий\\:)'
         'name': 'keyword.gherkin.scenario'
     }
     {
@@ -89,15 +89,15 @@
         'name': 'support.class.gherkin.given'
     }
     {
-        'match': '\\s*(Если |Когда )'
+        'match': '\\s*(Когда |Если )'
         'name': 'support.class.gherkin.when'
     }
     {
-        'match': '\\s*(То |Тогда )'
+        'match': '\\s*(То |Затем |Тогда )'
         'name': 'support.class.gherkin.then'
     }
     {
-        'match': '\\s*(Но |А )'
+        'match': '\\s*(Но |А |Иначе )'
         'name': 'support.class.gherkin.but'
     }
     {

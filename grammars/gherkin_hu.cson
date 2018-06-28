@@ -48,7 +48,7 @@
         'name': 'keyword.gherkin.background'
     }
     {
-        'match': '\\s*(Forgatókönyv\\:)'
+        'match': '\\s*(Példa\\:|Forgatókönyv\\:)'
         'name': 'keyword.gherkin.scenario'
     }
     {

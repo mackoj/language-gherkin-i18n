@@ -3,6 +3,7 @@
     'completions': [
       'Característica:'
       'Antecedentes:'
+      'Ejemplo:'
       'Escenario:'
       'Esquema del escenario:'
       'Ejemplos:'
@@ -16,5 +17,7 @@
       'Y '
       'E '
     ]
-    'increaseIndentPattern':       'Escenario: .*'
+    'increaseIndentPattern':       'Ejemplo: .*'
+      'Escenario: .*'
+
     'commentStart': '# '

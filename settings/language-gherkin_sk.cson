@@ -5,6 +5,7 @@
       'Funkcia:'
       'Vlastnosť:'
       'Pozadie:'
+      'Príklad:'
       'Scenár:'
       'Náčrt Scenáru:'
       'Náčrt Scenára:'
@@ -22,5 +23,7 @@
       'A taktiež '
       'A zároveň '
     ]
-    'increaseIndentPattern':       'Scenár: .*'
+    'increaseIndentPattern':       'Príklad: .*'
+      'Scenár: .*'
+
     'commentStart': '# '

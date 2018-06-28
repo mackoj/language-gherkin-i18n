@@ -48,7 +48,7 @@
         'name': 'keyword.gherkin.background'
     }
     {
-        'match': '\\s*(Scenariu\\:)'
+        'match': '\\s*(Exemplu\\:|Scenariu\\:)'
         'name': 'keyword.gherkin.scenario'
     }
     {
@@ -85,7 +85,7 @@
         ]
     }
     {
-        'match': '\\s*(Date fiind |Dat fiind |Dati fiind |Dați fiind |Daţi fiind )'
+        'match': '\\s*(Date fiind |Dat fiind |Dată fiind|Dati fiind |Dați fiind |Daţi fiind )'
         'name': 'support.class.gherkin.given'
     }
     {

@@ -48,7 +48,7 @@
         'name': 'keyword.gherkin.background'
     }
     {
-        'match': '\\s*(📕\\:)'
+        'match': '\\s*(🥒\\:|📕\\:)'
         'name': 'keyword.gherkin.scenario'
     }
     {

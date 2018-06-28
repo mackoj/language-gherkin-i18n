@@ -3,6 +3,7 @@
     'completions': [
       'Funzionalità:'
       'Contesto:'
+      'Esempio:'
       'Scenario:'
       'Schema dello scenario:'
       'Esempi:'
@@ -15,5 +16,7 @@
       'Ma '
       'E '
     ]
-    'increaseIndentPattern':       'Scenario: .*'
+    'increaseIndentPattern':       'Esempio: .*'
+      'Scenario: .*'
+
     'commentStart': '# '

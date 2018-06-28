@@ -3,6 +3,7 @@
     'completions': [
       'Jellemző:'
       'Háttér:'
+      'Példa:'
       'Forgatókönyv:'
       'Forgatókönyv vázlat:'
       'Példák:'
@@ -15,5 +16,7 @@
       'De '
       'És '
     ]
-    'increaseIndentPattern':       'Forgatókönyv: .*'
+    'increaseIndentPattern':       'Példa: .*'
+      'Forgatókönyv: .*'
+
     'commentStart': '# '

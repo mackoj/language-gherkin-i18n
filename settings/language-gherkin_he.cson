@@ -3,6 +3,7 @@
     'completions': [
       'תכונה:'
       'רקע:'
+      'דוגמא:'
       'תרחיש:'
       'תבנית תרחיש:'
       'דוגמאות:'
@@ -13,5 +14,7 @@
       'אבל '
       'וגם '
     ]
-    'increaseIndentPattern':       'תרחיש: .*'
+    'increaseIndentPattern':       'דוגמא: .*'
+      'תרחיש: .*'
+
     'commentStart': '# '

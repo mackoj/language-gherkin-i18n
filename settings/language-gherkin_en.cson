@@ -5,6 +5,7 @@
       'Business Need:'
       'Ability:'
       'Background:'
+      'Example:'
       'Scenario:'
       'Scenario Outline:'
       'Scenario Template:'
@@ -16,5 +17,7 @@
       'But '
       'And '
     ]
-    'increaseIndentPattern':       'Scenario: .*'
+    'increaseIndentPattern':       'Example: .*'
+      'Scenario: .*'
+
     'commentStart': '# '

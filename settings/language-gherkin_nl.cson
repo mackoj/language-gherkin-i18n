@@ -3,15 +3,19 @@
     'completions': [
       'Functionaliteit:'
       'Achtergrond:'
+      'Voorbeeld:'
       'Scenario:'
       'Abstract Scenario:'
       'Voorbeelden:'
       'Gegeven '
       'Stel '
       'Als '
+      'Wanneer '
       'Dan '
       'Maar '
       'En '
     ]
-    'increaseIndentPattern':       'Scenario: .*'
+    'increaseIndentPattern':       'Voorbeeld: .*'
+      'Scenario: .*'
+
     'commentStart': '# '

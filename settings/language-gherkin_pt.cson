@@ -8,6 +8,7 @@
       'Cenário de Fundo:'
       'Cenario de Fundo:'
       'Fundo:'
+      'Exemplo:'
       'Cenário:'
       'Cenario:'
       'Esquema do Cenário:'
@@ -27,7 +28,8 @@
       'Mas '
       'E '
     ]
-    'increaseIndentPattern':       'Cenário: .*'
+    'increaseIndentPattern':       'Exemplo: .*'
+      'Cenário: .*'
       'Cenario: .*'
 
     'commentStart': '# '

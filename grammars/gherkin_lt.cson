@@ -48,7 +48,7 @@
         'name': 'keyword.gherkin.background'
     }
     {
-        'match': '\\s*(Scenarijus\\:)'
+        'match': '\\s*(Pavyzdys\\:|Scenarijus\\:)'
         'name': 'keyword.gherkin.scenario'
     }
     {

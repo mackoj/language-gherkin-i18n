@@ -48,7 +48,7 @@
         'name': 'keyword.gherkin.background'
     }
     {
-        'match': '\\s*(ਪਟਕਥਾ\\:)'
+        'match': '\\s*(ਉਦਾਹਰਨ\\:|ਪਟਕਥਾ\\:)'
         'name': 'keyword.gherkin.scenario'
     }
     {
